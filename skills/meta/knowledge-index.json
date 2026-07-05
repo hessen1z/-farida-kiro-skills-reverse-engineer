@@ -1,0 +1,12 @@
+{
+  "rtti": {"skill": "reverse-engineering", "path": "skills/reverse-engineering/knowledge/windows/cpp/rtti.md"},
+  "vtables": {"skill": "reverse-engineering", "path": "skills/reverse-engineering/knowledge/windows/cpp/vtables.md"},
+  "memory": {"skill": "reverse-engineering", "path": "skills/reverse-engineering/knowledge/windows/memory-manager.md"},
+  "pe": {"skill": "binary-analysis", "path": "skills/binary-analysis/knowledge/pe.md"},
+  "imports": {"skill": "binary-analysis", "path": "skills/binary-analysis/knowledge/imports.md"},
+  "exports": {"skill": "binary-analysis", "path": "skills/binary-analysis/knowledge/exports.md"},
+  "pdb": {"skill": "binary-analysis", "path": "skills/binary-analysis/knowledge/pdb.md"},
+  "packers": {"skill": "binary-analysis", "path": "skills/binary-analysis/knowledge/packers.md"},
+  "symbols": {"skill": "binary-analysis", "path": "skills/binary-analysis/knowledge/symbols.md"},
+  "relocations": {"skill": "binary-analysis", "path": "skills/binary-analysis/knowledge/relocations.md"}
+}

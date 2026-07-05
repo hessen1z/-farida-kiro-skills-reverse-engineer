@@ -1,0 +1,18 @@
+Library release manifest for v1.0
+
+Included items:
+- Release v1.0/README.md
+- Release v1.0/freeze.md
+- Release v1.0/git-tag.md
+- Release v1.0/backup.md
+- Release v1.0/zip-package.md
+- Release v1.0/changelog.md
+- Release v1.0/audit-report.md
+- meta/skills.json
+- meta/dependencies.json
+- meta/knowledge-index.json
+- meta/patterns.json
+- meta/recipes.json
+- meta/playbooks.json
+- shared/skill.md
+- content-template/knowledge/knowledge-template.md

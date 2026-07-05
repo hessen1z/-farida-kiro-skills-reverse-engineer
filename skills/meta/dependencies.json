@@ -1,0 +1,17 @@
+{
+  "reverse-engineering": ["assembly", "cpp", "windows-internals", "analysis-engine", "shared"],
+  "analysis-engine": [],
+  "shared": [],
+  "assembly": ["windows-internals"],
+  "cpp": ["assembly", "shared"],
+  "windows-internals": [],
+  "content-template": ["shared"],
+  "writing-guidelines": ["shared", "content-template"],
+  "examples": ["cpp", "assembly", "reverse-engineering"],
+  "patterns": ["assembly", "cpp"],
+  "recipes": ["shared", "analysis-engine"],
+  "playbooks": ["recipes", "analysis-engine"],
+  "malware-analysis": ["shared", "analysis-engine", "windows-internals", "binary-analysis", "reverse-engineering"],
+  "detection-engineering": ["shared", "analysis-engine", "windows-internals", "malware-analysis", "windows-security"],
+  "gui-engineering": ["shared", "analysis-engine", "cpp", "windows-internals", "reverse-engineering"]
+}

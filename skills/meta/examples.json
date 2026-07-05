@@ -1,0 +1,5 @@
+{
+  "pattern-scan": {"path": "skills/examples/cpp/pattern-scan.cpp", "skill": "examples"},
+  "pe-parser": {"path": "skills/examples/cpp/pe-parser.cpp", "skill": "examples"},
+  "vmt-hook": {"path": "skills/examples/cpp/vmt-hook.cpp", "skill": "examples"}
+}

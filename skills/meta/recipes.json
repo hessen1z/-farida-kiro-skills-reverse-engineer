@@ -1,0 +1,12 @@
+{
+  "Recover Classes": {
+    "path": "skills/recipes/Recover_Classes.md",
+    "description": "Steps to identify vtables, map methods, and produce SDK headers",
+    "steps": ["pattern-scan", "rtti-extraction", "method-mapping", "verification"]
+  },
+  "Find Offsets": {
+    "path": "skills/recipes/Find_Offsets.md",
+    "description": "Locate stable memory offsets and document them for reuse",
+    "steps": ["collect-pointers", "dereference-validation", "runtime-check"]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "reverse-engineering": {
+    "requires": ["assembly", "cpp", "windows-internals", "analysis-engine", "shared"],
+    "provides": ["class recovery", "offset recovery", "pattern scanning", "disassembly analysis"]
+  },
+  "analysis-engine": {
+    "requires": [],
+    "provides": ["reasoning", "hypothesis generation", "evidence scoring", "verification planning"]
+  },
+  "shared": {
+    "requires": [],
+    "provides": ["templates", "checklists", "documentation standards"]
+  },
+  "assembly": {
+    "requires": ["windows-internals"],
+    "provides": ["instruction semantics", "idiom patterns"]
+  },
+  "cpp": {
+    "requires": ["assembly", "shared"],
+    "provides": ["type mapping", "code examples", "test harnesses"]
+  },
+  "windows-internals": {
+    "requires": [],
+    "provides": ["OS constraints", "memory model", "PE semantics"]
+  },
+  "content-template": {
+    "requires": ["shared"],
+    "provides": ["documentation templates", "artifact scaffolds", "authoring standards"]
+  },
+  "writing-guidelines": {
+    "requires": ["shared", "content-template"],
+    "provides": ["editorial rules", "style guidance", "review criteria"]
+  },
+  "examples": {
+    "requires": ["cpp", "assembly", "reverse-engineering"],
+    "provides": ["runnable examples", "test harnesses"]
+  },
+  "patterns": {
+    "requires": ["assembly", "cpp"],
+    "provides": ["recognition templates", "heuristic matches"]
+  },
+  "recipes": {
+    "requires": ["shared", "analysis-engine"],
+    "provides": ["repeatable procedures", "step-by-step workflows"]
+  },
+  "playbooks": {
+    "requires": ["recipes", "analysis-engine"],
+    "provides": ["scenario-driven workflows", "incident playbooks"]
+  },
+  "malware-analysis": {
+    "requires": ["shared", "analysis-engine", "windows-internals", "binary-analysis", "reverse-engineering"],
+    "provides": ["defensive malware triage", "behavioral analysis", "persistence and memory interpretation"]
+  },
+  "detection-engineering": {
+    "requires": ["shared", "analysis-engine", "windows-internals", "malware-analysis", "windows-security"],
+    "provides": ["telemetry pipeline design", "rule evaluation", "detection validation"]
+  },
+  "gui-engineering": {
+    "requires": ["shared", "analysis-engine", "cpp", "windows-internals", "reverse-engineering"],
+    "provides": ["desktop UI architecture", "Dear ImGui implementation", "widget library design", "UI reconstruction workflows"]
+  }
+}

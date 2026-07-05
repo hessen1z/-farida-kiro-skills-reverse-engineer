@@ -1,0 +1,17 @@
+{
+  "virtual-call": {
+    "knowledge": ["vtables", "rtti"],
+    "examples": ["examples/cpp/vmt-hook.cpp"],
+    "recipes": ["Recover Classes"]
+  },
+  "pointer-chain": {
+    "knowledge": ["memory"],
+    "examples": ["examples/cpp/pointer-chain.cpp"],
+    "recipes": ["Find Offsets"]
+  },
+  "pattern-scan": {
+    "knowledge": ["memory", "pe-format"],
+    "examples": ["examples/cpp/pattern-scan.cpp"],
+    "recipes": ["Find Offsets"]
+  }
+}

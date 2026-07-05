@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Pattern",
+  "type": "object",
+  "properties": {
+    "knowledge": {"type": "array", "items": {"type": "string"}},
+    "examples": {"type": "array", "items": {"type": "string"}},
+    "recipes": {"type": "array", "items": {"type": "string"}}
+  },
+  "required": ["knowledge"]
+}

@@ -1,0 +1,14 @@
+{
+  "Recover RTTI": {
+    "steps": ["analysis-engine", "assembly", "cpp", "reverse-engineering"]
+  },
+  "Pattern Scan": {
+    "steps": ["assembly", "cpp", "reverse-engineering"]
+  },
+  "Analyze PE": {
+    "steps": ["windows-internals", "reverse-engineering"]
+  },
+  "Crash Triage": {
+    "steps": ["analysis-engine", "windows-internals", "reverse-engineering", "examples"]
+  }
+}

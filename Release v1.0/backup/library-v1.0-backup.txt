@@ -1,0 +1,2 @@
+Backup snapshot placeholder for v1.0 release.
+This file records that the release package and metadata set were frozen into the Release v1.0 folder.

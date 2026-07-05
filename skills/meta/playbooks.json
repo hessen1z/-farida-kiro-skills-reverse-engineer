@@ -1,0 +1,17 @@
+{
+  "Crash Analysis": {
+    "path": "skills/playbooks/Crash.md",
+    "entry": "Crash Triage",
+    "recommended": ["analysis-engine", "windows-internals", "reverse-engineering"]
+  },
+  "Game Hacking": {
+    "path": "skills/playbooks/GameHacking.md",
+    "entry": "Quick Triage",
+    "recommended": ["assembly", "cpp", "reverse-engineering"]
+  },
+  "Malware Review": {
+    "path": "skills/playbooks/Malware.md",
+    "entry": "Initial triage",
+    "recommended": ["binary-analysis", "reverse-engineering", "analysis-engine"]
+  }
+}
