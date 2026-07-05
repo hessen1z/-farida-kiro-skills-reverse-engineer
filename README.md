@@ -50,7 +50,7 @@ Follow `writing-guidelines/README.md` and `content-template/` when authoring new
 See `CONTRIBUTING.md` for the contribution workflow, review expectations, and repository conventions.
 
 ## License
-This repository does not currently include a repository-level license file. Follow the repository owner's guidance for licensing.
+This repository includes an official `LICENSE` file at the repository root.
 
 ## Roadmap
-See `ROADMAP.md` for planned future evolution and extension points.
+See `ROADMAP_v1.1.md` for planned future evolution and extension points.
