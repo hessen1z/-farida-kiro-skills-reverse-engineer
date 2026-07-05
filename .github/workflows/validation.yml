@@ -1,0 +1,88 @@
+name: Validate AI Security Library
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Markdown
+        run: |
+          python - <<'PY'
+import pathlib,re
+root = pathlib.Path('.').resolve()
+errors = []
+for md in root.glob('**/*.md'):
+    text = md.read_text(encoding='utf-8')
+    if '\r\n' in text:
+        errors.append(f'CRLF found in {md}')
+if errors:
+    raise SystemExit('\n'.join(errors))
+PY
+      - name: Validate JSON
+        run: |
+          python - <<'PY'
+import pathlib,json
+root = pathlib.Path('.').resolve()
+errors = []
+for js in root.glob('**/*.json'):
+    try:
+        json.loads(js.read_text(encoding='utf-8'))
+    except Exception as e:
+        errors.append(f'{js}: {e}')
+if errors:
+    raise SystemExit('\n'.join(errors))
+PY
+      - name: Validate Links in Markdown
+        run: |
+          python - <<'PY'
+import pathlib,re
+root = pathlib.Path('.').resolve()
+link = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
+def exists(target, base):
+    if target.startswith(('http://','https://','mailto:','#')):
+        return True
+    candidate = (base / target).resolve()
+    if candidate.exists():
+        return True
+    if pathlib.Path(str(candidate)+'.md').exists():
+        return True
+    return False
+errors = []
+for md in root.glob('**/*.md'):
+    text = md.read_text(encoding='utf-8')
+    for m in link.finditer(text):
+        target = m.group(2).split('#')[0].strip()
+        if not target:
+            continue
+        if not exists(target, md.parent):
+            errors.append(f'{md}: broken link {target}')
+if errors:
+    raise SystemExit('\n'.join(errors))
+PY
+      - name: Validate Metadata
+        run: |
+          python - <<'PY'
+import pathlib,re
+root = pathlib.Path('.').resolve()
+errors = []
+for md in root.glob('**/skill.md'):
+    text = md.read_text(encoding='utf-8')
+    if not text.lstrip().startswith('---'):
+        errors.append(f'{md}: missing YAML frontmatter')
+    else:
+        parts = text.split('---',2)
+        if len(parts) < 3:
+            errors.append(f'{md}: malformed YAML frontmatter')
+        else:
+            front = parts[1]
+            if 'name:' not in front or 'version:' not in front:
+                errors.append(f'{md}: missing name or version in frontmatter')
+if errors:
+    raise SystemExit('\n'.join(errors))
+PY

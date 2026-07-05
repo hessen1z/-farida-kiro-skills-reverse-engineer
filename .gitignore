@@ -1,0 +1,23 @@
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+Release v1.0/*.zip
+Release v1.0/*.tar.gz
+Release v1.0/*.tgz
+Release v1.0/*.log
+.env
+.env.*
+node_modules/
+coverage/
+.nyc_output/
+*.egg-info/
+dist/
+build/
