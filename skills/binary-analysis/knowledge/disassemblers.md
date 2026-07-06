@@ -1,3 +1,11 @@
+---
+title: Disassemblers
+skill: binary-analysis
+category: knowledge
+difficulty: advanced
+tags: [pe, gui, debug, elf]
+updated: 2026-07-05
+---
 # Disassemblers
 
 ## Overview
@@ -80,4 +88,26 @@ Libraries commonly used for disassembly tasks in analysis tools.
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Confirm target architecture and bitness before disassembly.
+- Use a combination of engines (`Capstone`, `Zydis`) for cross-validation when accuracy is critical.
+- Mark suspected data regions and annotate function boundaries conservatively.
+
+## Tools & Commands
+
+- `capstone` / `zydis` for automated disassembly in scripts.
+- Use your disassembler's function-finding heuristics and validate against known symbol boundaries.
+
+## Validation Checklist
+
+- Ensure instruction decoding aligns with runtime execution (compare with traces).
+- Confirm branch targets and function boundaries for critical routines.
+
+## Example Workflow
+
+1. Identify executable sections and set correct architecture mode.
+2. Run disassembly and review function starts.
+3. Annotate ambiguous regions and re-run with adjusted heuristics.
 

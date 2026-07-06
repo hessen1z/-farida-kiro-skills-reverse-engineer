@@ -1,3 +1,11 @@
+---
+title: Breakpoint Pattern
+skill: debugging
+category: patterns
+difficulty: intermediate
+tags: [pe, asm, kernel, debug]
+updated: 2026-07-05
+---
 # Breakpoint Pattern
 
 ## Pattern Name

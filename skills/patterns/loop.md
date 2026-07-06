@@ -1,3 +1,11 @@
+---
+title: Loop Pattern
+skill: patterns
+category: 
+difficulty: intermediate
+tags: [pe, x64]
+updated: 2026-07-05
+---
 # Loop Pattern
 
 Goal:

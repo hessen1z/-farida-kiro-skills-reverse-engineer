@@ -1,3 +1,11 @@
+---
+title: Recover Symbols Recipe
+skill: binary-analysis
+category: recipes
+difficulty: intermediate
+tags: [pe, pdb, debug, elf]
+updated: 2026-07-05
+---
 # Recover Symbols Recipe
 
 ## Goal

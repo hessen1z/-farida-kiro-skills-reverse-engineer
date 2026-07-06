@@ -1,3 +1,11 @@
+---
+title: Virtualization Fundamentals
+skill: hypervisor
+category: knowledge
+difficulty: intermediate
+tags: [pe, gui, debug]
+updated: 2026-07-05
+---
 # Virtualization Fundamentals
 
 ## Overview
@@ -82,4 +90,18 @@ The hypervisor maintains state for each virtual processor and guest partition. I
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Verify VMX/SVM capability via CPUID and BIOS/UEFI settings before relying on virtualization features.
+- When analyzing VM exits, focus on high-frequency exit reasons (I/O, MSR access) and their handling paths.
+
+## Tools & Commands
+
+- Use hardware tracing utilities and hypervisor debugging tools to inspect VMCS/VMCB and nested paging structures.
+
+## Validation Checklist
+
+- Confirm guest-to-host address translations by validating EPT/NPT entries and mapped physical addresses.
+- Validate that VM entries/exits align with expected guest behavior under test workloads.
 

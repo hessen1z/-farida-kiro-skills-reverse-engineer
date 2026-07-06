@@ -1,3 +1,11 @@
+---
+title: Secure Transport Playbook
+skill: cryptography
+category: playbooks
+difficulty: intermediate
+tags: [pe, cryptography, gui]
+updated: 2026-07-05
+---
 # Secure Transport Playbook
 
 ## Goal

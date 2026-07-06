@@ -1,3 +1,11 @@
+---
+title: Windows Security References
+skill: windows-security
+category: references
+difficulty: intermediate
+tags: [pe, windows, driver, gui]
+updated: 2026-07-05
+---
 # Windows Security References
 
 - Microsoft Windows security mitigation documentation

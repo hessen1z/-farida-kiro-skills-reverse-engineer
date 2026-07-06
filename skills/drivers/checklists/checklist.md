@@ -1,3 +1,11 @@
+---
+title: Drivers Checklist
+skill: drivers
+category: checklists
+difficulty: intermediate
+tags: [pe, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Drivers Checklist
 
 ## Preparation

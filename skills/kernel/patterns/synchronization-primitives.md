@@ -1,3 +1,11 @@
+---
+title: Synchronization Primitives Pattern
+skill: kernel
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Synchronization Primitives Pattern
 
 ## Pattern Name

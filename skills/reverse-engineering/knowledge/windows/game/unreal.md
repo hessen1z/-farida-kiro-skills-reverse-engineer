@@ -1,27 +1,42 @@
+---
+title: Unreal Engine Notes
+skill: reverse-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, unreal, gui]
+updated: 2026-07-05
+---
 # Unreal Engine Notes
 
-Steps to find GWorld, GNames, UObject layout, ProcessEvent, etc.
+Guidance for reversing games built on Unreal Engine: locating core globals (`GWorld`, `GNames`), understanding `UObject` layout, and identifying `ProcessEvent` and reflection hooks.
+
+## Key Targets
+
+- `GWorld`, `GNames`, and `GUObjectArray`: central globals for object enumeration.
+- `UObject` layout: object header, name index, class pointer — reconstructing this enables high-level object inspection.
+- `ProcessEvent`: central dispatch for events; hooking it provides dynamic visibility into gameplay logic.
+
+## Workflow
+
+1. Search for string references and pattern signatures tied to `GNames` and `ProcessEvent`.
+2. Use runtime dumps to scan for global pointers and validate offsets.
+3. Reconstruct `UObject` layout by inspecting object lists and common field offsets.
+
+## Tools and Techniques
+
+- IDA Pro / Ghidra with UE-specific plugins
+- Runtime instrumentation to locate `ProcessEvent` and object lists
+
+## Common Pitfalls
+
+- Different Unreal versions change offsets and object array layouts — verify against the running build.
+- Stripped symbols require reliance on patterns and heuristics; validate carefully.
+
+## Verification Checklist
+
+- [ ] Located `GWorld`/`GNames` pointers and validated object enumeration.
+- [ ] Confirmed `ProcessEvent` address and signature.
 
 ## Related Material
 
-### Knowledge
-- [common-instructions](../../assembly/common-instructions.md)
-- [compiler-patterns](../../assembly/compiler-patterns.md)
-- [exceptions](../../cpp/exceptions.md)
-
-### Prompts
-- [analyze_binary](../../../prompts/analyze_binary.md)
-- [analyze_crash](../../../prompts/analyze_crash.md)
-- [analyze_memory](../../../prompts/analyze_memory.md)
-## Practical Guidance
-
-- Start from the core objective and define the expected outcome before applying the workflow.
-- Use the related examples, recipes, and playbooks as the first implementation reference.
-- Keep the advice grounded in the surrounding skill context and verify the result against the available evidence.
-- Favor practical, maintainable steps over abstract theory when this document is used in real work.
-## Verification Checklist
-
-- Confirm that the main objective is clear and the workflow is actionable.
-- Ensure the document points to the most relevant examples, recipes, or playbooks.
-- Validate that the terminology is consistent with the rest of the skill.
-- Check that the practical guidance is specific enough to be used without further interpretation.
+- Knowledge: [source-engine](../game/source-engine.md)

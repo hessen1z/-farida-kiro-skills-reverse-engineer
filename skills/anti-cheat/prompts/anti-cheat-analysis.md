@@ -1,3 +1,11 @@
+---
+title: Anti-Cheat Analysis Prompt
+skill: anti-cheat
+category: prompts
+difficulty: advanced
+tags: [pe, anti-cheat, driver, gui, kernel]
+updated: 2026-07-05
+---
 # Anti-Cheat Analysis Prompt
 
 ## Prompt

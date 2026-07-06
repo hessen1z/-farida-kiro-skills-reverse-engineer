@@ -1,3 +1,11 @@
+---
+title: DPI, Scaling, and Theming
+skill: gui-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, imgui, gui]
+updated: 2026-07-05
+---
 # DPI, Scaling, and Theming
 
 ## Overview
@@ -52,4 +60,19 @@ Professional desktop UIs need to behave correctly across resolution and scaling 
 
 ### Checklists
 - [ui-quality-checklist](../checklists/ui-quality-checklist.md)
+
+## Tools & Commands
+
+- Test with multiple DPI settings using Windows Display settings or command-line tools to simulate scaling factors.
+- Use automated screenshot diffs to detect layout regressions across scales.
+
+## Validation Checklist
+
+- Confirm fonts and layouts remain readable at high and low DPI settings.
+- Verify that theme tokens produce consistent results across components.
+
+## Example Workflow
+
+1. Load the UI and set display scaling to common factors (100%, 125%, 150%, 200%).
+2. Capture screenshots and compare against baseline for layout regressions.
 

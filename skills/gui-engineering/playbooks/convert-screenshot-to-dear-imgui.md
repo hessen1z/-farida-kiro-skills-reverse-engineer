@@ -1,3 +1,11 @@
+---
+title: Playbook: Convert Screenshot to Dear ImGui
+skill: gui-engineering
+category: playbooks
+difficulty: advanced
+tags: [pe, imgui, gui]
+updated: 2026-07-05
+---
 # Playbook: Convert Screenshot to Dear ImGui
 
 ## Purpose

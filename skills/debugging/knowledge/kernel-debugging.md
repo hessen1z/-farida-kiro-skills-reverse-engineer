@@ -1,3 +1,11 @@
+---
+title: Kernel Debugging Knowledge
+skill: debugging
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Kernel Debugging Knowledge
 
 ## Overview

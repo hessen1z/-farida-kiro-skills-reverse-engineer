@@ -1,3 +1,11 @@
+---
+title: Identify Engine Recipe
+skill: game-engines
+category: recipes
+difficulty: intermediate
+tags: [pe, loader]
+updated: 2026-07-05
+---
 # Identify Engine Recipe
 
 ## Purpose

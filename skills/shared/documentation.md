@@ -1,3 +1,11 @@
+---
+title: Documentation
+skill: shared
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Documentation
 
 Standards for documentation across skills.

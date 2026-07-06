@@ -1,3 +1,11 @@
+---
+title: Playbook: Analyze Desktop Application
+skill: gui-engineering
+category: playbooks
+difficulty: intermediate
+tags: [pe, imgui, gui]
+updated: 2026-07-05
+---
 # Playbook: Analyze Desktop Application
 
 ## Purpose

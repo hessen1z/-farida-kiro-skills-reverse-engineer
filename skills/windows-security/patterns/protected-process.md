@@ -1,3 +1,11 @@
+---
+title: Protected Process Pattern
+skill: windows-security
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, malware, gui, kernel, debug, elf]
+updated: 2026-07-05
+---
 # Protected Process Pattern
 
 ## Pattern Name

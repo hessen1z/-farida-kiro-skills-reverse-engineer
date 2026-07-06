@@ -1,3 +1,11 @@
+---
+title: decision-tree
+skill: analysis-engine
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 Decision Trees for Analysis
 
 Purpose: Provide clear, structured decision paths to guide verification and action choices.

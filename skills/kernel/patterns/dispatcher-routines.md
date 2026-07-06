@@ -1,3 +1,11 @@
+---
+title: Dispatcher Routines Pattern
+skill: kernel
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Dispatcher Routines Pattern
 
 ## Pattern Name

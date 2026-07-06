@@ -1,38 +1,56 @@
+---
+title: Source Engine Notes
+skill: reverse-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, debug]
+updated: 2026-07-05
+---
 # Source Engine Notes
 
-Quick notes for reversing games built on Valve's Source engine.
+Notes and practical patterns for reversing games built on Valve's Source engine. Focuses on interface discovery, object layouts, and common engine conventions used by mods and plugins.
 
-Key artifacts:
-- Interface discovery: `CreateInterface("VEngineClient"...)` and similar exports — search for `CreateInterface` strings.
-- VTables and virtual functions are used extensively for engine hooks.
+## Key Artifacts
 
-Recovery tips:
-- Find `VTable` names via RTTI or exported symbols in linked modules.
-- Use pattern-scan to find global interface pointers (e.g., `g_pEngine`).
+- `CreateInterface` exports: search for strings like `CreateInterface("VEngineClient"...)` to locate factory functions that return interface pointers.
+- Global pointers and singletons: `g_pEngine`, `g_pClient`, `g_pEntityList` are common naming conventions used by developers.
+- VTables and virtual methods: many engine hooks and callbacks are virtual; reconstructing vtables helps locate core systems.
 
-Related:
-- recipes/Find_Offsets.md
+## Typical Workflow
+
+1. Identify modules that expose `CreateInterface` and enumerate available interfaces.
+2. Locate references to interface pointers in data sections or global variables.
+3. Reconstruct vtables by resolving indirect call sites and cross-referencing with RTTI or exported type names.
+4. Use pattern scanning to locate global symbols across builds where symbols are stripped.
+
+## Tools and Techniques
+
+- IDA Pro/Ghidra: use cross-references and virtual function identification plugins.
+- Pattern-scan utilities: create signatures for `CreateInterface` string usage and common vtable access patterns.
+- Runtime inspection: debug and dump global pointers (`g_p*`) once found to validate offsets.
+
+## Common Pitfalls
+
+- Assuming interface names are consistent across versions; validate against strings and exports.
+- Mistaking compiler-generated thunks for meaningful stubs — confirm via cross-references.
+
+## Verification Checklist
+
+- [ ] Discovered `CreateInterface` calls and validated returned pointers.
+- [ ] Reconstructed vtables for core interfaces.
+- [ ] Validated offsets and function pointers using a running process or test harness.
+
+## Practical Tools & Commands
+
+- Use IDA/Ghidra and pattern-scan utilities to locate `CreateInterface` strings and exported factories.
+- Use a running process to dump global pointers (`g_p*`) and verify vtable entries in memory.
+
+## Practical Validation
+
+- Load a minimal plugin or test harness that calls discovered interfaces to confirm correct function pointers and offsets.
+- Document any version-specific differences discovered during analysis.
 
 ## Related Material
 
-### Knowledge
-- [common-instructions](../assembly/common-instructions.md)
-- [compiler-patterns](../assembly/compiler-patterns.md)
-- [exceptions](../cpp/exceptions.md)
-
-### Prompts
-- [analyze_binary](../../prompts/analyze_binary.md)
-- [analyze_crash](../../prompts/analyze_crash.md)
-- [analyze_memory](../../prompts/analyze_memory.md)
-## Practical Guidance
-
-- Start from the core objective and define the expected outcome before applying the workflow.
-- Use the related examples, recipes, and playbooks as the first implementation reference.
-- Keep the advice grounded in the surrounding skill context and verify the result against the available evidence.
-- Favor practical, maintainable steps over abstract theory when this document is used in real work.
-## Verification Checklist
-
-- Confirm that the main objective is clear and the workflow is actionable.
-- Ensure the document points to the most relevant examples, recipes, or playbooks.
-- Validate that the terminology is consistent with the rest of the skill.
-- Check that the practical guidance is specific enough to be used without further interpretation.
+- Recipes: [Find_Offsets.md](../../recipes/Find_Offsets.md)
+- Knowledge: [common-instructions](../assembly/common-instructions.md)

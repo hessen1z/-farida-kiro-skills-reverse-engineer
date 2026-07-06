@@ -1,3 +1,11 @@
+---
+title: Prompt: Recover C++ Class Layout
+skill: reverse-engineering
+category: prompts
+difficulty: intermediate
+tags: [pe, asm, gui, debug]
+updated: 2026-07-05
+---
 # Prompt: Recover C++ Class Layout
 
 ## Objective

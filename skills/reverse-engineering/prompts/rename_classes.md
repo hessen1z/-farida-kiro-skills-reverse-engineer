@@ -1,3 +1,11 @@
+---
+title: Prompt: Rename Classes
+skill: reverse-engineering
+category: prompts
+difficulty: intermediate
+tags: [pe, gui, debug, dll]
+updated: 2026-07-05
+---
 # Prompt: Rename Classes
 
 ## Objective

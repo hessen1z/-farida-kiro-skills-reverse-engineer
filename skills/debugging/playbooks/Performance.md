@@ -1,3 +1,11 @@
+---
+title: Performance Playbook
+skill: debugging
+category: playbooks
+difficulty: intermediate
+tags: [pe, kernel, debug]
+updated: 2026-07-05
+---
 # Performance Playbook
 
 ## Objective

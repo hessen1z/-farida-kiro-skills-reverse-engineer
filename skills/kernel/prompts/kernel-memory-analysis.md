@@ -1,3 +1,11 @@
+---
+title: Kernel Memory Analysis Prompt
+skill: kernel
+category: prompts
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Kernel Memory Analysis Prompt
 
 - Determine how the Windows memory manager maps virtual addresses and resolves page faults.

@@ -1,3 +1,11 @@
+---
+title: Packers
+skill: binary-analysis
+category: knowledge
+difficulty: intermediate
+tags: [pe, loader, malware, gui, debug, elf]
+updated: 2026-07-05
+---
 # Packers
 
 ## Overview
@@ -88,4 +96,18 @@ Used to resolve imports after unpacking.
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Identify known packer signatures with tools such as `Detect-It-Easy` (DIE) or `peid` and consult packer-specific unpacking guides.
+- Prefer dynamic dumping after the stub has completed unpacking to obtain a clean image for static analysis.
+
+## Tools & Commands
+
+- `Detect-It-Easy`, `PEiD` alternatives, `Process Dumper`, `Scylla` for dump and IAT rebuild.
+
+## Validation Checklist
+
+- Confirm dumped payload runs equivalently in a controlled environment and that imports/relocations are fixed.
+- Document any anti-debug or integrity checks observed during unpacking.
 

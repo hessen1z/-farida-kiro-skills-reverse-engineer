@@ -1,3 +1,11 @@
+---
+title: Trace Anti-Debug Recipe
+skill: game-security
+category: recipes
+difficulty: intermediate
+tags: [pe, windows, anti-cheat, driver, debug]
+updated: 2026-07-05
+---
 # Trace Anti-Debug Recipe
 
 ## Purpose

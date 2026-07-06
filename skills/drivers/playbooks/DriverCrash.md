@@ -1,3 +1,11 @@
+---
+title: Driver Crash Playbook
+skill: drivers
+category: playbooks
+difficulty: intermediate
+tags: [pe, driver, kernel, debug]
+updated: 2026-07-05
+---
 # Driver Crash Playbook
 
 ## Objective

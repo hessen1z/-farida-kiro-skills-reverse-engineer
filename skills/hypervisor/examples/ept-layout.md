@@ -1,3 +1,11 @@
+---
+title: EPT Layout Example
+skill: hypervisor
+category: examples
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # EPT Layout Example
 
 ## Scenario

@@ -1,3 +1,11 @@
+---
+title: Analyze Kernel Memory Playbook
+skill: kernel
+category: playbooks
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Analyze Kernel Memory Playbook
 
 ## Objective

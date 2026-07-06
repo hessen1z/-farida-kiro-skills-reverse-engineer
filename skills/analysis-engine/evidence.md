@@ -1,3 +1,11 @@
+---
+title: evidence
+skill: analysis-engine
+category: 
+difficulty: intermediate
+tags: [pe]
+updated: 2026-07-05
+---
 Evidence Handling and Scoring
 
 Evidence taxonomy

@@ -1,3 +1,11 @@
+---
+title: Networking References
+skill: networking
+category: references
+difficulty: intermediate
+tags: [pe, windows, driver, networking, gui]
+updated: 2026-07-05
+---
 # Networking References
 
 - RFC 791: Internet Protocol

@@ -1,3 +1,11 @@
+---
+title: HTTP/TLS Analysis Example
+skill: networking
+category: examples
+difficulty: intermediate
+tags: [pe, networking, gui]
+updated: 2026-07-05
+---
 # HTTP/TLS Analysis Example
 
 ## Overview

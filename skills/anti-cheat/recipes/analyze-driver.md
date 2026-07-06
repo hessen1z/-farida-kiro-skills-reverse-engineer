@@ -1,3 +1,11 @@
+---
+title: Analyze Anti-Cheat Driver Recipe
+skill: anti-cheat
+category: recipes
+difficulty: intermediate
+tags: [pe, windows, anti-cheat, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Analyze Anti-Cheat Driver Recipe
 
 ## Purpose

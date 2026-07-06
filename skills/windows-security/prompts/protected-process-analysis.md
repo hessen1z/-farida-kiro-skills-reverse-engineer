@@ -1,3 +1,11 @@
+---
+title: Protected Process Analysis Prompt
+skill: windows-security
+category: prompts
+difficulty: intermediate
+tags: [pe, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Protected Process Analysis Prompt
 
 - Determine whether this process is a Protected Process or Protected Process Light target.

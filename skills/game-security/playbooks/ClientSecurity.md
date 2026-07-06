@@ -1,3 +1,11 @@
+---
+title: Client Security Playbook
+skill: game-security
+category: playbooks
+difficulty: intermediate
+tags: [pe, anti-cheat, driver, kernel, debug]
+updated: 2026-07-05
+---
 # Client Security Playbook
 
 ## Objective

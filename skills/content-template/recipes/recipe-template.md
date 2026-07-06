@@ -1,3 +1,11 @@
+---
+title: Recipe Template
+skill: content-template
+category: recipes
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Recipe Template
 
 ## Recipe Title

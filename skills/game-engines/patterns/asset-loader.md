@@ -1,3 +1,11 @@
+---
+title: Asset Loader Pattern
+skill: game-engines
+category: patterns
+difficulty: intermediate
+tags: [pe, loader]
+updated: 2026-07-05
+---
 # Asset Loader Pattern
 
 ## Pattern Name

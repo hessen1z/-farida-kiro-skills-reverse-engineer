@@ -1,3 +1,11 @@
+---
+title: Skill Template
+skill: content-template
+category: 
+difficulty: intermediate
+tags: [pe]
+updated: 2026-07-05
+---
 # Skill Template
 
 ---

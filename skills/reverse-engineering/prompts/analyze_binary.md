@@ -1,3 +1,11 @@
+---
+title: Prompt: Analyze Binary
+skill: reverse-engineering
+category: prompts
+difficulty: intermediate
+tags: [pe, windows, x64, driver, pdb, gui, kernel, debug, dll, elf]
+updated: 2026-07-05
+---
 # Prompt: Analyze Binary
 
 ## Objective

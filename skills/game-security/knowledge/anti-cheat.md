@@ -1,3 +1,11 @@
+---
+title: Anti-Cheat Knowledge
+skill: game-security
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, anti-cheat, driver, networking, gui, kernel, debug, dll]
+updated: 2026-07-05
+---
 # Anti-Cheat Knowledge
 
 ## Overview
@@ -62,6 +70,16 @@ Anti-cheat systems protect game integrity by detecting unauthorized clients, mem
 - Use the related examples, recipes, playbooks, and references as the first implementation reference.
 - Keep the guidance grounded in the surrounding skill context and verify the result with available evidence.
 - Favor practical, maintainable steps over abstract theory when the document is used in real work.
+
+## Tools & Commands
+
+- Use process and driver inspection tools such as `WinDbg`, `Procmon`, `Process Hacker`, and kernel-mode debuggers to observe anti-cheat behavior.
+- Use offline binary analysis tools (`radare2`, `IDA`, `Ghidra`) for static inspection of anti-cheat components.
+
+## Validation Checklist
+
+- Confirm anti-cheat components register expected services, drivers, or kernel callbacks.
+- Verify telemetry and server-side signals are present and match documented behavior during controlled tests.
 ## Verification Checklist
 
 - Confirm that the main objective is clear and the workflow is actionable.

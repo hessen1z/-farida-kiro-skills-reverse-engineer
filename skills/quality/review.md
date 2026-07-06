@@ -1,3 +1,11 @@
+---
+title: review
+skill: quality
+category: 
+difficulty: intermediate
+tags: [gui]
+updated: 2026-07-05
+---
 Review Guidelines
 
 Purpose: Outline human and automated reviewer responsibilities for new content.

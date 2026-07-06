@@ -1,3 +1,11 @@
+---
+title: Analyze VMCS Recipe
+skill: hypervisor
+category: recipes
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Analyze VMCS Recipe
 
 ## Purpose

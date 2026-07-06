@@ -1,3 +1,11 @@
+---
+title: Cryptography Analysis Prompt
+skill: cryptography
+category: prompts
+difficulty: advanced
+tags: [pe, cryptography, gui]
+updated: 2026-07-05
+---
 # Cryptography Analysis Prompt
 
 ## Prompt

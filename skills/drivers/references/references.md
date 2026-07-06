@@ -1,3 +1,11 @@
+---
+title: Drivers References
+skill: drivers
+category: references
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Drivers References
 
 - Windows Driver Kit documentation

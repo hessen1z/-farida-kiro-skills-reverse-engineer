@@ -1,3 +1,11 @@
+---
+title: Analyze Hyper-V Playbook
+skill: hypervisor
+category: playbooks
+difficulty: intermediate
+tags: [pe, gui, kernel]
+updated: 2026-07-05
+---
 # Analyze Hyper-V Playbook
 
 ## Objective

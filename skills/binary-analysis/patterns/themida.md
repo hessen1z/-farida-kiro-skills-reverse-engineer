@@ -1,3 +1,11 @@
+---
+title: Themida Pattern
+skill: binary-analysis
+category: patterns
+difficulty: intermediate
+tags: [pe, loader, debug, elf]
+updated: 2026-07-05
+---
 # Themida Pattern
 
 ## Overview

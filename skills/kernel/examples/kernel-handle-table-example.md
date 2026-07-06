@@ -1,3 +1,11 @@
+---
+title: Kernel Handle Table Example
+skill: kernel
+category: examples
+difficulty: intermediate
+tags: [pe, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Kernel Handle Table Example
 
 ## Scenario

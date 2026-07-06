@@ -1,3 +1,11 @@
+---
+title: Executable and Linkable Format (ELF)
+skill: binary-analysis
+category: knowledge
+difficulty: intermediate
+tags: [pe, loader, asm, gui, debug, elf]
+updated: 2026-07-05
+---
 # Executable and Linkable Format (ELF)
 
 ## Overview
@@ -108,4 +116,18 @@ Elf64_Ehdr* get_elf_header(uint8_t* base) {
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Use `readelf -a` and `objdump -x` to inspect ELF headers, program headers, and relocations.
+- Be careful with position-independent code (PIC) and lazy PLT/GOT bindings when analyzing runtime behavior.
+
+## Tools & Commands
+
+- `readelf`, `objdump`, `eu-readelf`, and `radare2` for ELF inspection.
+
+## Validation Checklist
+
+- Verify segment mappings and relocation application by loading the binary in a controlled environment.
+- Confirm symbol visibility and PLT/GOT entries for imported functions.
 

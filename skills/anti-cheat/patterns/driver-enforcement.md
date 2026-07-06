@@ -1,3 +1,11 @@
+---
+title: Driver Enforcement Pattern
+skill: anti-cheat
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, anti-cheat, driver, kernel]
+updated: 2026-07-05
+---
 # Driver Enforcement Pattern
 
 ## Pattern Name

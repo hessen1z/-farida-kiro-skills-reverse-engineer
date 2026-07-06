@@ -1,3 +1,11 @@
+---
+title: Demangling
+skill: binary-analysis
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, pdb, gui, debug, elf]
+updated: 2026-07-05
+---
 # Demangling
 
 ## Overview
@@ -106,4 +114,19 @@ std::string demangle(const char* symbol) {
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Use `UnDecorateSymbolName` on Windows and `c++filt` for Itanium-style symbols to quickly recover readable names.
+- When demangled names conflict with inferred types, prefer runtime-observed signatures and adjust types accordingly.
+
+## Tools & Commands
+
+- `undname` / `dbghelp` on Windows for MSVC symbols.
+- `c++filt` or `llvm-cxxfilt` for GCC/Clang (Itanium) mangled names.
+
+## Validation Checklist
+
+- Confirm demangled names against PDBs or symbol servers when available.
+- Cross-check parameter types inferred from demangled signatures with calling convention and register usage.
 

@@ -1,3 +1,11 @@
+---
+title: Example Template
+skill: content-template
+category: examples
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Example Template
 
 ## Example Title

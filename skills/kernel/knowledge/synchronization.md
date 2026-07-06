@@ -1,3 +1,11 @@
+---
+title: Synchronization Knowledge
+skill: kernel
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Synchronization Knowledge
 
 ## Overview
@@ -38,6 +46,20 @@ Different primitives require different IRQL levels.
 - using nonpaged pool data in a spin lock-protected context incorrectly.
 - blocking at `DISPATCH_LEVEL`.
 - assuming `ExAcquireFastMutex` behaves like a spin lock.
+
+-## Practical Guidance
+
+- Choose the minimal primitive that satisfies IRQL and latency constraints; prefer non-blocking primitives at high IRQL.
+- When diagnosing deadlocks, capture lock orders and compare against known acquisition sequences.
+
+## Tools & Commands
+
+- WinDbg: `!locks`, `!thread`, and `!dpc` to inspect lock contention and queued work.
+
+## Validation Checklist
+
+- Verify no blocking calls are made while holding spin locks or at `DISPATCH_LEVEL`.
+- Confirm lock acquisition ordering is consistent across code paths under stress tests.
 
 ## References
 - Windows Internals: Synchronization chapter

@@ -1,3 +1,11 @@
+---
+title: Rule Template
+skill: content-template
+category: rules
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Rule Template
 
 ## Rule Title

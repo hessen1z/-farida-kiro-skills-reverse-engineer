@@ -1,3 +1,11 @@
+---
+title: Process Protection Playbook
+skill: windows-security
+category: playbooks
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Process Protection Playbook
 
 ## Objective

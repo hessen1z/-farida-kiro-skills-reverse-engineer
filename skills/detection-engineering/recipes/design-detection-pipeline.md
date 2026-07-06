@@ -1,3 +1,11 @@
+---
+title: Design Detection Pipeline
+skill: detection-engineering
+category: recipes
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Design Detection Pipeline
 
 ## Goal

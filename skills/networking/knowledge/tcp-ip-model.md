@@ -1,3 +1,11 @@
+---
+title: TCP/IP Model Knowledge
+skill: networking
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, driver, networking, gui, kernel]
+updated: 2026-07-05
+---
 # TCP/IP Model Knowledge
 
 ## Overview
@@ -37,6 +45,49 @@ Packet analysis begins with protocol demultiplexing and header validation.
 ## Cross-links
 - `../patterns/packet-parsing.md`
 - `../recipes/analyze-packets.md`
+
+## Memory Layout
+
+The TCP/IP model is conceptual rather than a physical layout, but protocol processing still depends on buffered headers, state tables, and socket structures in the implementation.
+
+## Data Structures
+
+- link-layer frame metadata
+- IP headers and socket state
+- TCP control blocks and UDP sockets
+
+## Reverse Engineering Notes
+
+- Map each layer to the relevant Windows stack component and protocol parser.
+- Follow how headers are unpacked, validated, and handed to the application layer.
+
+## Common Mistakes
+
+- Ignoring the role of the link and network layers in application-level failures.
+- Confusing logical layering with implementation placement.
+
+## Validation Checklist
+
+- Confirm that each layer is mapped to the correct protocol behavior and Windows component.
+- Verify that the model explains observed packet flow and socket behavior.
+
+## Related Patterns
+
+- [packet-parsing](../patterns/packet-parsing.md)
+- [replication-patterns](../patterns/replication-patterns.md)
+- [socket-initialization](../patterns/socket-initialization.md)
+
+## Related Recipes
+
+- [analyze-multiplayer-game](../recipes/analyze-multiplayer-game.md)
+- [analyze-packets](../recipes/analyze-packets.md)
+- [analyze-tcp-session](../recipes/analyze-tcp-session.md)
+
+## Related Playbooks
+
+- [analyze-network-stack](../playbooks/analyze-network-stack.md)
+- [multiplayer-network-playbook](../playbooks/multiplayer-network-playbook.md)
+- [network-performance](../playbooks/network-performance.md)
 
 ## Related Material
 

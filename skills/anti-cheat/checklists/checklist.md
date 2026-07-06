@@ -1,3 +1,11 @@
+---
+title: Anti-Cheat Checklist
+skill: anti-cheat
+category: checklists
+difficulty: intermediate
+tags: [pe, anti-cheat, driver, gui, kernel]
+updated: 2026-07-05
+---
 # Anti-Cheat Checklist
 
 ## Preparation

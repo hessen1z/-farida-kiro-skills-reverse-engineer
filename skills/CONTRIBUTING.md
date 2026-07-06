@@ -1,39 +1,45 @@
+---
+title: Contributing to AI Security Library
+skill: root
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Contributing to AI Security Library
 
 ## Overview
-This document describes how to contribute safely to the repository, with a focus on maintaining the clean separation between domain skills, shared infrastructure, tooling, and release artifacts.
+This document describes how to contribute safely and consistently to the repository while preserving the separation between domain skills, shared infrastructure, and release outputs.
 
 ## Repository Structure
-- `skills/` contains domain skill folders.
-- `shared/`, `content-template/`, `templates/`, `patterns/`, `playbooks/`, `snippets/`, and `tools/` are shared infrastructure and support resources.
-- `Release v1.0/` is the release artifacts folder and must remain outside `skills/`.
+- Skill folders contain domain-specific knowledge and supporting assets.
+- Shared infrastructure folders such as [shared](shared), [content-template](content-template), [templates](templates), [patterns](patterns), [playbooks](playbooks), [snippets](snippets), and [tools](tools) provide reusable support content.
+- Release artifacts, if present, should remain outside the library content tree.
 
 ## Contribution Workflow
-1. Open an issue describing the change.
-2. Create a branch for the feature or fix.
-3. Implement the change in the appropriate location.
-4. Ensure documentation updates are limited to root-level repository organization or shared infrastructure, unless the issue explicitly targets a skill.
-5. Submit a pull request with a concise description and links to any affected files.
+1. Open or update an issue for the change you intend to make.
+2. Create a branch or work from the current repository state.
+3. Implement the change in the appropriate folder and keep it scoped to the intended purpose.
+4. Verify that the documentation, examples, or cross-links are updated as needed.
+5. Submit a pull request with a concise summary and references to affected files.
 
 ## Adding New Skills
-- Only add a new top-level folder under `skills/` if it represents domain-specific knowledge.
-- Each new skill must include `skill.md` and supporting content.
-- Do not add pure infrastructure folders as new skills.
+- Create a new top-level skill folder only when it represents a distinct domain of knowledge.
+- Each new skill should include a skill manifest and supporting content directories.
+- Do not add infrastructure folders as new skills.
 
-## Documentation and Standards
-- Use `content-template/` to scaffold new content.
-- Follow `writing-guidelines/README.md` for style, terminology, and formatting.
-- Keep skill metadata consistent with the existing repository pattern.
+## Documentation Standards
+- Use [content-template](content-template) and [writing-guidelines](writing-guidelines) as the starting point for new content.
+- Prefer clarity, precision, and practical guidance over filler text.
+- Keep terminology consistent with the surrounding skill and the repository conventions.
 
-## Review and Validation
-- Verify that any new or modified skill includes `skill.md` and appropriate subfolders.
-- Confirm that release artifacts remain outside `skills/`.
-- Check that shared infrastructure is not incorrectly treated as a skill.
-- Ensure root documentation is updated when repository organization changes.
+## Review Checklist
+- Confirm the change is placed in the right content category.
+- Verify that any new or modified skill includes the expected supporting folders.
+- Check that links and references still resolve sensibly.
+- Ensure the update does not blur the boundary between a skill and shared infrastructure.
+- Preserve repository organization unless the change explicitly improves it.
 
-## Release Artifacts
-- All release packages, validation reports, and archive files belong in `Release v1.0/` at the repository root level, not inside `skills/`.
-
-## Communication
-- When in doubt, discuss the proposed change before implementing it.
-- Preserve the repository's architecture and avoid broad structural changes unless the proposal is clearly beneficial and low risk.
+## Communication Expectations
+- When a change is structural or cross-cutting, describe the rationale clearly.
+- Avoid broad reorganization without a clear benefit to maintainability or clarity.

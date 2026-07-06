@@ -1,3 +1,11 @@
+---
+title: Game Engine Architecture
+skill: game-engines
+category: knowledge
+difficulty: intermediate
+tags: [pe, loader, anti-cheat, gui, dll]
+updated: 2026-07-05
+---
 # Game Engine Architecture
 
 ## Overview
@@ -74,4 +82,24 @@ Game execution often splits into modules:
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Identify module boundaries (engine vs game logic) by exports, imports, and symbol names.
+- Trace startup paths from the launcher to engine initialization to find asset and plugin loading points.
+
+## Tools & Commands
+
+- Use process module enumeration (`ListModules`/`pslist`) and static import analysis to locate engine components.
+- Use a disassembler to search for known engine strings and initialization sequences.
+
+## Validation Checklist
+
+- Confirm which module owns rendering and which owns game logic for targeted instrumentation.
+- Verify that modifying a plugin or replacing a module leads to expected changes (in a safe test environment).
+
+## Example Workflow
+
+1. Enumerate loaded modules and identify candidates for the core engine DLL.
+2. Inspect exports and imports to determine responsibilities (rendering, scripting, physics).
 

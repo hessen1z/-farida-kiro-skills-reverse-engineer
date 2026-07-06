@@ -1,3 +1,11 @@
+---
+title: Recover Imports Recipe
+skill: binary-analysis
+category: recipes
+difficulty: intermediate
+tags: [pe, pdb, gui, dll, elf]
+updated: 2026-07-05
+---
 # Recover Imports Recipe
 
 ## Goal

@@ -1,3 +1,11 @@
+---
+title: Handle Tables Knowledge
+skill: kernel
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Handle Tables Knowledge
 
 ## Overview
@@ -80,4 +88,18 @@ Handle operations invoke the Object Manager to enforce ACLs. `NtOpenProcess`, `N
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Use debugger extensions (`!handle`, `!object`) to translate handle values to kernel object addresses and inspect object headers.
+- Correlate handle access masks with requested operations to diagnose access-denied behaviors.
+
+## Tools & Commands
+
+- WinDbg: `!handle` and `!object` to inspect handle tables and referenced objects.
+
+## Validation Checklist
+
+- Confirm handles map to expected objects across process boundaries by inspecting the handle table entries.
+- Verify reference counts and ensure proper handle closure in cleanup paths.
 

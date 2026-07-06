@@ -1,3 +1,11 @@
+---
+title: Symbols
+skill: binary-analysis
+category: knowledge
+difficulty: intermediate
+tags: [pe, pdb, debug, dll, elf, mach-o]
+updated: 2026-07-05
+---
 # Symbols
 
 ## Overview

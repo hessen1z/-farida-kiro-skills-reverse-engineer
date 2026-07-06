@@ -1,3 +1,11 @@
+---
+title: Recover Exports Recipe
+skill: binary-analysis
+category: recipes
+difficulty: intermediate
+tags: [pe, loader, pdb, dll, elf]
+updated: 2026-07-05
+---
 # Recover Exports Recipe
 
 ## Goal

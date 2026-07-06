@@ -1,3 +1,11 @@
+---
+title: Packer Pattern
+skill: binary-analysis
+category: patterns
+difficulty: intermediate
+tags: [pe, loader, elf]
+updated: 2026-07-05
+---
 # Packer Pattern
 
 ## Pattern

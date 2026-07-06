@@ -1,3 +1,11 @@
+---
+title: DWARF
+skill: binary-analysis
+category: knowledge
+difficulty: intermediate
+tags: [pe, gui, debug, elf]
+updated: 2026-07-05
+---
 # DWARF
 
 ## Overview
@@ -89,4 +97,18 @@ Libraries commonly used to parse DWARF data.
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Use `readelf --debug-dump=info` or `llvm-dwarfdump` to inspect DWARF sections and DIEs.
+- When DWARF is present, prefer using it to seed type information and function boundaries in the disassembler.
+
+## Tools & Commands
+
+- `readelf`, `objdump`, `llvm-dwarfdump`, and `libdwarf` for parsing and extracting DWARF info.
+
+## Validation Checklist
+
+- Confirm address-to-line mappings with runtime traces to ensure correct source correlation.
+- Validate frame information by performing controlled stack unwinds in a debugger.
 

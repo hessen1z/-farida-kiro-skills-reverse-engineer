@@ -1,3 +1,11 @@
+---
+title: Rendering Loop Pattern
+skill: game-engines
+category: patterns
+difficulty: intermediate
+tags: [pe, loader]
+updated: 2026-07-05
+---
 # Rendering Loop Pattern
 
 ## Pattern Name

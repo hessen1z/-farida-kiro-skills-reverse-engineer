@@ -1,3 +1,11 @@
+---
+title: Crash Playbook
+skill: debugging
+category: playbooks
+difficulty: intermediate
+tags: [pe, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Crash Playbook
 
 ## Objective

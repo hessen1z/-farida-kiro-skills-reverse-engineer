@@ -1,3 +1,11 @@
+---
+title: Binary Analysis Rules
+skill: binary-analysis
+category: rules
+difficulty: intermediate
+tags: [pe, gui, elf]
+updated: 2026-07-05
+---
 # Binary Analysis Rules
 
 - Use precise terminology for binary formats, directories, and metadata structures.

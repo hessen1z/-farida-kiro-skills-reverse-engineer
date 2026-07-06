@@ -1,3 +1,11 @@
+---
+title: CNG AES Encryption Example
+skill: cryptography
+category: examples
+difficulty: intermediate
+tags: [pe, windows, cryptography, gui]
+updated: 2026-07-05
+---
 # CNG AES Encryption Example
 
 ## Overview

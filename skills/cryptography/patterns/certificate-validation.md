@@ -1,3 +1,11 @@
+---
+title: Certificate Validation Patterns
+skill: cryptography
+category: patterns
+difficulty: intermediate
+tags: [pe, cryptography, gui, elf]
+updated: 2026-07-05
+---
 # Certificate Validation Patterns
 
 ## Overview

@@ -1,3 +1,11 @@
+---
+title: Transport Protocols Knowledge
+skill: networking
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, networking, gui]
+updated: 2026-07-05
+---
 # Transport Protocols Knowledge
 
 ## Overview
@@ -75,4 +83,19 @@ Transport protocols provide host-to-host communication and reliability guarantee
 
 ### Checklists
 - [networking-analysis-checklist](../checklists/networking-analysis-checklist.md)
+
+## Practical Guidance
+
+- Understand trade-offs: TCP for reliability, UDP for low-latency or realtime traffic.
+- When inspecting captures, reassemble streams for application-level parsing.
+
+## Tools & Commands
+
+- Use `tshark`/`Wireshark` for packet decoding and TCP stream reassembly.
+- Use `iperf` to stress and profile transport characteristics.
+
+## Validation Checklist
+
+- Confirm retransmission patterns and congestion signals when diagnosing reliability issues.
+- Verify that MTU and fragmentation are handled correctly for large payloads.
 

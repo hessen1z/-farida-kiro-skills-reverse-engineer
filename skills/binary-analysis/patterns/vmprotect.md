@@ -1,3 +1,11 @@
+---
+title: VMProtect Pattern
+skill: binary-analysis
+category: patterns
+difficulty: intermediate
+tags: [pe, debug, elf]
+updated: 2026-07-05
+---
 # VMProtect Pattern
 
 ## Overview

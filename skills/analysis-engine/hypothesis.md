@@ -1,3 +1,11 @@
+---
+title: hypothesis
+skill: analysis-engine
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 Hypothesis-Driven Analysis
 
 Principles

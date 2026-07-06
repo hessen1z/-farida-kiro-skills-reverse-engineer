@@ -1,3 +1,11 @@
+---
+title: Kernel Rules
+skill: kernel
+category: rules
+difficulty: intermediate
+tags: [pe, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Kernel Rules
 
 ## Rule: Preserve IRQL Semantics

@@ -1,3 +1,11 @@
+---
+title: Tamper Check Pattern
+skill: game-security
+category: patterns
+difficulty: intermediate
+tags: [pe, anti-cheat, driver, debug]
+updated: 2026-07-05
+---
 # Tamper Check Pattern
 
 ## Pattern Name

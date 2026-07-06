@@ -1,3 +1,11 @@
+---
+title: Recipe: Recreate AAA Desktop Tool
+skill: gui-engineering
+category: recipes
+difficulty: intermediate
+tags: [pe, imgui, gui]
+updated: 2026-07-05
+---
 # Recipe: Recreate AAA Desktop Tool
 
 ## Goal

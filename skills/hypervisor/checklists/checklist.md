@@ -1,3 +1,11 @@
+---
+title: Hypervisor Checklist
+skill: hypervisor
+category: checklists
+difficulty: intermediate
+tags: [pe, gui, kernel]
+updated: 2026-07-05
+---
 # Hypervisor Checklist
 
 - [ ] Confirm whether Intel VT-x or AMD-V is enabled in firmware.

@@ -1,3 +1,11 @@
+---
+title: Checklist Template
+skill: content-template
+category: checklists
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Checklist Template
 
 ## Checklist Title

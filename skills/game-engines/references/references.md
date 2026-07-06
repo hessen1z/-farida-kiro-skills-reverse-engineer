@@ -1,3 +1,11 @@
+---
+title: Game Engines References
+skill: game-engines
+category: references
+difficulty: intermediate
+tags: [pe, loader, gui]
+updated: 2026-07-05
+---
 # Game Engines References
 
 - Game engine architecture articles

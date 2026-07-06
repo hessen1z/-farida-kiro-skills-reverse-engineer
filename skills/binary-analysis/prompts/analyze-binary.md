@@ -1,3 +1,11 @@
+---
+title: Analyze Binary Prompt
+skill: binary-analysis
+category: prompts
+difficulty: advanced
+tags: [pe, loader, gui, debug, elf, mach-o]
+updated: 2026-07-05
+---
 # Analyze Binary Prompt
 
 ## Prompt

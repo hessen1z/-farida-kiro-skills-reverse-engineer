@@ -1,3 +1,11 @@
+---
+title: Mach-O
+skill: binary-analysis
+category: knowledge
+difficulty: intermediate
+tags: [pe, loader, gui, debug, elf, mach-o]
+updated: 2026-07-05
+---
 # Mach-O
 
 ## Overview
@@ -76,4 +84,24 @@ Used for runtime linkage and introspection on macOS.
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- For fat binaries, identify the slice matching your target architecture before analysis.
+- Map virtual addresses to file offsets carefully when working across slices.
+
+## Tools & Commands
+
+- `otool -l` and `machoview` for load command inspection.
+- Use `dyldinfo` to inspect dynamic loader information and bindings.
+
+## Validation Checklist
+
+- Confirm the correct architecture slice is being analyzed.
+- Verify code signing and entitlements when investigating runtime faults.
+
+## Example Workflow
+
+1. List load commands and identify `__TEXT`/`__DATA` segments.
+2. Extract the matching slice for your architecture and run deeper analysis.
 

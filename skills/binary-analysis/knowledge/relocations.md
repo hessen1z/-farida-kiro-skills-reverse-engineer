@@ -1,3 +1,11 @@
+---
+title: Relocations
+skill: binary-analysis
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, loader, asm, x64, anti-cheat, driver, malware, gui, kernel, debug, dll, elf]
+updated: 2026-07-05
+---
 # Relocations
 
 ## Overview
@@ -228,6 +236,16 @@ Kernel drivers use PE relocations too, but the kernel loader has restrictions. D
 - use relocation coverage to infer whether the binary is meant for relocation
 - when manually mapping, apply relocations before imports and TLS callbacks
 - document relocation anomalies as evidence of custom loaders or protectors
+
+## Tools & Commands
+
+- Use `pefile`, `rizin`, `radare2`, or `CFF Explorer` to inspect `.reloc` sections and parse relocation blocks.
+- For manual mapping, use debuggers or custom scripts to apply relocations and verify mapped image correctness.
+
+## Validation Checklist
+
+- Confirm relocation blocks map to valid page RVAs and that patched addresses point into expected sections.
+- Validate relocation behavior by loading the image in a controlled process and confirming symbol/RTTI addresses are correct.
 
 ## Cross-links
 

@@ -1,3 +1,11 @@
+---
+title: Thunk Pattern
+skill: patterns
+category: 
+difficulty: intermediate
+tags: [pe, windows, x64]
+updated: 2026-07-05
+---
 # Thunk Pattern
 
 Goal:

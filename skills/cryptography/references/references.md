@@ -1,3 +1,11 @@
+---
+title: Cryptography References
+skill: cryptography
+category: references
+difficulty: intermediate
+tags: [pe, windows, cryptography, gui]
+updated: 2026-07-05
+---
 # Cryptography References
 
 - NIST SP 800-57: Recommendation for Key Management

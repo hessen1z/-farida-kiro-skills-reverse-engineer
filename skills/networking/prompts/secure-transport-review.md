@@ -1,3 +1,11 @@
+---
+title: Secure Transport Review Prompt
+skill: networking
+category: prompts
+difficulty: intermediate
+tags: [pe, networking, gui]
+updated: 2026-07-05
+---
 # Secure Transport Review Prompt
 
 ## Prompt

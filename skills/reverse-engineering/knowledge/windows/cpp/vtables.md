@@ -1,3 +1,11 @@
+---
+title: C++ Virtual Function Tables (vtables)
+skill: reverse-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, x64, gui]
+updated: 2026-07-05
+---
 # C++ Virtual Function Tables (vtables)
 
 ## Overview

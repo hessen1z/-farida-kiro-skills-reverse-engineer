@@ -1,3 +1,11 @@
+---
+title: Game Security References
+skill: game-security
+category: references
+difficulty: intermediate
+tags: [pe, windows, anti-cheat, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Game Security References
 
 - Anti-cheat architecture and runtime protection articles

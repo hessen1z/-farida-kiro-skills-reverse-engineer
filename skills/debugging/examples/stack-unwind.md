@@ -1,3 +1,11 @@
+---
+title: Stack Unwind Example
+skill: debugging
+category: examples
+difficulty: intermediate
+tags: [pe, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Stack Unwind Example
 
 ## Scenario

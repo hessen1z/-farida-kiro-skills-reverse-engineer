@@ -1,3 +1,11 @@
+---
+title: Knowledge Article Template
+skill: content-template
+category: knowledge
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Knowledge Article Template
 
 ## Overview
@@ -64,4 +72,15 @@
 
 ### Checklists
 - [checklist-template](../checklists/checklist-template.md)
+
+## Template Guidance
+
+- Use this template as the basis for all `knowledge` articles to ensure consistent structure.
+- Keep sections concise and reference other artifacts (patterns, recipes) as actionable next steps.
+
+## Publishing Checklist
+
+- Confirm links to patterns/recipes/examples resolve correctly.
+- Include at least one practical example or command snippet when applicable.
+- Add a validation checklist for readers to verify understanding.
 

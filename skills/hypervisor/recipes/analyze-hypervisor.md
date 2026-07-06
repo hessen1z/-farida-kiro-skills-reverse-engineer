@@ -1,3 +1,11 @@
+---
+title: Analyze Hypervisor Recipe
+skill: hypervisor
+category: recipes
+difficulty: intermediate
+tags: [pe, gui, debug]
+updated: 2026-07-05
+---
 # Analyze Hypervisor Recipe
 
 ## Purpose

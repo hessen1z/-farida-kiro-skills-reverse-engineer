@@ -1,3 +1,11 @@
+---
+title: VBS Analysis Prompt
+skill: hypervisor
+category: prompts
+difficulty: intermediate
+tags: [pe, gui, kernel]
+updated: 2026-07-05
+---
 # VBS Analysis Prompt
 
 - Determine whether Virtualization-Based Security is active and how the secure kernel is isolated.

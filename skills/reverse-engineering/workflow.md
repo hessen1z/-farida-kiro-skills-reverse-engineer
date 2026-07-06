@@ -1,3 +1,11 @@
+---
+title: Reverse Engineering Workflow
+skill: reverse-engineering
+category: 
+difficulty: intermediate
+tags: [pe, windows, x64, driver, malware, pdb, networking, gui, debug, dll, elf]
+updated: 2026-07-05
+---
 # Reverse Engineering Workflow
 
 > A systematic methodology for analyzing unknown Windows binaries. Follow these phases in order. Skip nothing on first pass — evidence from any phase informs all others.

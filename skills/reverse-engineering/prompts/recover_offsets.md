@@ -1,3 +1,11 @@
+---
+title: Prompt: Recover Offsets
+skill: reverse-engineering
+category: prompts
+difficulty: intermediate
+tags: [pe, asm, x64, debug]
+updated: 2026-07-05
+---
 # Prompt: Recover Offsets
 
 ## Objective

@@ -1,3 +1,11 @@
+---
+title: Engine Analysis Prompt
+skill: game-engines
+category: prompts
+difficulty: advanced
+tags: [pe, loader, gui, debug]
+updated: 2026-07-05
+---
 # Engine Analysis Prompt
 
 ## Prompt

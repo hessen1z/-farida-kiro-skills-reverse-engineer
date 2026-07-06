@@ -1,3 +1,11 @@
+---
+title: Concurrency and Performance Knowledge
+skill: system-design
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, gui]
+updated: 2026-07-05
+---
 # Concurrency and Performance Knowledge
 
 ## Overview
@@ -68,4 +76,13 @@ Concurrency and performance engineering determine how a system behaves under loa
 
 ### Checklists
 - [system-design-checklist](../checklists/system-design-checklist.md)
+
+## Tools & Commands
+
+- Use profilers (`perf`, `Intel VTune`, `Windows ETW`), concurrency analyzers (`ThreadSanitizer`), and benchmarking frameworks (`Google Benchmark`).
+
+## Validation Checklist
+
+- Validate throughput and latency under representative load and confirm absence of lock contention hotspots.
+- Ensure memory allocator behavior is acceptable under concurrent allocations and that false sharing is minimized.
 

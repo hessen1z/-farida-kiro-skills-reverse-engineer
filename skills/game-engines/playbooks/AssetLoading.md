@@ -1,3 +1,11 @@
+---
+title: Asset Loading Playbook
+skill: game-engines
+category: playbooks
+difficulty: intermediate
+tags: [pe, loader]
+updated: 2026-07-05
+---
 # Asset Loading Playbook
 
 ## Objective

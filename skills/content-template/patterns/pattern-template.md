@@ -1,3 +1,11 @@
+---
+title: Pattern Template
+skill: content-template
+category: patterns
+difficulty: intermediate
+tags: [pe]
+updated: 2026-07-05
+---
 # Pattern Template
 
 ## Pattern Name

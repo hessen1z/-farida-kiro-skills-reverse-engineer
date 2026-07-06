@@ -1,3 +1,11 @@
+---
+title: IPv4 and IPv6 Knowledge
+skill: networking
+category: knowledge
+difficulty: intermediate
+tags: [pe, networking, gui]
+updated: 2026-07-05
+---
 # IPv4 and IPv6 Knowledge
 
 ## Overview
@@ -81,4 +89,18 @@ IPv4 and IPv6 are the primary network-layer protocols that define address format
 
 ### Checklists
 - [networking-analysis-checklist](../checklists/networking-analysis-checklist.md)
+
+## Practical Guidance
+
+- When analyzing captures, normalize capture timestamps and reassemble higher-level streams for protocol-specific inspection.
+- Pay attention to fragmentation and extension header ordering when reconstructing payloads.
+
+## Tools & Commands
+
+- `tshark`/`Wireshark` for packet decoding, `scapy` for crafting and testing packets.
+
+## Validation Checklist
+
+- Confirm address scopes, routing, and MTU are correctly configured for expected traffic flows.
+- Validate neighbor discovery/ARP behavior and confirm no duplicate addresses or misconfigured gateways.
 

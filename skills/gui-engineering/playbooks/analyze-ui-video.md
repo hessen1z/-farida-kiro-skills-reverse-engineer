@@ -1,3 +1,11 @@
+---
+title: Playbook: Analyze UI Video
+skill: gui-engineering
+category: playbooks
+difficulty: intermediate
+tags: [pe, imgui, gui]
+updated: 2026-07-05
+---
 # Playbook: Analyze UI Video
 
 ## Purpose

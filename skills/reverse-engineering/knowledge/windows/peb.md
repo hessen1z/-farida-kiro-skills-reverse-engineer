@@ -1,3 +1,11 @@
+---
+title: PEB (Process Environment Block)
+skill: reverse-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, loader, x64, gui, debug, dll]
+updated: 2026-07-05
+---
 # PEB (Process Environment Block)
 
 The Process Environment Block (PEB) is a user-mode structure that contains
@@ -50,3 +58,13 @@ Related:
 - Ensure the document points to the most relevant examples, recipes, or playbooks.
 - Validate that the terminology is consistent with the rest of the skill.
 - Check that the practical guidance is specific enough to be used without further interpretation.
+
+## Tools & Commands
+
+- Use `ReadProcessMemory` with `PROCESS_QUERY_INFORMATION` to safely read a remote PEB for analysis, or use `NtQueryInformationProcess` for `ProcessBasicInformation`.
+- Use WinDbg commands `!peb` and `!ldr` to inspect PEB and loader data for live processes.
+
+## Practical Validation
+
+- Confirm module enumeration by comparing `PEB->Ldr` entries against process module lists from `EnumProcessModules`/`ListModules`.
+- Validate offsets and structure sizes across target OS versions (x86 vs x64).

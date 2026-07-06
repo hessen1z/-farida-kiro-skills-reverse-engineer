@@ -1,3 +1,11 @@
+---
+title: CryptoAPI Hash and Sign Example
+skill: cryptography
+category: examples
+difficulty: intermediate
+tags: [pe, cryptography, gui]
+updated: 2026-07-05
+---
 # CryptoAPI Hash and Sign Example
 
 ## Overview

@@ -1,3 +1,11 @@
+---
+title: References
+skill: reverse-engineering
+category: 
+difficulty: advanced
+tags: [pe, windows, x64, driver, malware, unity, pdb, cryptography, gui, kernel, debug, dll]
+updated: 2026-07-05
+---
 # References
 
 > Official documentation, specifications, and authoritative resources. All links verified as of 2026.

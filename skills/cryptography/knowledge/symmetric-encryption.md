@@ -1,3 +1,25 @@
+---
+title: Symmetric Encryption Knowledge
+skill: cryptography
+category: knowledge
+difficulty: advanced
+tags: [pe, cryptography, gui]
+updated: 2026-07-05
+---
+# Symmetric Encryption Knowledge
+
+## Overview
+## Practical Guidance
+ - Prefer AES-GCM or ChaCha20-Poly1305 for authenticated encryption.
+ - Use proper key management; never hardcode symmetric keys in source.
+ - Use unique nonces/IVs per message and avoid nonce reuse with GCM.
+
+## Tools & Test Vectors
+ - Use OpenSSL or libsodium for testing and verifying ciphertexts against known vectors.
+
+## Validation Checklist
+ - Confirm that encryption uses AEAD (authenticated encryption with associated data) for integrity.
+ - Ensure nonce/IV uniqueness and proper key lifecycle handling.
 # Symmetric Encryption Knowledge
 
 ## Overview
@@ -72,4 +94,14 @@ Symmetric encryption uses the same secret key for encryption and decryption. It 
 
 ### Checklists
 - [cryptography-audit-checklist](../checklists/cryptography-audit-checklist.md)
+
+## Tools & Commands
+
+- OpenSSL: `openssl enc -aes-256-gcm` and libsodium examples for AEAD encryption testing.
+- Use test vectors from NIST or RFCs to confirm algorithm correctness.
+
+## Validation Checklist
+
+- Confirm AEAD usage (GCM/ChaCha20-Poly1305) and verify nonce uniqueness across messages.
+- Ensure key storage and rotation policies are documented and tested.
 

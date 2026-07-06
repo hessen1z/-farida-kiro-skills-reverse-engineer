@@ -1,3 +1,11 @@
+---
+title: Common Reverse Engineering Mistakes
+skill: reverse-engineering
+category: 
+difficulty: intermediate
+tags: [pe, windows, loader, asm, x64, kernel, debug, dll]
+updated: 2026-07-05
+---
 # Common Reverse Engineering Mistakes
 
 > Every mistake listed here has derailed real analysis sessions. Learn them and avoid them.

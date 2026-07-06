@@ -1,3 +1,11 @@
+---
+title: Cryptography Patterns
+skill: cryptography
+category: patterns
+difficulty: intermediate
+tags: [pe, cryptography, gui]
+updated: 2026-07-05
+---
 # Cryptography Patterns
 
 ## Overview

@@ -1,62 +1,98 @@
 {
-  "reverse-engineering": {
-    "requires": ["assembly", "cpp", "windows-internals", "analysis-engine", "shared"],
-    "provides": ["class recovery", "offset recovery", "pattern scanning", "disassembly analysis"]
-  },
   "analysis-engine": {
     "requires": [],
     "provides": ["reasoning", "hypothesis generation", "evidence scoring", "verification planning"]
   },
-  "shared": {
-    "requires": [],
-    "provides": ["templates", "checklists", "documentation standards"]
+  "anti-cheat": {
+    "requires": ["analysis-engine", "shared", "windows-security"],
+    "provides": ["anti-cheat assessment", "runtime enforcement context", "defense analysis"]
   },
   "assembly": {
     "requires": ["windows-internals"],
     "provides": ["instruction semantics", "idiom patterns"]
   },
-  "cpp": {
-    "requires": ["assembly", "shared"],
-    "provides": ["type mapping", "code examples", "test harnesses"]
+  "binary-analysis": {
+    "requires": ["analysis-engine", "shared", "windows-internals"],
+    "provides": ["binary triage", "PE inspection", "static analysis"]
   },
-  "windows-internals": {
-    "requires": [],
-    "provides": ["OS constraints", "memory model", "PE semantics"]
+  "computer-architecture": {
+    "requires": ["analysis-engine", "shared"],
+    "provides": ["architecture concepts", "instruction set context", "hardware-software mapping"]
   },
   "content-template": {
     "requires": ["shared"],
     "provides": ["documentation templates", "artifact scaffolds", "authoring standards"]
   },
-  "writing-guidelines": {
-    "requires": ["shared", "content-template"],
-    "provides": ["editorial rules", "style guidance", "review criteria"]
+  "cpp": {
+    "requires": ["assembly", "shared"],
+    "provides": ["type mapping", "code examples", "test harnesses"]
   },
-  "examples": {
-    "requires": ["cpp", "assembly", "reverse-engineering"],
-    "provides": ["runnable examples", "test harnesses"]
+  "cryptography": {
+    "requires": ["analysis-engine", "shared"],
+    "provides": ["crypto primitives", "implementation review", "algorithm context"]
   },
-  "patterns": {
-    "requires": ["assembly", "cpp"],
-    "provides": ["recognition templates", "heuristic matches"]
-  },
-  "recipes": {
-    "requires": ["shared", "analysis-engine"],
-    "provides": ["repeatable procedures", "step-by-step workflows"]
-  },
-  "playbooks": {
-    "requires": ["recipes", "analysis-engine"],
-    "provides": ["scenario-driven workflows", "incident playbooks"]
-  },
-  "malware-analysis": {
-    "requires": ["shared", "analysis-engine", "windows-internals", "binary-analysis", "reverse-engineering"],
-    "provides": ["defensive malware triage", "behavioral analysis", "persistence and memory interpretation"]
+  "debugging": {
+    "requires": ["analysis-engine", "shared", "windows-internals"],
+    "provides": ["debugger workflows", "trace and breakpoint guidance", "fault isolation"]
   },
   "detection-engineering": {
     "requires": ["shared", "analysis-engine", "windows-internals", "malware-analysis", "windows-security"],
     "provides": ["telemetry pipeline design", "rule evaluation", "detection validation"]
   },
+  "drivers": {
+    "requires": ["analysis-engine", "shared", "windows-internals"],
+    "provides": ["driver analysis", "IRP context", "kernel object inspection"]
+  },
+  "game-engines": {
+    "requires": ["analysis-engine", "shared", "cpp", "reverse-engineering"],
+    "provides": ["engine-specific analysis", "runtime object reconstruction", "game system mapping"]
+  },
+  "game-security": {
+    "requires": ["analysis-engine", "shared", "reverse-engineering"],
+    "provides": ["game anti-tamper assessment", "engine protection review", "game-specific threat context"]
+  },
   "gui-engineering": {
     "requires": ["shared", "analysis-engine", "cpp", "windows-internals", "reverse-engineering"],
     "provides": ["desktop UI architecture", "Dear ImGui implementation", "widget library design", "UI reconstruction workflows"]
+  },
+  "hypervisor": {
+    "requires": ["analysis-engine", "shared", "windows-internals"],
+    "provides": ["virtualization context", "hypervisor analysis", "VM exit review"]
+  },
+  "kernel": {
+    "requires": ["analysis-engine", "shared", "windows-internals"],
+    "provides": ["kernel analysis", "system service review", "driver and subsystem context"]
+  },
+  "malware-analysis": {
+    "requires": ["shared", "analysis-engine", "windows-internals", "binary-analysis", "reverse-engineering"],
+    "provides": ["defensive malware triage", "behavioral analysis", "persistence and memory interpretation"]
+  },
+  "networking": {
+    "requires": ["analysis-engine", "shared", "windows-internals"],
+    "provides": ["network protocol context", "socket and transport review", "network security analysis"]
+  },
+  "reverse-engineering": {
+    "requires": ["assembly", "cpp", "windows-internals", "analysis-engine", "shared"],
+    "provides": ["class recovery", "offset recovery", "pattern scanning", "disassembly analysis"]
+  },
+  "shared": {
+    "requires": [],
+    "provides": ["templates", "checklists", "documentation standards"]
+  },
+  "system-design": {
+    "requires": ["analysis-engine", "shared"],
+    "provides": ["system architecture guidance", "component design context", "design review support"]
+  },
+  "windows-internals": {
+    "requires": [],
+    "provides": ["OS constraints", "memory model", "PE semantics"]
+  },
+  "windows-security": {
+    "requires": ["analysis-engine", "shared", "windows-internals"],
+    "provides": ["security primitives", "defense evaluation", "threat context"]
+  },
+  "writing-guidelines": {
+    "requires": ["shared", "content-template"],
+    "provides": ["editorial rules", "style guidance", "review criteria"]
   }
 }

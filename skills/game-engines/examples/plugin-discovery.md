@@ -1,3 +1,11 @@
+---
+title: Plugin Discovery Example
+skill: game-engines
+category: examples
+difficulty: intermediate
+tags: [pe, loader, gui, dll]
+updated: 2026-07-05
+---
 # Plugin Discovery Example
 
 ## Scenario

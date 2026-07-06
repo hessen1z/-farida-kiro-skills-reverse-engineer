@@ -1,3 +1,11 @@
+---
+title: Detection Engineering Style Rules
+skill: detection-engineering
+category: rules
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Detection Engineering Style Rules
 
 - Focus on defensive engineering and operational quality.

@@ -1,3 +1,11 @@
+---
+title: Analyze Tamper Recipe
+skill: game-security
+category: recipes
+difficulty: intermediate
+tags: [pe, anti-cheat, driver, gui, debug]
+updated: 2026-07-05
+---
 # Analyze Tamper Recipe
 
 ## Purpose

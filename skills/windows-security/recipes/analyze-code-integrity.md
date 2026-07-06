@@ -1,3 +1,11 @@
+---
+title: Analyze Code Integrity Recipe
+skill: windows-security
+category: recipes
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel]
+updated: 2026-07-05
+---
 # Analyze Code Integrity Recipe
 
 ## Purpose

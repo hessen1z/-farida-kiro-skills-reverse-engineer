@@ -1,3 +1,11 @@
+---
+title: Switch Table Pattern
+skill: binary-analysis
+category: patterns
+difficulty: intermediate
+tags: [pe, elf]
+updated: 2026-07-05
+---
 # Switch Table Pattern
 
 ## Overview

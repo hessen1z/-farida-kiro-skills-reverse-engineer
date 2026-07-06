@@ -1,3 +1,11 @@
+---
+title: Multiplayer Networking Knowledge
+skill: networking
+category: knowledge
+difficulty: intermediate
+tags: [pe, networking, gui]
+updated: 2026-07-05
+---
 # Multiplayer Networking Knowledge
 
 ## Overview
@@ -43,6 +51,53 @@ Multiplayer packets often include:
 ## Cross-links
 - `../recipes/analyze-multiplayer-game.md`
 - `../patterns/replication-patterns.md`
+
+## Internal Architecture
+
+Multiplayer networking usually follows an update loop of input capture, prediction, state replication, reconciliation, and validation.
+
+## Memory Layout
+
+Protocol state is often represented by compact message buffers, timestamped input queues, and per-entity state snapshots.
+
+## Data Structures
+
+- input commands and sequence numbers
+- entity state snapshots
+- reconciliation and interpolation state
+
+## Reverse Engineering Notes
+
+- Follow message flow from client input to server validation and back to replicated state.
+- Compare packet contents with client-side prediction and interpolation logic.
+
+## Common Mistakes
+
+- Trusting client-side state without server authority.
+- Ignoring packet reordering, interpolation, and rollback behavior.
+
+## Validation Checklist
+
+- Confirm that authoritative validation exists for critical state transitions.
+- Verify that prediction and reconciliation do not conflict with server state.
+
+## Related Patterns
+
+- [packet-parsing](../patterns/packet-parsing.md)
+- [replication-patterns](../patterns/replication-patterns.md)
+- [socket-initialization](../patterns/socket-initialization.md)
+
+## Related Recipes
+
+- [analyze-multiplayer-game](../recipes/analyze-multiplayer-game.md)
+- [analyze-packets](../recipes/analyze-packets.md)
+- [analyze-tcp-session](../recipes/analyze-tcp-session.md)
+
+## Related Playbooks
+
+- [analyze-network-stack](../playbooks/analyze-network-stack.md)
+- [multiplayer-network-playbook](../playbooks/multiplayer-network-playbook.md)
+- [network-performance](../playbooks/network-performance.md)
 
 ## Related Material
 

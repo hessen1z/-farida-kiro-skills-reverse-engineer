@@ -1,3 +1,11 @@
+---
+title: reasoning
+skill: analysis-engine
+category: 
+difficulty: intermediate
+tags: [pe, gui, debug]
+updated: 2026-07-05
+---
 Reasoning Methodologies
 
 Purpose: Define clear, reusable reasoning techniques an analysis agent must apply before drawing conclusions. Each technique includes when to use it, steps, and quick heuristics for application.

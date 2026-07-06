@@ -1,3 +1,11 @@
+---
+title: IRP Flow Pattern
+skill: drivers
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, driver, kernel, debug]
+updated: 2026-07-05
+---
 # IRP Flow Pattern
 
 ## Pattern Name

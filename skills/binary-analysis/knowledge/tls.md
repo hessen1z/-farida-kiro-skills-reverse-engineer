@@ -1,3 +1,11 @@
+---
+title: Thread Local Storage (TLS)
+skill: binary-analysis
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, loader, driver, kernel, debug, dll, elf]
+updated: 2026-07-05
+---
 # Thread Local Storage (TLS)
 
 ## Overview

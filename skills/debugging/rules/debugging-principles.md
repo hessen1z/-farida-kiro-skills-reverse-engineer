@@ -1,3 +1,11 @@
+---
+title: Debugging Rules
+skill: debugging
+category: rules
+difficulty: intermediate
+tags: [pe, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Debugging Rules
 
 ## Rule 1: Verify Symbols

@@ -1,3 +1,11 @@
+---
+title: Analyze Protected Process Recipe
+skill: windows-security
+category: recipes
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Analyze Protected Process Recipe
 
 ## Purpose

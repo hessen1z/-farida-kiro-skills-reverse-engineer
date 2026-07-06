@@ -1,3 +1,11 @@
+---
+title: Application Protocols Knowledge
+skill: networking
+category: knowledge
+difficulty: intermediate
+tags: [pe, networking, gui]
+updated: 2026-07-05
+---
 # Application Protocols Knowledge
 
 ## Overview
@@ -75,4 +83,19 @@ WebSockets upgrade an HTTP connection to a bidirectional, low-latency message ch
 
 ### Checklists
 - [networking-analysis-checklist](../checklists/networking-analysis-checklist.md)
+
+## Practical Guidance
+
+- Identify protocol markers and handshake sequences to reliably fingerprint application protocols.
+- Simulate protocol flows in controlled environments to validate state transitions.
+
+## Tools & Commands
+
+- Use Wireshark/Tshark to inspect packet captures and decode application-level protocols.
+- Use `nc`, `curl`, or protocol-specific clients to exercise endpoints.
+
+## Validation Checklist
+
+- Confirm the protocol implementation follows expected state machine transitions.
+- Verify message encoding and any cryptographic protections in use.
 

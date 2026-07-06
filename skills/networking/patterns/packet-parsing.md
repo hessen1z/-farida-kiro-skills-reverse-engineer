@@ -1,3 +1,11 @@
+---
+title: Packet Parsing Pattern
+skill: networking
+category: patterns
+difficulty: intermediate
+tags: [pe, networking, gui]
+updated: 2026-07-05
+---
 # Packet Parsing Pattern
 
 ## Pattern Name

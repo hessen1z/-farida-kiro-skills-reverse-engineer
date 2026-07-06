@@ -1,3 +1,11 @@
+---
+title: VMCS and EPT Knowledge
+skill: hypervisor
+category: knowledge
+difficulty: intermediate
+tags: [pe, gui, debug]
+updated: 2026-07-05
+---
 # VMCS and EPT Knowledge
 
 ## Overview
@@ -89,4 +97,18 @@ EPT entry fields control read/write/execute permissions and memory type attribut
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- When diagnosing VM exits, examine VM-exit reason and qualification fields in VMCS to determine the trigger.
+- For EPT violations, validate the EPT entry permissions and guest-physical to host-physical mappings.
+
+## Tools & Commands
+
+- Use hypervisor-aware debuggers and tooling to dump VMCS and EPT tables for inspection.
+
+## Validation Checklist
+
+- Confirm VMCS state corresponds to observed guest registers at the time of the exit.
+- Validate EPT mappings by comparing guest physical addresses with host page frames.
 

@@ -1,3 +1,11 @@
+---
+title: Decompilers
+skill: binary-analysis
+category: knowledge
+difficulty: intermediate
+tags: [pe, pdb, gui, debug, elf]
+updated: 2026-07-05
+---
 # Decompilers
 
 ## Overview
@@ -77,3 +85,33 @@ Decompilers typically perform:
 - Ensure the document points to the most relevant examples, recipes, or playbooks.
 - Validate that the terminology is consistent with the rest of the skill.
 - Check that the practical guidance is specific enough to be used without further interpretation.
+
+## Choosing and Using a Decompiler
+
+- Pick a decompiler that integrates with your disassembler (Hex-Rays with IDA, Ghidra Decompiler, Snowman, RetDec) and matches the target architecture.
+- Use decompiler output to guide type recovery and function signatures, but cross-check with raw disassembly for correctness.
+- Annotate and iteratively improve types: small type fixes (pointer-sizes, structs) can dramatically improve subsequent output.
+
+## Common Pitfalls and Mitigations
+
+- Incorrect types: prefer conservative types and incrementally refine them.
+- Optimized code artifacts: expect inlined functions and missing stack frames; annotate manually when needed.
+- Compiler intrinsics and platform-specific ABI quirks: validate calling conventions and special registers.
+
+## Tooling Tips
+
+- Use symbol servers and PDBs when available to seed decompilation with correct symbols.
+- Export decompiler output for diffing across versions to identify patched or obfuscated regions.
+
+## Example Workflow
+
+1. Load binary into disassembler and run the decompiler.
+2. Identify key functions and apply conservative prototypes.
+3. Correct types and re-run decompilation iteratively.
+4. Validate behavioral expectations against known-good samples or runtime traces.
+
+## Verification Checklist (extended)
+
+- Confirm decompiler output aligns with disassembly for critical control-flow and API calls.
+- Validate inferred types against runtime memory observations when possible.
+- Document any decompiler-specific workarounds applied during analysis.

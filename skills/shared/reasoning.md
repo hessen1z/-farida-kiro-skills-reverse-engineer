@@ -1,3 +1,11 @@
+---
+title: Reasoning
+skill: shared
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Reasoning
 
 Guidelines for reasoning and analysis used by agents.

@@ -1,3 +1,11 @@
+---
+title: Analyze Memory Manager Recipe
+skill: kernel
+category: recipes
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Analyze Memory Manager Recipe
 
 ## Purpose

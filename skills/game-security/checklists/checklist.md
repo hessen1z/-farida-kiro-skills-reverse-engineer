@@ -1,3 +1,11 @@
+---
+title: Game Security Checklist
+skill: game-security
+category: checklists
+difficulty: intermediate
+tags: [pe, anti-cheat, driver, gui, debug]
+updated: 2026-07-05
+---
 # Game Security Checklist
 
 ## Preparation

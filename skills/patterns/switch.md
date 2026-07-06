@@ -1,3 +1,11 @@
+---
+title: Switch / Jump Table Patterns
+skill: patterns
+category: 
+difficulty: intermediate
+tags: [windows, loader, x64]
+updated: 2026-07-05
+---
 # Switch / Jump Table Patterns
 
 Goal:

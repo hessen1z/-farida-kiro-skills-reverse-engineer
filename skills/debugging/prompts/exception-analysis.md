@@ -1,3 +1,11 @@
+---
+title: Exception Analysis Prompt
+skill: debugging
+category: prompts
+difficulty: advanced
+tags: [pe, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Exception Analysis Prompt
 
 ## Prompt

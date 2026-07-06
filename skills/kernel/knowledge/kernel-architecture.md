@@ -1,3 +1,11 @@
+---
+title: Windows Kernel Architecture
+skill: kernel
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, x64, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Windows Kernel Architecture
 
 ## Overview
@@ -272,4 +280,19 @@ To analyze a kernel component:
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Start investigations by collecting a reproducible artifact (dump, trace, or repro) and gather kernel symbols for accurate analysis.
+- Validate IRQL and synchronization assumptions early to avoid following misleading call paths.
+
+## Tools & Commands
+
+- WinDbg: `!process`, `!thread`, `!vm`, `!pool`, and `!pte` for structural inspection.
+- Use crash dump analysis (`!analyze -v`) and ETW traces to correlate runtime events with kernel activity.
+
+## Validation Checklist
+
+- Confirm that kernel structures map correctly to symbols and that VADs/PTEs align with expected address ranges.
+- Verify that IRQL transitions and DPC/APC activity match observed system behavior under test.
 

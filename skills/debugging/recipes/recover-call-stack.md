@@ -1,3 +1,11 @@
+---
+title: Recover Call Stack Recipe
+skill: debugging
+category: recipes
+difficulty: intermediate
+tags: [pe, windows, x64, kernel, debug]
+updated: 2026-07-05
+---
 # Recover Call Stack Recipe
 
 ## Purpose

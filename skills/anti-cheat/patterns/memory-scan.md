@@ -1,3 +1,11 @@
+---
+title: Memory Scan Pattern
+skill: anti-cheat
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, anti-cheat, driver, gui, kernel]
+updated: 2026-07-05
+---
 # Memory Scan Pattern
 
 ## Pattern Name

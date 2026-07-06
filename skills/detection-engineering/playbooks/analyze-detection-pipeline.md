@@ -1,3 +1,11 @@
+---
+title: Analyze Detection Pipeline
+skill: detection-engineering
+category: playbooks
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Analyze Detection Pipeline
 
 ## Purpose

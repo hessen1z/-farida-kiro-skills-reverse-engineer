@@ -1,3 +1,11 @@
+---
+title: Scheduler and Dispatcher Knowledge
+skill: kernel
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Scheduler and Dispatcher Knowledge
 
 ## Overview
@@ -70,6 +78,21 @@ Deferred Procedure Calls run at `DISPATCH_LEVEL` and service interrupt-related w
 - `!thread` and `!process` reveal wait reasons and dispatch status.
 - `!runaway` and `!dpc` help locate scheduler or DPC saturation issues.
 - IRQL elevation changes the permissible work and dispatch behavior.
+
+-## Practical Guidance
+
+- Prioritize observable metrics: CPU run queues, DPC statistics, and ready queue lengths when diagnosing scheduler issues.
+- Correlate priority boosts and quantum expirations with thread activity to find starvation or priority inversion.
+
+## Tools & Commands
+
+- WinDbg: `!runaway`, `!runqueue`, and `!dpc` to inspect scheduler state and DPC activity.
+- Use performance counters (ETW, perfmon) to gather scheduling telemetry over time.
+
+## Validation Checklist
+
+- Confirm thread transitions (Ready → Running → Waiting) match the expected workload scenario.
+- Validate that priority boosts and quanta consumption align with observed execution latency.
 
 ## References
 - Windows Internals: Scheduling chapter

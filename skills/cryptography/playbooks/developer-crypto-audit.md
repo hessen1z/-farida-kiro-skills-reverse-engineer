@@ -1,3 +1,11 @@
+---
+title: Developer Crypto Audit Playbook
+skill: cryptography
+category: playbooks
+difficulty: intermediate
+tags: [pe, cryptography, gui]
+updated: 2026-07-05
+---
 # Developer Crypto Audit Playbook
 
 ## Goal

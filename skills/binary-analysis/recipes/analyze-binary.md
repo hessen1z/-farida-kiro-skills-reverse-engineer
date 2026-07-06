@@ -1,3 +1,11 @@
+---
+title: Analyze Binary Recipe
+skill: binary-analysis
+category: recipes
+difficulty: intermediate
+tags: [pe, loader, pdb, debug, elf, mach-o]
+updated: 2026-07-05
+---
 # Analyze Binary Recipe
 
 ## Goal

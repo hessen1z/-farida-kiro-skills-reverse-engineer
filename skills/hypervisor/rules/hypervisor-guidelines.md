@@ -1,3 +1,11 @@
+---
+title: Hypervisor Rules
+skill: hypervisor
+category: rules
+difficulty: intermediate
+tags: [pe]
+updated: 2026-07-05
+---
 # Hypervisor Rules
 
 ## Rule: Respect Hardware Controls

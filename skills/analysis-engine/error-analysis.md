@@ -1,3 +1,11 @@
+---
+title: error-analysis
+skill: analysis-engine
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 Error Analysis and Postmortem
 
 Purpose: Systematically review mistakes and improve future reasoning.

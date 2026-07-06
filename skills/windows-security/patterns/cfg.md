@@ -1,3 +1,11 @@
+---
+title: Control Flow Guard Pattern
+skill: windows-security
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, gui, debug]
+updated: 2026-07-05
+---
 # Control Flow Guard Pattern
 
 ## Pattern Name

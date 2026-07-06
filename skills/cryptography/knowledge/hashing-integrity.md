@@ -1,3 +1,11 @@
+---
+title: Hashing and Integrity Knowledge
+skill: cryptography
+category: knowledge
+difficulty: intermediate
+tags: [pe, cryptography, gui]
+updated: 2026-07-05
+---
 # Hashing and Integrity Knowledge
 
 ## Overview
@@ -69,4 +77,18 @@ Hash functions map data to fixed-size digests. They are widely used for integrit
 
 ### Checklists
 - [cryptography-audit-checklist](../checklists/cryptography-audit-checklist.md)
+
+## Practical Guidance
+
+- Use modern hash algorithms (SHA-256+) and prefer HMAC/AEAD constructions for authenticated integrity.
+- For password storage, use memory-hard KDFs (Argon2) and include salts per user.
+
+## Tools & Test Vectors
+
+- Use OpenSSL or libsodium to verify digests and HMACs against standardized test vectors.
+
+## Validation Checklist
+
+- Confirm no deprecated hashes (MD5/SHA1) are used in security-sensitive contexts.
+- Verify constant-time comparisons for secrecy-sensitive comparisons.
 

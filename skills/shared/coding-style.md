@@ -1,3 +1,11 @@
+---
+title: Coding Style
+skill: shared
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Coding Style
 
 Common coding style rules for all skills.

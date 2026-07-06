@@ -1,3 +1,11 @@
+---
+title: Intel References
+skill: binary-analysis
+category: references
+difficulty: intermediate
+tags: [pe, x64, gui, elf]
+updated: 2026-07-05
+---
 # Intel References
 
 - Intel 64 and IA-32 Architectures Software Developer’s Manual

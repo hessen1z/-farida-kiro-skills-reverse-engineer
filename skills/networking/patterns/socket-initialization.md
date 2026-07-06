@@ -1,3 +1,11 @@
+---
+title: Socket Initialization Pattern
+skill: networking
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, networking, gui]
+updated: 2026-07-05
+---
 # Socket Initialization Pattern
 
 ## Pattern Name

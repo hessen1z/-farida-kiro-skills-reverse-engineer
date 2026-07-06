@@ -1,3 +1,11 @@
+---
+title: Prompt: Build ReClass.NET Layout
+skill: reverse-engineering
+category: prompts
+difficulty: intermediate
+tags: [pe, x64, gui, debug]
+updated: 2026-07-05
+---
 # Prompt: Build ReClass.NET Layout
 
 ## Objective

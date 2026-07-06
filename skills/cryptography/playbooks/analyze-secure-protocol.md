@@ -1,3 +1,11 @@
+---
+title: Analyze Secure Protocol Playbook
+skill: cryptography
+category: playbooks
+difficulty: intermediate
+tags: [pe, cryptography, gui]
+updated: 2026-07-05
+---
 # Analyze Secure Protocol Playbook
 
 ## Goal

@@ -1,3 +1,11 @@
+---
+title: Analyze Kernel Component Recipe
+skill: kernel
+category: recipes
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Analyze Kernel Component Recipe
 
 ## Purpose

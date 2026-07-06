@@ -1,3 +1,11 @@
+---
+title: Architecture Review Prompt
+skill: system-design
+category: prompts
+difficulty: advanced
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Architecture Review Prompt
 
 ## Prompt

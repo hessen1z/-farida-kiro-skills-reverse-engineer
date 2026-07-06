@@ -1,3 +1,11 @@
+---
+title: Analyze VM Exit Recipe
+skill: hypervisor
+category: recipes
+difficulty: intermediate
+tags: [pe, gui, debug]
+updated: 2026-07-05
+---
 # Analyze VM Exit Recipe
 
 ## Purpose

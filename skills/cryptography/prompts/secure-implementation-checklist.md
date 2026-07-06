@@ -1,3 +1,11 @@
+---
+title: Cryptography Implementation Prompt
+skill: cryptography
+category: prompts
+difficulty: intermediate
+tags: [pe, windows, cryptography, gui]
+updated: 2026-07-05
+---
 # Cryptography Implementation Prompt
 
 ## Prompt

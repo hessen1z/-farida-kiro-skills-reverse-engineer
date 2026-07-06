@@ -1,3 +1,11 @@
+---
+title: Design Plugin Architecture Recipe
+skill: system-design
+category: recipes
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Design Plugin Architecture Recipe
 
 ## Goal

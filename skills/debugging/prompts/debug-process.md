@@ -1,3 +1,11 @@
+---
+title: Debug Process Prompt
+skill: debugging
+category: prompts
+difficulty: advanced
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Debug Process Prompt
 
 ## Prompt

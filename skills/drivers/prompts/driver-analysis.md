@@ -1,3 +1,11 @@
+---
+title: Driver Analysis Prompt
+skill: drivers
+category: prompts
+difficulty: advanced
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Driver Analysis Prompt
 
 ## Prompt

@@ -1,3 +1,11 @@
+---
+title: Prompt Template
+skill: content-template
+category: prompts
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Prompt Template
 
 ## Prompt Title

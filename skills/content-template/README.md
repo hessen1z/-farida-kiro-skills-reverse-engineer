@@ -1,3 +1,11 @@
+---
+title: Content Template Skill
+skill: content-template
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Content Template Skill
 
 This directory defines reusable Markdown templates for the repository. Use these templates whenever you create new skill artifacts to ensure consistent structure and review readiness.
@@ -16,7 +24,7 @@ Directories:
 
 How to use
 1. Copy the appropriate template for the file type.
-2. Replace placeholder headings and content with topic-specific information.
+2. Adapt the template structure and content to the specific topic being documented.
 3. Keep section names intact unless the topic requires a small, justified deviation.
 4. Apply `writing-guidelines/skill.md` rules for tone, clarity, and review readiness.
 

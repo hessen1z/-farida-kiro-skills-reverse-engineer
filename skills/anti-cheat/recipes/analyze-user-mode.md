@@ -1,3 +1,11 @@
+---
+title: Analyze User-Mode Anti-Cheat Recipe
+skill: anti-cheat
+category: recipes
+difficulty: intermediate
+tags: [pe, anti-cheat, driver, kernel, debug]
+updated: 2026-07-05
+---
 # Analyze User-Mode Anti-Cheat Recipe
 
 ## Purpose

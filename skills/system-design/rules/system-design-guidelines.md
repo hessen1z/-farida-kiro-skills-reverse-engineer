@@ -1,3 +1,11 @@
+---
+title: System Design Guidelines
+skill: system-design
+category: rules
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # System Design Guidelines
 
 ## Principles

@@ -1,3 +1,11 @@
+---
+title: Analyze Startup Recipe
+skill: game-engines
+category: recipes
+difficulty: intermediate
+tags: [pe, loader, debug]
+updated: 2026-07-05
+---
 # Analyze Startup Recipe
 
 ## Purpose

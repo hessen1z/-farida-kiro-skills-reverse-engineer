@@ -1,3 +1,11 @@
+---
+title: IRQL, APC, and DPC Knowledge
+skill: kernel
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # IRQL, APC, and DPC Knowledge
 
 ## Overview
@@ -49,6 +57,21 @@ The kernel allocates APC and DPC data structures from nonpaged pool. DPCs and AP
 - inspect APC queue state with WinDbg and `!thread`.
 - analyze DPC latency with `!dpcs` or performance counters.
 - verify that DPC routines do not call pageable code.
+
+## Practical Guidance
+
+- Always validate IRQL assumptions before invoking synchronization or kernel services that may block.
+- Use dedicated tests that exercise APC and DPC paths under load to reveal timing-dependent bugs.
+
+## Tools & Commands
+
+- WinDbg: `!thread`, `!dpc`, and `!dpcs` for APC/DPC state inspection.
+- Use ETW and performance counters to measure DPC latency and APC delivery rates.
+
+## Validation Checklist
+
+- Confirm DPC handlers do not call pageable routines and that APCs deliver when expected after IRQL lowers.
+- Verify that queued APCs are processed and that no threads remain stuck in alertable waits unintentionally.
 
 ## Common Mistakes
 - queuing DPCs from a thread without checking whether the DPC is already pending.

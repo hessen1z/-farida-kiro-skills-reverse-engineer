@@ -1,3 +1,11 @@
+---
+title: Reference Template
+skill: content-template
+category: references
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Reference Template
 
 ## Reference Title

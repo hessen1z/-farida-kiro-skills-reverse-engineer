@@ -1,3 +1,11 @@
+---
+title: Winsock Server/Client Example
+skill: networking
+category: examples
+difficulty: intermediate
+tags: [pe, windows, networking, gui]
+updated: 2026-07-05
+---
 # Winsock Server/Client Example
 
 ## Scenario

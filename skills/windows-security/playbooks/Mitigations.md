@@ -1,3 +1,11 @@
+---
+title: Windows Security Mitigations Playbook
+skill: windows-security
+category: playbooks
+difficulty: intermediate
+tags: [pe, windows, driver, gui, debug]
+updated: 2026-07-05
+---
 # Windows Security Mitigations Playbook
 
 ## Purpose

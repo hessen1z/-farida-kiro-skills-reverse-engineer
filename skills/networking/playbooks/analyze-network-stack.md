@@ -1,3 +1,11 @@
+---
+title: Analyze Network Stack Playbook
+skill: networking
+category: playbooks
+difficulty: intermediate
+tags: [pe, networking, gui]
+updated: 2026-07-05
+---
 # Analyze Network Stack Playbook
 
 ## Goal

@@ -1,3 +1,11 @@
+---
+title: Example: Dear ImGui Dashboard
+skill: gui-engineering
+category: examples
+difficulty: intermediate
+tags: [pe, imgui, gui]
+updated: 2026-07-05
+---
 # Example: Dear ImGui Dashboard
 
 ## Scenario

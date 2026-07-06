@@ -1,3 +1,11 @@
+---
+title: Playbook: Build Widget Library
+skill: gui-engineering
+category: playbooks
+difficulty: intermediate
+tags: [pe, windows, imgui, gui]
+updated: 2026-07-05
+---
 # Playbook: Build Widget Library
 
 ## Purpose

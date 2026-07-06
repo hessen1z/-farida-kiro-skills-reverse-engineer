@@ -1,3 +1,11 @@
+---
+title: Network Protocol Analysis Prompt
+skill: networking
+category: prompts
+difficulty: advanced
+tags: [pe, windows, driver, networking, gui]
+updated: 2026-07-05
+---
 # Network Protocol Analysis Prompt
 
 ## Prompt

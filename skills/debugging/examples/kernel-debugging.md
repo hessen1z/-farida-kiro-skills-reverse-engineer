@@ -1,3 +1,11 @@
+---
+title: Kernel Debugging Example
+skill: debugging
+category: examples
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Kernel Debugging Example
 
 ## Scenario

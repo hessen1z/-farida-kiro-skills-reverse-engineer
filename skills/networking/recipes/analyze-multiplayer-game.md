@@ -1,3 +1,11 @@
+---
+title: Analyze Multiplayer Game Recipe
+skill: networking
+category: recipes
+difficulty: intermediate
+tags: [pe, networking, gui]
+updated: 2026-07-05
+---
 # Analyze Multiplayer Game Recipe
 
 ## Purpose

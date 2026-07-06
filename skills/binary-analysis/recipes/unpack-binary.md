@@ -1,3 +1,11 @@
+---
+title: Unpack Binary Recipe
+skill: binary-analysis
+category: recipes
+difficulty: intermediate
+tags: [pe, loader, debug, elf]
+updated: 2026-07-05
+---
 # Unpack Binary Recipe
 
 ## Goal

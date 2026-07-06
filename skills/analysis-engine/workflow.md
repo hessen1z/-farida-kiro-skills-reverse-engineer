@@ -1,3 +1,11 @@
+---
+title: workflow
+skill: analysis-engine
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 Analysis Workflow
 
 Canonical workflow to apply for analytical tasks; each step produces auditable outputs.

@@ -1,3 +1,11 @@
+---
+title: Security Analysis Prompt
+skill: game-security
+category: prompts
+difficulty: advanced
+tags: [pe, anti-cheat, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Security Analysis Prompt
 
 ## Prompt

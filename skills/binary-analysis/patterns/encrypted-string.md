@@ -1,3 +1,11 @@
+---
+title: Encrypted String Pattern
+skill: binary-analysis
+category: patterns
+difficulty: intermediate
+tags: [pe, malware, elf]
+updated: 2026-07-05
+---
 # Encrypted String Pattern
 
 ## Overview

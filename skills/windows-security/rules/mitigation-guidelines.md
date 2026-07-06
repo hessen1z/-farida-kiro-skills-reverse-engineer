@@ -1,3 +1,11 @@
+---
+title: Windows Security Rules
+skill: windows-security
+category: rules
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Windows Security Rules
 
 ## Rule: Verify Mitigation Claims

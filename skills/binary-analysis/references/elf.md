@@ -1,3 +1,11 @@
+---
+title: ELF References
+skill: binary-analysis
+category: references
+difficulty: intermediate
+tags: [pe, gui, debug, elf]
+updated: 2026-07-05
+---
 # ELF References
 
 - System V Application Binary Interface (ABI) - ELF Specification

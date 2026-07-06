@@ -1,3 +1,11 @@
+---
+title: quality-control
+skill: analysis-engine
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 Quality Control Checklist
 
 Before producing any final answer, run this checklist and record results.

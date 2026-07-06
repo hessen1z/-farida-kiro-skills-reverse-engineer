@@ -1,3 +1,11 @@
+---
+title: Dear ImGui UI Reconstruction Recipe
+skill: gui-engineering
+category: recipes
+difficulty: intermediate
+tags: [pe, imgui, gui]
+updated: 2026-07-05
+---
 # Dear ImGui UI Reconstruction Recipe
 
 ## Goal
@@ -13,8 +21,8 @@ Convert a screenshot, mockup, wireframe, or existing desktop application UI into
 1. Analyze the reference and identify the main regions: header, content, sidebar, footer, tables, and controls.
 2. Extract spacing, font hierarchy, color palette, padding, and component density.
 3. Break the UI into reusable widgets and panels.
-4. Implement layout skeletons in Dear ImGui with simple placeholder content.
-5. Replace placeholders with custom DrawList visuals where necessary.
+4. Create a skeletal Dear ImGui layout that preserves the structure before refining visuals.
+5. Replace the temporary layout blocks with custom DrawList visuals or richer widgets where necessary.
 6. Apply theme tokens and verify consistency across the interface.
 7. Review visual quality at different window sizes and DPI settings.
 

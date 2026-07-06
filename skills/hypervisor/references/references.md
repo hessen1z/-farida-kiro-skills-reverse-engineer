@@ -1,3 +1,11 @@
+---
+title: Hypervisor References
+skill: hypervisor
+category: references
+difficulty: intermediate
+tags: [pe, windows, gui, kernel]
+updated: 2026-07-05
+---
 # Hypervisor References
 
 - Intel 64 and IA-32 Architectures Software Developer’s Manual

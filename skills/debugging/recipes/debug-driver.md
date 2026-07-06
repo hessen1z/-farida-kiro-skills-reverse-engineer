@@ -1,3 +1,11 @@
+---
+title: Debug Driver Recipe
+skill: debugging
+category: recipes
+difficulty: intermediate
+tags: [pe, windows, driver, kernel, debug]
+updated: 2026-07-05
+---
 # Debug Driver Recipe
 
 ## Purpose

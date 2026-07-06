@@ -1,3 +1,11 @@
+---
+title: renaming
+skill: analysis-engine
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 Semantic Renaming Guidelines
 
 Purpose: Provide rules for naming recovered symbols and data to maximize clarity and minimize error.

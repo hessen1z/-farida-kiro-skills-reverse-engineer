@@ -1,3 +1,11 @@
+---
+title: Portable Executable (PE)
+skill: binary-analysis
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, loader, asm, x64, anti-cheat, driver, malware, pdb, gui, kernel, debug, dll, elf]
+updated: 2026-07-05
+---
 # Portable Executable (PE)
 
 ## Overview
@@ -93,6 +101,22 @@ FILE LAYOUT
 | NT HEADERS             |
 +------------------------+
 | SECTION HEADERS        |
+
+## Practical Guidance
+
+- Start PE analysis by validating DOS/NT headers and section mappings before interpreting data directories.
+- When manually mapping or unpacking images, apply base relocations prior to resolving imports and TLS callbacks.
+
+## Tools & Commands
+
+- `dumpbin /headers`, `pefile` (Python), `CFF Explorer`, `rizin`, and `radare2` for static PE inspection.
+- Use `WinDbg` for runtime mapping inspection and `scylla`/`Process Hacker` for dumping live images.
+
+## Validation Checklist
+
+- Verify `SizeOfImage`, section virtual addresses, and RVA→file offset conversions are consistent.
+- Confirm relocations and import resolutions succeed in a controlled runtime and that TLS callbacks are understood and documented.
+
 +------------------------+
 | .text raw data         |
 +------------------------+

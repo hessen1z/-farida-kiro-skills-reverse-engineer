@@ -1,3 +1,11 @@
+---
+title: Hypervisor Knowledge
+skill: hypervisor
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Hypervisor Knowledge
 
 ## Overview

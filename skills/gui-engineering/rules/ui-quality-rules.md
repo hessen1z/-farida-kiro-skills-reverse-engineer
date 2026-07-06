@@ -1,3 +1,11 @@
+---
+title: GUI Quality Rules
+skill: gui-engineering
+category: rules
+difficulty: intermediate
+tags: [pe, imgui, gui]
+updated: 2026-07-05
+---
 # GUI Quality Rules
 
 ## Core Rules

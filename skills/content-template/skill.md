@@ -44,7 +44,7 @@ Purpose: Provide canonical reusable templates and structure guidelines for all r
 ## Typical Workflow
 1. Choose the template for the document type.
 2. Copy the template into the new file.
-3. Replace example headings and placeholder text with topic-specific content.
+3. Adapt the example headings and supporting text to the topic you are documenting.
 4. Validate the finished document against writing guidelines and repository style.
 
 ## Templates Included

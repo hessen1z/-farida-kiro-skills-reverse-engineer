@@ -1,3 +1,11 @@
+---
+title: Obfuscated Jump Pattern
+skill: binary-analysis
+category: patterns
+difficulty: intermediate
+tags: [pe, gui, elf]
+updated: 2026-07-05
+---
 # Obfuscated Jump Pattern
 
 ## Overview

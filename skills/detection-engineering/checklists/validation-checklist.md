@@ -1,3 +1,11 @@
+---
+title: Detection Validation Checklist
+skill: detection-engineering
+category: checklists
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Detection Validation Checklist
 
 - Confirm the telemetry source and event schema.

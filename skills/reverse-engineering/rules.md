@@ -1,3 +1,11 @@
+---
+title: Reverse Engineering — Operating Rules
+skill: reverse-engineering
+category: 
+difficulty: advanced
+tags: [pe, x64, driver, pdb, gui, debug, dll, elf]
+updated: 2026-07-05
+---
 # Reverse Engineering — Operating Rules
 
 > Strict operating rules for the Reverse Engineering Expert skill.

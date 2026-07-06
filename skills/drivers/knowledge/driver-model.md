@@ -1,3 +1,11 @@
+---
+title: Windows Driver Model
+skill: drivers
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Windows Driver Model
 
 ## Overview
@@ -25,6 +33,37 @@ A driver typically:
 
 - Drivers must synchronize access to shared state and hardware.
 - IRP completion may occur in the dispatch routine or deferred via an I/O completion routine.
+
+## IRP Lifecycle and Dispatch
+
+- A driver receives IRPs via the `MajorFunction` table installed in `DRIVER_OBJECT`.
+- Common major functions: `IRP_MJ_CREATE`, `IRP_MJ_CLOSE`, `IRP_MJ_DEVICE_CONTROL`, `IRP_MJ_READ`, `IRP_MJ_WRITE`.
+- A typical dispatch routine validates parameters, processes or forwards the IRP, and either completes it or queues it for later completion.
+
+Pseudo-code example:
+
+```c
+NTSTATUS MyDispatch(PDEVICE_OBJECT DeviceObject, PIRP Irp) {
+		PIO_STACK_LOCATION sl = IoGetCurrentIrpStackLocation(Irp);
+		switch (sl->MajorFunction) {
+			case IRP_MJ_CREATE: /* init */ break;
+			case IRP_MJ_DEVICE_CONTROL: /* handle IOCTLs */ break;
+		}
+		IoCompleteRequest(Irp, IO_NO_INCREMENT);
+		return STATUS_SUCCESS;
+}
+```
+
+## Synchronization and Common Bugs
+
+- Use appropriate synchronization (spinlocks for IRQL-critical paths, mutexes for pageable contexts).
+- Beware of paging and running at DISPATCH_LEVEL; do not call paged APIs at high IRQL.
+- Common bugs: double-free of device objects, missed IoDeleteSymbolicLink on unload, leaking IRPs.
+
+## Debugging Tips
+
+- Use `!drvobj` and `!devobj` in WinDbg to inspect driver and device objects.
+- Trace IRP paths by instrumenting dispatch routines with debug prints or by setting breakpoints on `IoCreateDevice` and major functions.
 
 ## References
 
@@ -68,3 +107,13 @@ A driver typically:
 - Ensure the document points to the most relevant examples, recipes, or playbooks.
 - Validate that the terminology is consistent with the rest of the skill.
 - Check that the practical guidance is specific enough to be used without further interpretation.
+
+## Tools & Commands
+
+- WinDbg: `!drvobj`, `!devobj`, `!irp` for driver and IRP inspection.
+- Windows Driver Kit (WDK) tooling for build/test, `Driver Verifier` for runtime stress, and `symchk`/`symstore` for symbols.
+
+## Validation Checklist (Driver)
+
+- Verify dispatch routines correctly forward and complete IRPs under normal and error conditions.
+- Run `Driver Verifier` and stress tests to detect resource leaks, race conditions, and incorrect IRQL usage.
