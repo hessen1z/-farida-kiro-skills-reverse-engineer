@@ -1,3 +1,11 @@
+---
+title: Design Memory Manager Recipe
+skill: system-design
+category: recipes
+difficulty: intermediate
+tags: [pe, gui, debug]
+updated: 2026-07-05
+---
 # Design Memory Manager Recipe
 
 ## Goal

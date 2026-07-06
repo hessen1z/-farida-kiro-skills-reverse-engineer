@@ -1,3 +1,11 @@
+---
+title: Dear ImGui Architecture
+skill: gui-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, imgui, gui, debug]
+updated: 2026-07-05
+---
 # Dear ImGui Architecture
 
 ## Overview
@@ -70,4 +78,24 @@ A typical Dear ImGui application contains:
 
 ### Checklists
 - [ui-quality-checklist](../checklists/ui-quality-checklist.md)
+
+## Practical Guidance
+
+- Keep frame work light and avoid heavy allocations inside the frame submission path.
+- Design widgets as reusable components and avoid mixing rendering concerns with business logic.
+
+## Tools & Commands
+
+- Use Dear ImGui demo and sample backends to test renderer integration.
+- Profile frame timings to identify UI-induced stalls.
+
+## Validation Checklist
+
+- Verify that the UI rebuild timeline is stable across typical workloads.
+- Ensure font atlas and texture uploads are batched and do not occur every frame.
+
+## Example Workflow
+
+1. Build a small demo with custom widgets and verify rendering across multiple backends.
+2. Profile and reduce allocations and texture uploads inside the frame loop.
 

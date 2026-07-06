@@ -1,3 +1,11 @@
+---
+title: Trace Input Recipe
+skill: game-engines
+category: recipes
+difficulty: intermediate
+tags: [pe, loader, debug]
+updated: 2026-07-05
+---
 # Trace Input Recipe
 
 ## Purpose

@@ -1,3 +1,11 @@
+---
+title: SSDT Usage Pattern
+skill: kernel
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # SSDT Usage Pattern
 
 ## Pattern Name

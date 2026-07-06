@@ -1,3 +1,11 @@
+---
+title: Event Dispatcher Example
+skill: system-design
+category: examples
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Event Dispatcher Example
 
 ## Overview

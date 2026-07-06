@@ -1,3 +1,11 @@
+---
+title: WinDbg Crash Analysis Example
+skill: debugging
+category: examples
+difficulty: intermediate
+tags: [pe, gui, kernel, debug]
+updated: 2026-07-05
+---
 # WinDbg Crash Analysis Example
 
 ## Scenario

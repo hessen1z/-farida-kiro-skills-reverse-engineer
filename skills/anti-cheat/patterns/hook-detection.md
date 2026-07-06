@@ -1,3 +1,11 @@
+---
+title: Hook Detection Pattern
+skill: anti-cheat
+category: patterns
+difficulty: intermediate
+tags: [pe, anti-cheat, driver]
+updated: 2026-07-05
+---
 # Hook Detection Pattern
 
 ## Pattern Name

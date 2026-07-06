@@ -1,3 +1,11 @@
+---
+title: Driver Lifecycle Playbook
+skill: drivers
+category: playbooks
+difficulty: intermediate
+tags: [pe, windows, driver, gui, debug]
+updated: 2026-07-05
+---
 # Driver Lifecycle Playbook
 
 ## Objective

@@ -1,3 +1,11 @@
+---
+title: Secure Protocol Review Playbook
+skill: networking
+category: playbooks
+difficulty: intermediate
+tags: [pe, networking, gui, elf]
+updated: 2026-07-05
+---
 # Secure Protocol Review Playbook
 
 ## Goal

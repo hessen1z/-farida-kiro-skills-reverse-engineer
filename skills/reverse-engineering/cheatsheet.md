@@ -1,3 +1,11 @@
+---
+title: Reverse Engineering Cheatsheet
+skill: reverse-engineering
+category: 
+difficulty: intermediate
+tags: [pe, asm, x64, driver, debug, dll, elf]
+updated: 2026-07-05
+---
 # Reverse Engineering Cheatsheet
 
 > Quick reference. Memorize the patterns. Master the keystrokes.

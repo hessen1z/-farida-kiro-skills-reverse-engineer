@@ -1,3 +1,11 @@
+---
+title: Code Integrity Analysis Prompt
+skill: windows-security
+category: prompts
+difficulty: intermediate
+tags: [pe, windows, driver, gui]
+updated: 2026-07-05
+---
 # Code Integrity Analysis Prompt
 
 - Determine whether this Windows binary or driver is subject to code integrity enforcement.

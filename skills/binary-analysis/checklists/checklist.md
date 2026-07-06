@@ -1,3 +1,11 @@
+---
+title: Binary Analysis Checklist
+skill: binary-analysis
+category: checklists
+difficulty: intermediate
+tags: [pe, loader, pdb, debug, dll, elf, mach-o]
+updated: 2026-07-05
+---
 # Binary Analysis Checklist
 
 ## PE/ELF/Mach-O validation

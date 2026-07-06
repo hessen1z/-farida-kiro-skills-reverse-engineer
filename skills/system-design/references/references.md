@@ -1,3 +1,11 @@
+---
+title: System Design References
+skill: system-design
+category: references
+difficulty: intermediate
+tags: [pe, windows, gui]
+updated: 2026-07-05
+---
 # System Design References
 
 - "Clean Architecture" by Robert C. Martin

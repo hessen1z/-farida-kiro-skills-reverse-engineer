@@ -1,3 +1,11 @@
+---
+title: common-failures
+skill: analysis-engine
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 Common Failures in Analysis
 
 List of common reasoning failures, with causes and mitigations.

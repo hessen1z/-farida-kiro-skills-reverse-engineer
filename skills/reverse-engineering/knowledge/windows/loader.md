@@ -1,3 +1,11 @@
+---
+title: Windows Loader
+skill: reverse-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, loader, gui, debug, dll]
+updated: 2026-07-05
+---
 # Windows Loader
 
 The Windows loader is responsible for preparing a PE image to execute: mapping
@@ -29,6 +37,21 @@ Examples and related files:
 - knowledge/windows/peb.md
 - patterns/constructor.md
 - recipes/Recover_Classes.md
+
+## Practical Guidance
+
+- When analyzing loaders, instrument the import resolution and relocation steps to see how modules are mapped.
+- Identify loader-stage decryption or integrity checks that may hide real code until runtime.
+
+## Tools & Commands
+
+- Use a debugger to set breakpoints on `LdrLoadDll`/`LoadLibrary` and observe parameters and return paths.
+- Inspect relocation and import thunks in memory dumps to confirm correct mapping.
+
+## Validation Checklist
+
+- Confirm that loaded modules' sections have expected protections and content after relocation.
+- Verify that any lazy binding or delay-load behavior completes as expected during startup.
 
 ## Related Material
 

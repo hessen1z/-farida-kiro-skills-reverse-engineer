@@ -1,3 +1,11 @@
+---
+title: Multiplayer Network Playbook
+skill: networking
+category: playbooks
+difficulty: intermediate
+tags: [pe, networking, gui]
+updated: 2026-07-05
+---
 # Multiplayer Network Playbook
 
 ## Goal

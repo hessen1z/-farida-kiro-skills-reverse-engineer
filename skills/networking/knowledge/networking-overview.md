@@ -1,3 +1,11 @@
+---
+title: Networking Knowledge
+skill: networking
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, driver, networking, gui, kernel]
+updated: 2026-07-05
+---
 # Networking Knowledge
 
 ## Overview
@@ -167,6 +175,53 @@ Performance depends on batching, minimizing system calls, reducing packet overhe
 - `../patterns/packet-parsing.md`
 - `../recipes/analyze-packets.md`
 - `../playbooks/multiplayer-network-playbook.md`
+
+## Internal Architecture
+
+The networking stack is typically organized into link, network, transport, and application services, with Winsock bridging user-mode applications to kernel-mode implementation details.
+
+## Memory Layout
+
+Protocol processing uses per-socket state, packet buffers, routing tables, and connection state structures rather than a single monolithic memory model.
+
+## Data Structures
+
+- socket descriptors and connection state
+- packet buffers and headers
+- routing and NAT metadata
+
+## Reverse Engineering Notes
+
+- Reconstruct the stack from packets outward, then relate those observations back to Winsock and the Windows networking services.
+- Examine how socket state changes across connect, send, receive, and shutdown operations.
+
+## Common Mistakes
+
+- Treating application behavior as independent from transport and routing effects.
+- Ignoring the role of buffering and asynchronous I/O in observed behavior.
+
+## Validation Checklist
+
+- Confirm that the documented protocol stack explains observed packet flows and socket behavior.
+- Verify that the analysis covers both transport and application-layer expectations.
+
+## Related Patterns
+
+- [packet-parsing](../patterns/packet-parsing.md)
+- [replication-patterns](../patterns/replication-patterns.md)
+- [socket-initialization](../patterns/socket-initialization.md)
+
+## Related Recipes
+
+- [analyze-multiplayer-game](../recipes/analyze-multiplayer-game.md)
+- [analyze-packets](../recipes/analyze-packets.md)
+- [analyze-tcp-session](../recipes/analyze-tcp-session.md)
+
+## Related Playbooks
+
+- [analyze-network-stack](../playbooks/analyze-network-stack.md)
+- [multiplayer-network-playbook](../playbooks/multiplayer-network-playbook.md)
+- [network-performance](../playbooks/network-performance.md)
 
 ## Related Material
 

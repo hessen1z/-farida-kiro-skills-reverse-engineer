@@ -1,3 +1,11 @@
+---
+title: Anti-Cheat Rules
+skill: anti-cheat
+category: rules
+difficulty: intermediate
+tags: [pe, anti-cheat, driver, gui, kernel]
+updated: 2026-07-05
+---
 # Anti-Cheat Rules
 
 ## Rule 1: Evidence over assumption

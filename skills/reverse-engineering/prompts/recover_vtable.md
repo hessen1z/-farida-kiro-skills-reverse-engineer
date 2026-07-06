@@ -1,3 +1,11 @@
+---
+title: Prompt: Recover Vtable
+skill: reverse-engineering
+category: prompts
+difficulty: intermediate
+tags: [pe, asm, x64, gui, debug, elf]
+updated: 2026-07-05
+---
 # Prompt: Recover Vtable
 
 ## Objective

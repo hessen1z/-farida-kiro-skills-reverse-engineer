@@ -1,3 +1,11 @@
+---
+title: UPX Pattern
+skill: binary-analysis
+category: patterns
+difficulty: intermediate
+tags: [pe, loader, malware, elf]
+updated: 2026-07-05
+---
 # UPX Pattern
 
 ## Overview

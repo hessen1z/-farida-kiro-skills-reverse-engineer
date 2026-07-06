@@ -1,3 +1,11 @@
+---
+title: Asset Pipelines Knowledge
+skill: game-engines
+category: knowledge
+difficulty: intermediate
+tags: [pe, loader, gui]
+updated: 2026-07-05
+---
 # Asset Pipelines Knowledge
 
 ## Overview
@@ -61,4 +69,25 @@ At runtime, engines typically:
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Prefer streaming-friendly formats (mipmapped textures, compressed meshes) to reduce load latency.
+- Use background worker threads to preprocess and decompress assets off the main thread.
+
+## Tools & Commands
+
+- Use asset inspection tools provided by the engine or generic tools (`texture`/`model` viewers) to validate bundles.
+- For packed archives, use `xxd`/`hexdump` and custom extractors to inspect headers and offsets.
+
+## Validation Checklist
+
+- Confirm assets load correctly in-game and that memory usage is within expected budgets.
+- Verify fallback behavior when assets are missing or corrupted.
+
+## Example Workflow
+
+1. Identify asset bundles referenced by the launcher or engine.
+2. Extract and inspect a representative texture and mesh for format and metadata.
+3. Test streaming behavior by throttling IO and measuring frame stutter.
 

@@ -1,3 +1,11 @@
+---
+title: Analyze Hypervisor Playbook
+skill: hypervisor
+category: playbooks
+difficulty: intermediate
+tags: [pe, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Analyze Hypervisor Playbook
 
 ## Objective

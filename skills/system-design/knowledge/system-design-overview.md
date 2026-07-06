@@ -1,3 +1,11 @@
+---
+title: System Design Overview
+skill: system-design
+category: knowledge
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # System Design Overview
 
 ## Overview
@@ -200,4 +208,14 @@ Versioning strategies include semantic versioning, API compatibility rules, and 
 
 ### Checklists
 - [system-design-checklist](../checklists/system-design-checklist.md)
+
+## Tools & Commands
+
+- Use `CMake` or `Bazel` for build orchestration; `clang-tidy`, `cppcheck`, and `clang-format` for code quality enforcement.
+- Use CI systems (GitHub Actions, Azure Pipelines) to run tests, static analysis, and packaging.
+
+## Validation Checklist
+
+- Confirm module boundaries are enforced by the build system and that public interfaces are small and well-documented.
+- Validate performance targets with representative workloads and automated profiling in CI.
 

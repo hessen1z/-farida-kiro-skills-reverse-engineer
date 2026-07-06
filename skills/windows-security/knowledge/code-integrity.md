@@ -1,3 +1,11 @@
+---
+title: Code Integrity Knowledge
+skill: windows-security
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel]
+updated: 2026-07-05
+---
 # Code Integrity Knowledge
 
 ## Overview
@@ -61,4 +69,19 @@ Windows code integrity enforces that only trusted, signed binaries may execute i
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Inspect PE Authenticode signatures and catalog entries when investigating blocked loads.
+- When possible, reproduce integrity failures in a controlled lab with varying policy settings to isolate causes.
+
+## Tools & Commands
+
+- `signtool` and `sigcheck` to inspect signatures; `bcdedit` to examine boot policy and code integrity settings.
+- Use event logs and `kd`/WinDbg to gather evidence of load failures and integrity checks.
+
+## Validation Checklist
+
+- Confirm the certificate chain and timestamp in signatures for expected trust anchors.
+- Validate policy settings (HVCI, DSE) and reproduce load behavior under those policies.
 

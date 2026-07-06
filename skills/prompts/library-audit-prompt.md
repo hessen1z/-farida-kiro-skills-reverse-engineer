@@ -1,33 +1,37 @@
+---
+title: Full Library Audit Prompt
+skill: prompts
+category: 
+difficulty: intermediate
+tags: [pe, malware]
+updated: 2026-07-05
+---
 # Full Library Audit Prompt
 
-Perform a full library audit.
+## Objective
+Perform a full repository audit and improve the consistency, completeness, and quality of the library without redesigning its structure.
 
-Review every skill in the repository.
+## Required Context
+- The repository layout and existing skill folders.
+- The current documentation standards and content templates.
+- Any known gaps, duplicates, or weak documents.
 
-Your goals are:
-- Remove duplicated knowledge.
-- Improve cross-links.
-- Ensure every dependency is correct.
-- Standardize terminology.
-- Standardize metadata.
-- Verify all playbooks.
-- Verify all recipes.
-- Verify all patterns.
-- Verify examples.
-- Verify references.
-- Detect missing topics.
-- Detect inconsistent naming.
-- Detect broken workflows.
-- Improve documentation quality where needed.
+## Expected Output
+- A concise audit report describing missing topics, duplicate content, weak documentation, broken links, and improvement suggestions.
+- A quality assessment for each skill and an overall library maturity summary.
 
-Do not redesign the framework.
-Only improve consistency, completeness, and quality.
+## Related Skills
+- [analysis-engine](../analysis-engine)
+- [content-template](../content-template)
 
-Produce a final report with:
-- Missing topics
-- Duplicate content
-- Weak documentation
-- Broken links
-- Improvement suggestions
-- Overall quality score for each skill
-- Overall library maturity assessment
+## Related Playbooks
+- [Crash](../playbooks/Crash.md)
+- [Malware](../playbooks/Malware.md)
+
+## Related Recipes
+- [Build_SDK](../recipes/Build_SDK.md)
+- [Recover_Classes](../recipes/Recover_Classes.md)
+
+## Related Patterns
+- [constructor](../patterns/constructor.md)
+- [virtual-call](../patterns/virtual-call.md)

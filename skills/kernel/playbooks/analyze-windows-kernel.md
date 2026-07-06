@@ -1,3 +1,11 @@
+---
+title: Analyze Windows Kernel Playbook
+skill: kernel
+category: playbooks
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Analyze Windows Kernel Playbook
 
 ## Objective

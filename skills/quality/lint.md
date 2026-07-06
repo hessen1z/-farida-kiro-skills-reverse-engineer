@@ -1,3 +1,11 @@
+---
+title: lint
+skill: quality
+category: 
+difficulty: intermediate
+tags: [gui]
+updated: 2026-07-05
+---
 Linting Guidelines
 
 Purpose: Define minimal quality checks for new files added to the library.

@@ -1,3 +1,11 @@
+---
+title: Memory Manager Example
+skill: system-design
+category: examples
+difficulty: intermediate
+tags: [pe, gui, debug]
+updated: 2026-07-05
+---
 # Memory Manager Example
 
 ## Overview

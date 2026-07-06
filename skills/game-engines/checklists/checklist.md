@@ -1,3 +1,11 @@
+---
+title: Game Engines Checklist
+skill: game-engines
+category: checklists
+difficulty: intermediate
+tags: [pe, loader]
+updated: 2026-07-05
+---
 # Game Engines Checklist
 
 ## Preparation

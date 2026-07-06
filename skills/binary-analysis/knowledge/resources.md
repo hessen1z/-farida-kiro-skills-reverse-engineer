@@ -1,3 +1,11 @@
+---
+title: Resource Sections
+skill: binary-analysis
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, loader, driver, malware, gui, debug, dll, elf]
+updated: 2026-07-05
+---
 # Resource Sections
 
 ## Overview

@@ -1,3 +1,11 @@
+---
+title: C++ RTTI in MSVC (Run-Time Type Information)
+skill: reverse-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, x64, debug, elf]
+updated: 2026-07-05
+---
 # C++ RTTI in MSVC (Run-Time Type Information)
 
 ## Overview
@@ -59,4 +67,14 @@ This is used to verify you have a valid COL and to rebase correctly.
 - [analyze_binary](../../../prompts/analyze_binary.md)
 - [analyze_crash](../../../prompts/analyze_crash.md)
 - [analyze_memory](../../../prompts/analyze_memory.md)
+
+## Practical Tools & Commands
+
+- Use `undname` or debugger demanglers to convert RTTI mangled names to readable identifiers.
+- Inspect vtable[-1] and the `_RTTICompleteObjectLocator` structure in IDA/Ghidra to recover type descriptors.
+
+## Practical Validation
+
+- Cross-check recovered type names with string references and exported symbols when available.
+- Use small test cases with known types to confirm COL and TypeDescriptor parsing logic.
 

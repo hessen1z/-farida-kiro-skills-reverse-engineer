@@ -1,3 +1,11 @@
+---
+title: Imports
+skill: binary-analysis
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, loader, asm, x64, anti-cheat, driver, cryptography, networking, gui, kernel, debug, dll, elf, mach-o]
+updated: 2026-07-05
+---
 # Imports
 
 ## Overview
@@ -310,6 +318,21 @@ The key concept is the same: imports define external dependencies and are essent
 - inspect `TimeDateStamp` for bound imports and suspicious versioning
 - use dynamic debugging to confirm whether imports are resolved before first use
 - document import categories and use them to prioritize analyst focus
+
+## Practical Guidance
+
+- Prefer dynamic validation: verify imports are actually invoked during execution traces or instrumented runs.
+- When static-only analysis is required, resolve ILT/IAT and delay-load descriptors first and verify pointer ranges.
+
+## Tools & Commands
+
+- `pefile` (Python), `CFF Explorer`, `rizin`, `radare2`, and `r2pipe` for scripted import enumeration.
+- Use debugger breakpoints on `LoadLibrary`/`GetProcAddress` and instrumentation frameworks (`frida`, `PIN`) for runtime checks.
+
+## Validation Checklist
+
+- Confirm each IAT entry points into the expected module's export address range at runtime.
+- Verify delayed imports are resolved when helper thunks execute and that bound imports reflect the expected DLL versions.
 
 ## References
 

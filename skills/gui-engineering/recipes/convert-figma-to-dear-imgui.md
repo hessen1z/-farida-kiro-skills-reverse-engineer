@@ -1,3 +1,11 @@
+---
+title: Recipe: Convert Figma to Dear ImGui
+skill: gui-engineering
+category: recipes
+difficulty: intermediate
+tags: [pe, imgui, gui]
+updated: 2026-07-05
+---
 # Recipe: Convert Figma to Dear ImGui
 
 ## Goal

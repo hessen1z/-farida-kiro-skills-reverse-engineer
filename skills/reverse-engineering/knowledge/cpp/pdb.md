@@ -1,3 +1,11 @@
+---
+title: PDB (Program Database)
+skill: reverse-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, pdb, gui, debug]
+updated: 2026-07-05
+---
 # PDB (Program Database)
 
 PDB files store debug symbols, type information, and source-file mappings. They are invaluable for recovering names, function prototypes, and class layouts when available.
@@ -36,3 +44,8 @@ Related:
 - Ensure the document points to the most relevant examples, recipes, or playbooks.
 - Validate that the terminology is consistent with the rest of the skill.
 - Check that the practical guidance is specific enough to be used without further interpretation.
+
+## Further Reading
+
+- DIA SDK documentation and examples for programmatic PDB access
+- Microsoft Symbol Server usage notes and best practices

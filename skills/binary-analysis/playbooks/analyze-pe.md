@@ -1,3 +1,11 @@
+---
+title: Analyze PE Playbook
+skill: binary-analysis
+category: playbooks
+difficulty: intermediate
+tags: [pe, windows, loader, pdb, debug, dll, elf]
+updated: 2026-07-05
+---
 # Analyze PE Playbook
 
 ## Goal

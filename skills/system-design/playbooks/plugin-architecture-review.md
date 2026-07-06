@@ -1,3 +1,11 @@
+---
+title: Plugin Architecture Review Playbook
+skill: system-design
+category: playbooks
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Plugin Architecture Review Playbook
 
 ## Goal

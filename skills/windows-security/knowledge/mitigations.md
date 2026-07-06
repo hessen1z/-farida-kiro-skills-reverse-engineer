@@ -1,3 +1,11 @@
+---
+title: Windows Security Mitigations
+skill: windows-security
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Windows Security Mitigations
 
 ## Overview
@@ -22,6 +30,21 @@ Windows includes built-in mitigations to protect processes and the operating sys
 
 - These mitigations can impact debugging and analysis when attached to protected targets.
 - Some mitigations are enforced by the kernel or by a hypervisor.
+
+## Practical Guidance
+
+- When analyzing protected targets, plan for controlled environments that allow mitigation-aware tracing (instrumented builds, test policies).
+- Record expected debugger limitations and prefer offline artifact collection when kernel-enforced mitigations prevent live inspection.
+
+## Tools & Commands
+
+- Use `sigcheck`/`signtool` to inspect code signing and `bcdedit`/`systeminfo` to enumerate enabled mitigations.
+- For hypervisor-based mitigations, use hypervisor debugging tools to inspect secure kernel state where available.
+
+## Validation Checklist
+
+- Verify which mitigations are enabled on the target and document their impact on analysis tooling.
+- Confirm alternative artifact collection methods when live debugging is restricted by mitigations.
 
 ## References
 

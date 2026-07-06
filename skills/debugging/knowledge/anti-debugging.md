@@ -1,3 +1,11 @@
+---
+title: Anti-Debugging Knowledge
+skill: debugging
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug, elf]
+updated: 2026-07-05
+---
 # Anti-Debugging Knowledge
 
 ## Overview

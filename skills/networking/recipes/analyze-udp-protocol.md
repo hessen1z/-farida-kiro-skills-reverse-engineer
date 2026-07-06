@@ -1,3 +1,11 @@
+---
+title: Analyze UDP Protocol Recipe
+skill: networking
+category: recipes
+difficulty: intermediate
+tags: [pe, networking, gui]
+updated: 2026-07-05
+---
 # Analyze UDP Protocol Recipe
 
 ## Purpose

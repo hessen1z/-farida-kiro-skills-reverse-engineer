@@ -1,3 +1,11 @@
+---
+title: Playbook Template
+skill: content-template
+category: playbooks
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Playbook Template
 
 ## Playbook Title

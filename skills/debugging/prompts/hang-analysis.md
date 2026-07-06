@@ -1,3 +1,11 @@
+---
+title: Hang Analysis Prompt
+skill: debugging
+category: prompts
+difficulty: advanced
+tags: [pe, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Hang Analysis Prompt
 
 ## Prompt

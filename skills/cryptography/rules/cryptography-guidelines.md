@@ -1,3 +1,11 @@
+---
+title: Cryptography Guidelines
+skill: cryptography
+category: rules
+difficulty: intermediate
+tags: [pe, cryptography, gui]
+updated: 2026-07-05
+---
 # Cryptography Guidelines
 
 ## Principles

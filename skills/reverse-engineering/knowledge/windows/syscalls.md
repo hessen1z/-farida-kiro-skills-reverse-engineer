@@ -1,3 +1,11 @@
+---
+title: Syscalls and Native API
+skill: reverse-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, asm, x64, unity, gui, kernel, dll]
+updated: 2026-07-05
+---
 # Syscalls and Native API
 
 Syscalls are the boundary into kernel mode. On x64 Windows, user-mode `ntdll` stubs typically use the `syscall` instruction with a syscall number in `rax`.
@@ -12,6 +20,32 @@ Recognition:
 
 Practical:
 - When you find a syscall stub, map the syscall number to an OS version if possible (use symbol servers or known tables).
+
+## Mapping and Instrumentation
+
+- To map syscall numbers: collect `ntdll` exports from the same OS build or consult published syscall tables for the target Windows version.
+- Use runtime tracing (ETW, Sysmon) or kernel tracing to observe syscall use in context to validate behavior.
+
+## Detection and Analysis Tips
+
+- Detect direct syscalls by searching for the `syscall` instruction sequences in `ntdll` or inline stubs.
+- Correlate found syscall numbers with function names using symbol servers or by referencing authoritative syscall tables.
+
+## Example: extract syscall number (pseudo)
+
+```asm
+mov r10, rcx
+mov eax, 0x3A   ; syscall number
+syscall
+ret
+```
+
+If inline numbers are used, confirm against OS-specific tables before drawing conclusions.
+
+## Tools
+
+- `ntdll` export analysis tools, `sc.exe`, `windbg` with symbol servers, and community syscall tables.
+
 
 Related:
 - knowledge/windows/ntdll.md

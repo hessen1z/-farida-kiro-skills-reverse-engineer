@@ -1,3 +1,11 @@
+---
+title: Telemetry and Detection Pipelines
+skill: detection-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, gui, debug]
+updated: 2026-07-05
+---
 # Telemetry and Detection Pipelines
 
 ## Overview
@@ -55,4 +63,19 @@ Common pipeline stages:
 
 ### Checklists
 - [validation-checklist](../checklists/validation-checklist.md)
+
+## Practical Guidance
+
+- Define telemetry schemas early and enforce them at collection time.
+- Instrument timestamps and unique identifiers to correlate events across systems.
+
+## Tools & Pipelines
+
+- Use message queues (Kafka, RabbitMQ) for high-throughput telemetry ingestion.
+- Use parsers and normalizers to produce canonical events for rule engines.
+
+## Validation Checklist
+
+- Confirm event schemas are versioned and backward-compatible.
+- Verify end-to-end latency and loss characteristics under load.
 

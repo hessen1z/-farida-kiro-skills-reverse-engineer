@@ -1,3 +1,11 @@
+---
+title: Reverse Engineering Best Practices
+skill: reverse-engineering
+category: 
+difficulty: intermediate
+tags: [pe, asm, x64, anti-cheat, malware, pdb, kernel, debug, dll, elf]
+updated: 2026-07-05
+---
 # Reverse Engineering Best Practices
 
 > Principles and habits of professional reverse engineers. These apply whether you are analyzing malware, performing vulnerability research, or understanding proprietary software.

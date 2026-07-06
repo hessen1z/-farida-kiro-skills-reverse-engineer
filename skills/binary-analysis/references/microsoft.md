@@ -1,3 +1,11 @@
+---
+title: Microsoft References
+skill: binary-analysis
+category: references
+difficulty: intermediate
+tags: [pe, windows, loader, gui, kernel, debug, elf]
+updated: 2026-07-05
+---
 # Microsoft References
 
 - Microsoft Debug Interface Access SDK documentation

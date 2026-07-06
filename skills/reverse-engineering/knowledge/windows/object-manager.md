@@ -1,3 +1,11 @@
+---
+title: Object Manager (Handles and Kernel Objects)
+skill: reverse-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel, dll]
+updated: 2026-07-05
+---
 # Object Manager (Handles and Kernel Objects)
 
 The Object Manager is a kernel component that manages named kernel objects and handle tables. In user-mode RE you will mostly interact via handles returned by Win32 API, but understanding object types and semantics helps with behavioral analysis.
@@ -37,3 +45,13 @@ Related:
 - Ensure the document points to the most relevant examples, recipes, or playbooks.
 - Validate that the terminology is consistent with the rest of the skill.
 - Check that the practical guidance is specific enough to be used without further interpretation.
+
+## Tools & Commands
+
+- Use `WinObj` and `handle.exe` to enumerate named objects and handle owners.
+- Inspect `\BaseNamedObjects` and session namespaces to find IPC channels and shared resources.
+
+## Validation Checklist (extended)
+
+- Validate that discovered named objects are created by the expected process and not a stray artifact.
+- Confirm that device paths map to driver objects and that drivers are present in loaded modules.

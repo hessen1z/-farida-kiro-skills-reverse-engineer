@@ -1,3 +1,11 @@
+---
+title: Protected Process Analysis Example
+skill: windows-security
+category: examples
+difficulty: intermediate
+tags: [pe, gui, debug]
+updated: 2026-07-05
+---
 # Protected Process Analysis Example
 
 ## Scenario

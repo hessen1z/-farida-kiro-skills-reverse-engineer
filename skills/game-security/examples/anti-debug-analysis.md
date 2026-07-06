@@ -1,3 +1,11 @@
+---
+title: Anti-Debug Analysis Example
+skill: game-security
+category: examples
+difficulty: intermediate
+tags: [pe, anti-cheat, driver, gui, debug]
+updated: 2026-07-05
+---
 # Anti-Debug Analysis Example
 
 ## Scenario

@@ -1,3 +1,11 @@
+---
+title: Reverse Engineering Code Examples
+skill: reverse-engineering
+category: 
+difficulty: intermediate
+tags: [pe, windows, x64, pdb, kernel, dll]
+updated: 2026-07-05
+---
 # Reverse Engineering Code Examples
 
 > Production-quality C++ code demonstrating the core techniques. All examples target Windows x64. Build with MSVC 2019+ or Clang-cl.

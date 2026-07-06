@@ -1,3 +1,11 @@
+---
+title: Kernel Analysis Prompt
+skill: kernel
+category: prompts
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Kernel Analysis Prompt
 
 - Identify the Windows kernel subsystem or driver component under analysis.

@@ -1,3 +1,11 @@
+---
+title: VM Entry/Exit Example
+skill: hypervisor
+category: examples
+difficulty: intermediate
+tags: [pe, asm, gui]
+updated: 2026-07-05
+---
 # VM Entry/Exit Example
 
 ## Scenario

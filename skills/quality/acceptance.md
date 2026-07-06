@@ -1,3 +1,11 @@
+---
+title: acceptance
+skill: quality
+category: 
+difficulty: intermediate
+tags: [pe]
+updated: 2026-07-05
+---
 Acceptance Criteria
 
 Before merging any new skill or major change, ensure:

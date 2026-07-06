@@ -1,3 +1,11 @@
+---
+title: Detection and Enforcement Playbook
+skill: anti-cheat
+category: playbooks
+difficulty: intermediate
+tags: [pe, anti-cheat, driver, kernel]
+updated: 2026-07-05
+---
 # Detection and Enforcement Playbook
 
 ## Objective

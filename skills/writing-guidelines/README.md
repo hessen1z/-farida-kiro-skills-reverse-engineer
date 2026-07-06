@@ -1,3 +1,11 @@
+---
+title: Writing Guidelines Skill
+skill: writing-guidelines
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Writing Guidelines Skill
 
 This directory captures editorial guidance and review criteria for repository content.

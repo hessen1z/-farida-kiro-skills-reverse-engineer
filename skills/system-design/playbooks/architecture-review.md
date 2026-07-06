@@ -1,3 +1,11 @@
+---
+title: Architecture Review Playbook
+skill: system-design
+category: playbooks
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Architecture Review Playbook
 
 ## Goal

@@ -1,3 +1,11 @@
+---
+title: Process Protection Pattern
+skill: windows-security
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Process Protection Pattern
 
 ## Pattern Name

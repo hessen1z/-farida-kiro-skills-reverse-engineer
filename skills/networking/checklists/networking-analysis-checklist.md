@@ -1,3 +1,11 @@
+---
+title: Networking Analysis Checklist
+skill: networking
+category: checklists
+difficulty: intermediate
+tags: [pe, networking, gui]
+updated: 2026-07-05
+---
 # Networking Analysis Checklist
 
 - [ ] Identify the protocol stack and verify layer boundaries.

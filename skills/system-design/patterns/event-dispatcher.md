@@ -1,3 +1,11 @@
+---
+title: Event Dispatcher Patterns
+skill: system-design
+category: patterns
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Event Dispatcher Patterns
 
 ## Overview

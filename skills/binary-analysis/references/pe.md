@@ -1,3 +1,11 @@
+---
+title: PE References
+skill: binary-analysis
+category: references
+difficulty: intermediate
+tags: [pe, windows, loader, gui, elf]
+updated: 2026-07-05
+---
 # PE References
 
 - Microsoft PE/COFF Specification

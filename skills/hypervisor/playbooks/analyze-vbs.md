@@ -1,3 +1,11 @@
+---
+title: Analyze VBS Playbook
+skill: hypervisor
+category: playbooks
+difficulty: intermediate
+tags: [pe, windows, gui, kernel]
+updated: 2026-07-05
+---
 # Analyze VBS Playbook
 
 ## Objective

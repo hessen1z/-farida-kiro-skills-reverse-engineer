@@ -1,3 +1,11 @@
+---
+title: Analyze Hang Recipe
+skill: debugging
+category: recipes
+difficulty: intermediate
+tags: [pe, kernel, debug]
+updated: 2026-07-05
+---
 # Analyze Hang Recipe
 
 ## Purpose

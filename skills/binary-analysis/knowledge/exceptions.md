@@ -1,3 +1,11 @@
+---
+title: Exception Handling Metadata
+skill: binary-analysis
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, loader, x64, malware, pdb, gui, debug, elf]
+updated: 2026-07-05
+---
 # Exception Handling Metadata
 
 ## Overview
@@ -129,6 +137,21 @@ Check whether unwind entries cover the entire code range and whether chained unw
 ### References
 - [elf](../references/elf.md)
 - [intel](../references/intel.md)
+
+## Practical Guidance
+
+- Use unwind metadata to recover accurate call stacks during crash analysis; if unwind info is missing, combine static heuristics with runtime traces.
+- Be aware that exception-based control flow is often used by protectors; instrument and capture faults to reveal payload behavior.
+
+## Tools & Commands
+
+- WinDbg: `!analyze -v`, `!exchain`, and `!unwind` to inspect exception chains and unwind info.
+- `eu-unwind` / `llvm-objdump` / custom scripts to parse runtime function tables in stripped images.
+
+## Validation Checklist
+
+- Confirm unwind entries cover expected address ranges and that chained unwind info points to valid metadata.
+- Validate that SEH chains on x86 are intact and that exception handlers do not point to non-code regions.
 - [microsoft](../references/microsoft.md)
 
 ### Rules

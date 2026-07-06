@@ -1,3 +1,11 @@
+---
+title: IRP Completion Example
+skill: drivers
+category: examples
+difficulty: intermediate
+tags: [pe, driver, gui, debug]
+updated: 2026-07-05
+---
 # IRP Completion Example
 
 ## Scenario

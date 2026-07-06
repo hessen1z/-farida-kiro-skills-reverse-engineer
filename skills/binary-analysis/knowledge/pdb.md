@@ -1,3 +1,11 @@
+---
+title: Program Database (PDB)
+skill: binary-analysis
+category: knowledge
+difficulty: advanced
+tags: [pe, windows, loader, pdb, gui, debug, dll, elf]
+updated: 2026-07-05
+---
 # Program Database (PDB)
 
 ## Overview
@@ -110,6 +118,16 @@ The DIA SDK offers programmatic access to PDB streams, symbol records, type info
 - `../knowledge/symbols.md`
 - `../recipes/recover-pdb.md`
 - `../references/microsoft.md`
+
+## Tools & Commands
+
+- DIA SDK (`msdia140.dll`) for programmatic PDB access and symbol extraction.
+- `DbgHelp` APIs, `cdb`/`windbg` symbol loaders, and `symchk`/`symstore` utilities for symbol management.
+
+## Validation Checklist
+
+- Confirm the PDB GUID and age match the binary's debug directory before using the PDB for symbol resolution.
+- Verify loaded symbols produce expected stack traces and source mappings in a controlled debug session.
 
 ## References
 

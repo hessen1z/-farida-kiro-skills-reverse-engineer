@@ -1,3 +1,11 @@
+---
+title: Obfuscation
+skill: binary-analysis
+category: knowledge
+difficulty: intermediate
+tags: [pe, loader, malware, gui, debug, elf]
+updated: 2026-07-05
+---
 # Obfuscation
 
 ## Overview
@@ -80,4 +88,24 @@ Often used to modify page permissions during self-modifying code execution.
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Identify and isolate decryption/loader stubs before attempting to deobfuscate.
+- Prefer dynamic dumping after unpacking stages to obtain a clean memory image.
+
+## Tools & Techniques
+
+- Use emulation (Unicorn, QEMU) for controlled deobfuscation of small regions.
+- Use dynamic tracing to capture decrypted code pages at runtime.
+
+## Validation Checklist
+
+- Verify recovered code executes equivalently to observed runtime behavior.
+- Document the deobfuscation steps and scripts used for reproducibility.
+
+## Example Workflow
+
+1. Identify entry stub and trace unpacking/decryption steps.
+2. Dump memory after unpacking and migrate analysis to the dumped image.
 

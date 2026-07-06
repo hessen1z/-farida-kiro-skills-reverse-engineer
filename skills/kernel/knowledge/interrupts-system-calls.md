@@ -1,3 +1,11 @@
+---
+title: Interrupts and System Calls Knowledge
+skill: kernel
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, x64, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Interrupts and System Calls Knowledge
 
 ## Overview
@@ -93,4 +101,18 @@ Frequent system calls have overhead from mode switching and validation. Efficien
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- When tracing interrupts, focus on ISR/DPC separation and ensure minimal work at high IRQL.
+- For syscall analysis, correlate syscall numbers to OS versions and inspect dispatcher validation paths.
+
+## Tools & Commands
+
+- WinDbg: `!dpc`, `!irp`, `!ssdt`, and `!kd` for syscall/interrupt inspection.
+
+## Validation Checklist
+
+- Confirm DPC queues are not backlogged and that ISR paths correctly queue deferred work.
+- Validate system call parameter validation and check for improper user-mode dereferences.
 

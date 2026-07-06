@@ -1,3 +1,11 @@
+---
+title: Import Table Pattern
+skill: binary-analysis
+category: patterns
+difficulty: intermediate
+tags: [pe, loader, kernel, dll, elf]
+updated: 2026-07-05
+---
 # Import Table Pattern
 
 ## Overview

@@ -14,9 +14,9 @@ Status: Stable
 
 ## Missing root docs
 - SYSTEM.md
-- skill-map.md
-- skill-priority.md
-- skill-selection.md
+- skills/skill-map.md
+- skills/skill-priority.md
+- skills/skill-selection.md
 
 
 

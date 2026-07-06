@@ -1,3 +1,11 @@
+---
+title: Key Management Patterns
+skill: cryptography
+category: patterns
+difficulty: intermediate
+tags: [pe, cryptography, gui]
+updated: 2026-07-05
+---
 # Key Management Patterns
 
 ## Overview

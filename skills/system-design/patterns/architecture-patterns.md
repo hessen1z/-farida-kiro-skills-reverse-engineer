@@ -1,3 +1,11 @@
+---
+title: Architecture Patterns
+skill: system-design
+category: patterns
+difficulty: intermediate
+tags: [pe, gui, kernel]
+updated: 2026-07-05
+---
 # Architecture Patterns
 
 ## Overview

@@ -1,3 +1,11 @@
+---
+title: Anti-Cheat References
+skill: anti-cheat
+category: references
+difficulty: intermediate
+tags: [pe, windows, anti-cheat, driver, gui, kernel]
+updated: 2026-07-05
+---
 # Anti-Cheat References
 
 - Anti-cheat architecture papers

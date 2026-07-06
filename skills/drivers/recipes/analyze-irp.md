@@ -1,3 +1,11 @@
+---
+title: Analyze IRP Recipe
+skill: drivers
+category: recipes
+difficulty: intermediate
+tags: [pe, windows, driver, debug]
+updated: 2026-07-05
+---
 # Analyze IRP Recipe
 
 ## Purpose

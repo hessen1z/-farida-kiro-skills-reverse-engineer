@@ -1,3 +1,11 @@
+---
+title: Performance
+skill: shared
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Performance
 
 Guidance for performance-sensitive analysis.

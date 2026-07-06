@@ -1,3 +1,11 @@
+---
+title: Kernel Memory Inspection Example
+skill: kernel
+category: examples
+difficulty: intermediate
+tags: [pe, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Kernel Memory Inspection Example
 
 ## Scenario

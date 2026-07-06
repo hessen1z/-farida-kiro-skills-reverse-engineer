@@ -1,3 +1,11 @@
+---
+title: System Design Checklist
+skill: system-design
+category: checklists
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # System Design Checklist
 
 - [ ] Identify system modules and their responsibilities.

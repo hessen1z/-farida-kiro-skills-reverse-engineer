@@ -1,3 +1,11 @@
+---
+title: checklists
+skill: analysis-engine
+category: 
+difficulty: intermediate
+tags: [pe, gui, elf]
+updated: 2026-07-05
+---
 Reusable Checklists
 
 Provide compact, actionable checklists for common analysis tasks. Use these as pre-flight checks before producing conclusions.

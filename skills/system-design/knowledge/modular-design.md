@@ -1,3 +1,11 @@
+---
+title: Modular Design Knowledge
+skill: system-design
+category: knowledge
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Modular Design Knowledge
 
 ## Overview
@@ -73,4 +81,14 @@ Modular design divides a system into discrete components with well-defined respo
 
 ### Checklists
 - [system-design-checklist](../checklists/system-design-checklist.md)
+
+## Tools & Commands
+
+- Prefer build-time dependency checks (`cmake --graphviz=dep.dot`) and static analyzers to detect hidden coupling.
+- Use package management and versioning tools (Conan, vcpkg) to control binary compatibility.
+
+## Validation Checklist
+
+- Verify there are no cyclic dependencies between modules and that interfaces expose minimal surface area.
+- Confirm modules can be built and tested independently with mocked dependencies.
 

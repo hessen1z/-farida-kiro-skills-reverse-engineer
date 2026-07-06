@@ -1,3 +1,11 @@
+---
+title: References
+skill: detection-engineering
+category: references
+difficulty: intermediate
+tags: [pe, windows, gui]
+updated: 2026-07-05
+---
 # References
 
 - Windows Event Log and ETW documentation

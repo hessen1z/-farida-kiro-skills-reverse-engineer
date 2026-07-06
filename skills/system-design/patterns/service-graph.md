@@ -1,3 +1,11 @@
+---
+title: Service Graph Patterns
+skill: system-design
+category: patterns
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Service Graph Patterns
 
 ## Overview

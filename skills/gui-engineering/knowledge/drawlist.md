@@ -1,3 +1,11 @@
+---
+title: DrawList
+skill: gui-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, imgui, gui]
+updated: 2026-07-05
+---
 # DrawList
 
 ## Overview
@@ -63,4 +71,19 @@ DrawList commands are used for:
 
 ### Checklists
 - [ui-quality-checklist](../checklists/ui-quality-checklist.md)
+
+## Tools & Commands
+
+- Use a renderer backend switch to validate DrawList outputs across DirectX/OpenGL/Vulkan backends.
+- Visualize draw lists by logging primitive counts and clipping regions to detect overdraw.
+
+## Validation Checklist
+
+- Ensure draw commands respect clipping and do not leak geometry outside intended regions.
+- Verify performance under high widget counts and complex custom rendering.
+
+## Example Workflow
+
+1. Create a reproducible UI case with layered DrawList elements.
+2. Measure frame time and inspect draw commands for unnecessary overdraw.
 

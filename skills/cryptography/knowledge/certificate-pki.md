@@ -1,3 +1,11 @@
+---
+title: Certificates and PKI Knowledge
+skill: cryptography
+category: knowledge
+difficulty: intermediate
+tags: [pe, cryptography, gui, elf]
+updated: 2026-07-05
+---
 # Certificates and PKI Knowledge
 
 ## Overview
@@ -66,4 +74,19 @@ Public Key Infrastructure (PKI) provides the framework for certificate issuance,
 
 ### Checklists
 - [cryptography-audit-checklist](../checklists/cryptography-audit-checklist.md)
+
+## Practical Guidance
+
+- Always validate full certificate chains and consider OCSP stapling or CRL checks for critical paths.
+- Verify certificate extensions and intended key usages before trusting a certificate for a purpose.
+
+## Tools & Commands
+
+- `openssl s_client -connect host:port -showcerts` to inspect TLS chains.
+- Use certificate parsers (`certutil`, `openssl`) to examine extensions and validity.
+
+## Validation Checklist
+
+- Confirm the certificate chain roots to a trusted CA and that no intermediate is revoked.
+- Verify hostnames and SAN entries match service expectations.
 

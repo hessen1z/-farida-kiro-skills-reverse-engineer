@@ -1,3 +1,11 @@
+---
+title: Prompt: Recover RTTI Structures
+skill: reverse-engineering
+category: prompts
+difficulty: intermediate
+tags: [pe, x64, debug, elf]
+updated: 2026-07-05
+---
 # Prompt: Recover RTTI Structures
 
 ## Objective

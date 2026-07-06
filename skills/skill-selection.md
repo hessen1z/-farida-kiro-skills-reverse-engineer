@@ -1,39 +1,56 @@
+---
+title: Skill Selection
+skill: root
+category: 
+difficulty: advanced
+tags: [pe, windows, malware, imgui, gui]
+updated: 2026-07-05
+---
 # Skill Selection
 
-Purpose: Teach the AI how to decide which skills to load for a given task. Provide explicit examples and simple heuristics.
+## Purpose
+This document describes how to choose an effective skill set for a task, how to route work across the repository, and how to load multiple skills without overcomplicating the context.
 
-Selection rules
-1. Identify the primary objective (recover, triage, reproduce, instrument).
-2. Map objective to capabilities (which skill provides the needed outputs).
-3. Load `analysis-engine` for any task requiring hypothesis generation or verification.
-4. Load `shared` for templates and documentation.
-5. Load `content-template` and `writing-guidelines` when authoring or reviewing repository content.
-6. Load minimal domain skills required to perform evidence collection and verification.
-7. Avoid loading unrelated expert skills to reduce noise; prefer minimal necessary skill set.
+## Selection Workflow
+1. Identify the primary objective: recover, triage, reproduce, instrument, document, design, or review.
+2. Choose the smallest skill set that can support the objective reliably.
+3. Load [analysis-engine](analysis-engine/skill.md) whenever the task requires reasoning, evidence framing, or verification.
+4. Load [shared](shared/skill.md) whenever the task requires repository conventions, output structure, or formatting expectations.
+5. Add domain skills only when the task requires them.
+6. Add support skills such as [examples](examples/skill.md), [recipes](recipes/skill.md), or [playbooks](playbooks/skill.md) when the output needs to be packaged or reused.
 
-Examples
-- Task: Recover RTTI
-  - Load: `analysis-engine`, `assembly`, `cpp`, `windows-internals`, `reverse-engineering`
+## Routing Logic
+- If the task is primarily analytical, start with [analysis-engine](analysis-engine/skill.md), [shared](shared/skill.md), and the relevant domain skill.
+- If the task is documentation-heavy, add [content-template](content-template/skill.md) and [writing-guidelines](writing-guidelines/skill.md).
+- If the task involves binaries or recovered structures, include [assembly](assembly/skill.md), [cpp](cpp/skill.md), and [reverse-engineering](reverse-engineering/skill.md).
+- If the task involves suspicious binaries, include [binary-analysis](binary-analysis/skill.md) and [malware-analysis](malware-analysis/skill.md).
+- If the task is aimed at security detection, include [detection-engineering](detection-engineering/skill.md) and [windows-security](windows-security/skill.md).
 
-- Task: Pattern Scan
-  - Load: `assembly`, `cpp`, `reverse-engineering`
+## Practical Scenarios
+### Recover RTTI
+Load: [analysis-engine](analysis-engine/skill.md), [assembly](assembly/skill.md), [cpp](cpp/skill.md), [windows-internals](windows-internals/skill.md), [reverse-engineering](reverse-engineering/skill.md)
 
-- Task: Analyze PE
-  - Load: `windows-internals`, `reverse-engineering`, `analysis-engine`
+### Pattern Scan
+Load: [assembly](assembly/skill.md), [cpp](cpp/skill.md), [reverse-engineering](reverse-engineering/skill.md)
 
-- Task: Analyze suspicious executable
-  - Load: `malware-analysis`, `binary-analysis`, `windows-internals`, `analysis-engine`
+### Analyze PE Structure
+Load: [windows-internals](windows-internals/skill.md), [reverse-engineering](reverse-engineering/skill.md), [analysis-engine](analysis-engine/skill.md)
 
-- Task: Design defensive detections
-  - Load: `detection-engineering`, `malware-analysis`, `windows-security`, `analysis-engine`
+### Analyze a Suspicious Executable
+Load: [binary-analysis](binary-analysis/skill.md), [malware-analysis](malware-analysis/skill.md), [windows-internals](windows-internals/skill.md), [analysis-engine](analysis-engine/skill.md)
 
-- Task: Reconstruct or build a desktop UI with Dear ImGui
-  - Load: `gui-engineering`, `cpp`, `windows-internals`, `analysis-engine`
+### Design Defensive Detections
+Load: [detection-engineering](detection-engineering/skill.md), [malware-analysis](malware-analysis/skill.md), [windows-security](windows-security/skill.md), [analysis-engine](analysis-engine/skill.md)
 
-Heuristics
-- If the task requires executable-level interpretation, include `assembly` and `cpp`.
-- If the task requires system/environment constraints, include `windows-internals`.
-- Always include `analysis-engine` for non-trivial decisions and `shared` for output formatting.
+### Reconstruct a Desktop UI with Dear ImGui
+Load: [gui-engineering](gui-engineering/skill.md), [cpp](cpp/skill.md), [windows-internals](windows-internals/skill.md), [analysis-engine](analysis-engine/skill.md)
 
-Operational note
-- Skill selection should produce a compact set of skills (3–6) that together cover data collection, reasoning, and output generation.
+## Multi-Skill Loading Strategy
+- Use 3–6 skills for most tasks.
+- Load the reasoning core first, then the domain skill, then support skills if needed.
+- Avoid loading expert skills unless the objective clearly requires them.
+
+## Related Guidance
+- See [skill-map.md](skill-map.md) for the overall dependency graph.
+- See [skill-priority.md](skill-priority.md) for the priority categories.
+- See [SYSTEM.md](SYSTEM.md) for repository-wide operating rules.

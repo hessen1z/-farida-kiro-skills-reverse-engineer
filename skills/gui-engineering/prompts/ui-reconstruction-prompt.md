@@ -1,3 +1,11 @@
+---
+title: ui-reconstruction-prompt
+skill: gui-engineering
+category: prompts
+difficulty: intermediate
+tags: [pe, imgui, gui]
+updated: 2026-07-05
+---
 You are designing or reconstructing a desktop UI using Dear ImGui. Analyze the reference material, identify the main layout regions, propose a widget breakdown, and provide a practical implementation plan. Focus on maintainability, visual fidelity, and production quality.
 
 Requirements:

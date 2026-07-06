@@ -12,9 +12,9 @@
 - `tools/` — support tooling and audit prompts.
 - `meta/` — repository metadata, schemas, and agent-related utilities.
 - `writing-guidelines/` — editorial and authoring guidelines.
-- `skill-map.md` — skill dependency and workflow relationships.
-- `skill-priority.md` — skill categorization and loading priority.
-- `skill-selection.md` — skill selection guidance for agents.
+- `skills/skill-map.md` — skill dependency and workflow relationships.
+- `skills/skill-priority.md` — skill categorization and loading priority.
+- `skills/skill-selection.md` — skill selection guidance for agents.
 - `SYSTEM.md` — repository-wide system description and capabilities.
 
 ## `skills/` Folder

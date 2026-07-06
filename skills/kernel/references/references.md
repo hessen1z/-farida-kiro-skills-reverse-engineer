@@ -1,3 +1,11 @@
+---
+title: Kernel References
+skill: kernel
+category: references
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Kernel References
 
 - Microsoft Windows Internals by Mark Russinovich, David Solomon, and Alex Ionescu

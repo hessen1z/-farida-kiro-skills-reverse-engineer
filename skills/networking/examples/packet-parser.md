@@ -1,3 +1,11 @@
+---
+title: Packet Parser Example
+skill: networking
+category: examples
+difficulty: intermediate
+tags: [pe, networking, gui]
+updated: 2026-07-05
+---
 # Packet Parser Example
 
 ## Overview

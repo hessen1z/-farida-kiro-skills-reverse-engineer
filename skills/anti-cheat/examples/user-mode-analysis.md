@@ -1,3 +1,11 @@
+---
+title: Anti-Cheat User-Mode Analysis Example
+skill: anti-cheat
+category: examples
+difficulty: intermediate
+tags: [pe, anti-cheat, driver, gui, kernel, debug, dll]
+updated: 2026-07-05
+---
 # Anti-Cheat User-Mode Analysis Example
 
 ## Scenario

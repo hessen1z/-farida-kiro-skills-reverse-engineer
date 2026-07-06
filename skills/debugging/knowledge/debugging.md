@@ -1,3 +1,11 @@
+---
+title: Debugging Knowledge
+skill: debugging
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, asm, x64, driver, pdb, gui, kernel, debug, elf]
+updated: 2026-07-05
+---
 # Debugging Knowledge
 
 ## Overview

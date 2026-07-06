@@ -1,3 +1,11 @@
+---
+title: Prompt: Pattern Scan
+skill: reverse-engineering
+category: prompts
+difficulty: intermediate
+tags: [pe, x64, debug, elf]
+updated: 2026-07-05
+---
 # Prompt: Pattern Scan
 
 ## Objective

@@ -1,56 +1,50 @@
+---
+title: AI Security Library
+skill: root
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # AI Security Library
 
 ## Purpose
-This repository is a structured knowledge library for AI-assisted security analysis, reverse engineering, game security, and tooling workflows.
+This repository is a structured documentation library for security analysis, reverse engineering, game security, operating-system internals, and related engineering workflows. Its goal is to make complex technical knowledge easier to navigate, reuse, and validate.
 
-## Architecture
-- `skills/` contains domain skills and knowledge modules.
-- `Release v1.0/` contains release artifacts and packaging outputs, intentionally located outside `skills/`.
-- `shared/`, `content-template/`, `templates/`, `patterns/`, `playbooks/`, `snippets/`, `tools/`, and `meta/` are shared infrastructure or repository support content, not individual domain skills.
+## Repository Scope
+The library is organized around domain skills and reusable support content:
+- Domain skills contain focused knowledge, patterns, recipes, playbooks, and examples.
+- Shared infrastructure provides templates, editorial guidance, cross-cutting patterns, and repository support material.
+- Release artifacts, if present, belong outside the library content tree so the content remains easy to browse and maintain.
 
-## Skill Graph
-Skills are defined by folders containing `skill.md` and associated content.
-- Core reasoning and validation: `analysis-engine`
-- Shared documentation and templates: `shared`, `content-template`, `writing-guidelines`
-- Domain skills: `binary-analysis`, `game-security`, `malware-analysis`, `networking`, `windows-security`, etc.
+## How the Library Is Organized
+- Skill folders contain a skill manifest and a consistent set of content directories.
+- Knowledge documents explain concepts and architecture.
+- Patterns capture recurring technical signatures and analysis heuristics.
+- Recipes provide task-oriented workflows.
+- Playbooks package operational procedures for common investigations.
+- Examples, snippets, prompts, checklists, and references support execution and review.
 
-## How Skills Work
-Each skill folder typically includes:
-- `skill.md` — skill metadata and purpose
-- `knowledge/` — domain knowledge articles
-- `patterns/` — recurring patterns and detection heuristics
-- `playbooks/` — procedural workflows
-- `recipes/` — task-specific instructions
-- `examples/` — practical examples
-- `rules/` — governance or security principles
-- `prompts/` — prompt engineering guidance
-- `checklists/` — validation and audit checklists
-- `references/` — supporting references and citations
+## Key Entry Points
+- [ARCHITECTURE.md](ARCHITECTURE.md) — repository architecture and separation rules.
+- [DIRECTORY_STRUCTURE.md](DIRECTORY_STRUCTURE.md) — folder layout and content conventions.
+- [CONTRIBUTING.md](CONTRIBUTING.md) — contribution workflow and review expectations.
+- [skill-selection.md](skill-selection.md), [skill-priority.md](skill-priority.md), and [skill-map.md](skill-map.md) — guidance for selecting and loading skills.
 
-## How Agents Load Skills
-Agents should load skills by selecting folders with `skill.md` metadata and use `skill-selection.md`, `skill-priority.md`, and `skill-map.md` as guidance.
+## Content Standards
+- Write for clarity first and depth second.
+- Prefer concrete workflows, tools, verification steps, and cross-references over abstract descriptions.
+- Keep examples and playbooks actionable and tied to observable evidence.
+- Preserve consistent naming and folder conventions across the repository.
 
-## Folder Structure
-Refer to `DIRECTORY_STRUCTURE.md` for the complete repository layout.
+## Maintenance Workflow
+1. Update the most relevant skill or support folder.
+2. Keep cross-links accurate and intentional.
+3. Ensure the document includes practical guidance, validation steps, or a checklist where appropriate.
+4. Review the result for terminology consistency and repository fit.
 
-## Versioning
-This release is version `1.0`. Release artifacts and validation reports are stored in `Release v1.0/` outside the skills folder.
+## Contribution Guidance
+Use the repository guidance in [CONTRIBUTING.md](CONTRIBUTING.md) and the authoring scaffolds in [content-template](content-template) and [writing-guidelines](writing-guidelines) when adding or refining content.
 
-## Adding New Skills
-1. Create a top-level folder under `skills/`.
-2. Add `skill.md` with metadata, purpose, and dependencies.
-3. Add supporting content in the appropriate subfolders.
-4. Use `content-template/` and `writing-guidelines/` to standardize new files.
-5. Do not add shared infrastructure as skills.
-
-## Writing Guidelines
-Follow `writing-guidelines/README.md` and `content-template/` when authoring new content.
-
-## Contribution Guidelines
-See `CONTRIBUTING.md` for the contribution workflow, review expectations, and repository conventions.
-
-## License
-This repository does not currently include a repository-level license file. Follow the repository owner's guidance for licensing.
-
-## Roadmap
-See `ROADMAP.md` for planned future evolution and extension points.
+## Notes
+This repository is intentionally documentation-first. It should remain easy to search, extend, and review even as new domains are added.

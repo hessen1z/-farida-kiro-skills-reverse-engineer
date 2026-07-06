@@ -1,3 +1,11 @@
+---
+title: Scalability Review Prompt
+skill: system-design
+category: prompts
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Scalability Review Prompt
 
 ## Prompt

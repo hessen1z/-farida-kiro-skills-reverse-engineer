@@ -1,3 +1,11 @@
+---
+title: Windows Security Analysis Prompt
+skill: windows-security
+category: prompts
+difficulty: intermediate
+tags: [pe, windows, gui, debug]
+updated: 2026-07-05
+---
 # Windows Security Analysis Prompt
 
 ## Prompt

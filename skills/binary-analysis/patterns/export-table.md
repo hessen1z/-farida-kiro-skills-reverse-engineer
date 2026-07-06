@@ -1,3 +1,11 @@
+---
+title: Export Table Pattern
+skill: binary-analysis
+category: patterns
+difficulty: intermediate
+tags: [pe, loader, dll, elf]
+updated: 2026-07-05
+---
 # Export Table Pattern
 
 ## Overview

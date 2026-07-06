@@ -1,3 +1,11 @@
+---
+title: design-prompt
+skill: detection-engineering
+category: prompts
+difficulty: advanced
+tags: [pe, gui]
+updated: 2026-07-05
+---
 You are a defensive detection engineering expert. Design a detection pipeline for the described telemetry source and threat behavior. Emphasize signal quality, explainability, tuning, and operational workflow rather than noisy or overly broad rules.
 
 ## Related Material

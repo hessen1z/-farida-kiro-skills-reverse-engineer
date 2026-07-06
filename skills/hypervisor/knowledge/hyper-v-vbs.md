@@ -1,3 +1,11 @@
+---
+title: Hyper-V and VBS Knowledge
+skill: hypervisor
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Hyper-V and VBS Knowledge
 
 ## Overview
@@ -82,4 +90,19 @@ VBS uses EPT to separate normal kernel memory from secure kernel memory.
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Verify VBS/Hyper-V state via registry and system utilities (`systeminfo`, `Get-VMSwitch` on Windows).
+- When inspecting VBS, focus on EPT mappings and secure kernel isolation boundaries.
+
+## Tools & Commands
+
+- Use WinDbg with Hyper-V debugging extensions and `!vm` commands for VM state inspection.
+- Use virtualization introspection tools that can read EPT mappings and VMCS state.
+
+## Validation Checklist
+
+- Confirm VBS is enabled and the secure kernel is running using OS-provided telemetry.
+- Validate EPT entries and partition isolation where possible using hypervisor debugging tools.
 

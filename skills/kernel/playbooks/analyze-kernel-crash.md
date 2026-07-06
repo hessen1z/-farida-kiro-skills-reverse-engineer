@@ -1,3 +1,11 @@
+---
+title: Analyze Kernel Crash Playbook
+skill: kernel
+category: playbooks
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Analyze Kernel Crash Playbook
 
 ## Objective

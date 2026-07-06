@@ -1,3 +1,11 @@
+---
+title: Playbook: Analyze Figma Design
+skill: gui-engineering
+category: playbooks
+difficulty: intermediate
+tags: [pe, imgui, gui]
+updated: 2026-07-05
+---
 # Playbook: Analyze Figma Design
 
 ## Purpose

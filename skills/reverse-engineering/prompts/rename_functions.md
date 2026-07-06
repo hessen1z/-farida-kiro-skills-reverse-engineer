@@ -1,3 +1,11 @@
+---
+title: Prompt: Rename Functions
+skill: reverse-engineering
+category: prompts
+difficulty: intermediate
+tags: [pe, windows, pdb, debug, dll, elf]
+updated: 2026-07-05
+---
 # Prompt: Rename Functions
 
 ## Objective

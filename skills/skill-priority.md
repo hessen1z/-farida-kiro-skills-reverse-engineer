@@ -1,33 +1,59 @@
+---
+title: Skill Priority
+skill: root
+category: 
+difficulty: advanced
+tags: [pe, windows, anti-cheat, driver, malware, gui, kernel]
+updated: 2026-07-05
+---
 # Skill Priority
 
-Purpose: Define priority tiers to guide which skills are considered core vs optional in orchestration.
+## Purpose
+This document defines the loading priority for skills so that autonomous agents can begin with the most valuable capabilities first and avoid unnecessary context overhead.
 
-Tiers
+## Priority Categories
 
-Core Skills
-- `analysis-engine` — reasoning backbone
-- `shared` — templates and standards
-- `content-template` — canonical document scaffolds
-- `writing-guidelines` — editorial rules and review guidance
-- `reverse-engineering` — domain recovery for this repository
+### Mandatory Skills
+These should be loaded for almost any non-trivial analysis or documentation workflow.
+- [analysis-engine](analysis-engine/skill.md) — required for reasoning, evidence framing, and verification.
+- [shared](shared/skill.md) — required for repository conventions and formatting expectations.
 
-Secondary Skills
-- `windows-internals` — OS-level constraints and behaviors
-- `assembly` — instruction-level interpretation
-- `cpp` — source-level mapping and examples
-- `malware-analysis` — defensive malware triage and behavior interpretation
-- `detection-engineering` — telemetry-driven detection design
-- `gui-engineering` — desktop UI architecture, Dear ImGui implementation, and UI reconstruction workflows
+### Core Skills
+These provide the main operational backbone for most tasks.
+- [reverse-engineering](reverse-engineering/skill.md) — central domain capability for structural analysis and recovery.
+- [windows-internals](windows-internals/skill.md) — provides OS and subsystem context required by many workflows.
+- [assembly](assembly/skill.md) and [cpp](cpp/skill.md) — foundational interpretation skills for binary and source-level work.
+- [content-template](content-template/skill.md) and [writing-guidelines](writing-guidelines/skill.md) — necessary when producing or reviewing repository content.
 
-Optional Skills
-- `examples` — runnable examples and test harnesses
-- `recipes` — step-by-step reproducible procedures
-- `playbooks` — scenario-driven workflows
+### Optional Skills
+These add value when the task requires specific context or packaging.
+- [binary-analysis](binary-analysis/skill.md) — useful for initial triage and static inspection.
+- [malware-analysis](malware-analysis/skill.md) — useful when the target is suspicious or malicious.
+- [detection-engineering](detection-engineering/skill.md) — useful for telemetry and detection-oriented work.
+- [examples](examples/skill.md), [recipes](recipes/skill.md), [playbooks](playbooks/skill.md), and [references](references/skill.md) — useful for producing reusable output and packaging results.
 
-Expert Skills
-- Tool-specific integrations (IDA, Ghidra, x64dbg) — load only when tool-specific actions are required
+### Expert Skills
+These should be loaded only when a task explicitly requires a specialized path.
+- [game-engines](game-engines/skill.md)
+- [game-security](game-security/skill.md)
+- [gui-engineering](gui-engineering/skill.md)
+- [anti-cheat](anti-cheat/skill.md)
+- [hypervisor](hypervisor/skill.md)
+- [kernel](kernel/skill.md)
+- [drivers](drivers/skill.md)
 
-Usage guidance
-- Prefer Core + 1–2 Secondary skills for most tasks.
-- Load Expert skills only when a tool-specific action is required (e.g., script generation for IDA).
-- Re-evaluate priorities periodically and keep this file synchronized with `skill-map.md`.
+## Recommendations for Autonomous Agents
+- Begin with the mandatory and core skills, then add optional skills only when the evidence suggests they are necessary.
+- Load expert skills only when the task is clearly within their domain.
+- If the task is documentation-heavy, add [content-template](content-template/skill.md) and [writing-guidelines](writing-guidelines/skill.md) early.
+- If the task is binary-focused, add [reverse-engineering](reverse-engineering/skill.md), [assembly](assembly/skill.md), and [cpp](cpp/skill.md) before broader support skills.
+
+## Practical Prioritization Examples
+- Binary triage: [analysis-engine](analysis-engine/skill.md) + [shared](shared/skill.md) + [windows-internals](windows-internals/skill.md) + [reverse-engineering](reverse-engineering/skill.md)
+- RTTI recovery: [analysis-engine](analysis-engine/skill.md) + [assembly](assembly/skill.md) + [cpp](cpp/skill.md) + [reverse-engineering](reverse-engineering/skill.md)
+- Detection design: [analysis-engine](analysis-engine/skill.md) + [detection-engineering](detection-engineering/skill.md) + [windows-security](windows-security/skill.md)
+
+## Related Guidance
+- See [skill-map.md](skill-map.md) for the overall dependency graph and execution flow.
+- See [skill-selection.md](skill-selection.md) for concrete task-based selection patterns.
+- See [SYSTEM.md](SYSTEM.md) for the repository-wide operating rules.

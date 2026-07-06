@@ -1,3 +1,11 @@
+---
+title: Protectors
+skill: binary-analysis
+category: knowledge
+difficulty: advanced
+tags: [pe, malware, gui, debug, elf]
+updated: 2026-07-05
+---
 # Protectors
 
 ## Overview
@@ -82,4 +90,24 @@ Used to detect environment and OS version for compatibility checks.
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Identify the protector entry and look for transitions to the real payload.
+- Use hardware-assisted tracing to avoid detection by software anti-debug checks.
+
+## Tools & Techniques
+
+- Use memory snapshots and hardware tracing (Intel PT) where available.
+- Use dynamic instrumentation frameworks to step through virtual machines within protectors.
+
+## Validation Checklist
+
+- Confirm extracted payload behavior matches the protected binary at runtime.
+- Preserve a copy of any integrity metadata and note how it was bypassed or validated.
+
+## Example Workflow
+
+1. Isolate protector stub and analyze integrity checks.
+2. Locate transition point and dump payload for standard analysis.
 

@@ -1,3 +1,11 @@
+---
+title: Process and Thread Manager Knowledge
+skill: kernel
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, loader, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Process and Thread Manager Knowledge
 
 ## Overview
@@ -45,6 +53,16 @@ Handles are duplicated, closed, and translated to object references through `ObR
 - use WinDbg `!process` and `!thread` to inspect process and thread state.
 - look for terminated threads still referenced by APC queues or handle tables.
 - verify process cleanup routines release handle tables and object references.
+
+## Tools & Commands
+
+- WinDbg: `!process`, `!thread`, and `!handle` to inspect process/thread state and handle tables.
+- Use live tracing (ETW) to capture thread life-cycle events across process boundaries.
+
+## Validation Checklist
+
+- Confirm process teardown sequences release handle tables and associated kernel objects.
+- Verify that APCs and queued work do not prevent thread termination in cleanup paths.
 
 ## Common Mistakes
 - assuming a closed handle immediately deletes the underlying object.

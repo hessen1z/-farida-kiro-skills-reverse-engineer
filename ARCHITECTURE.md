@@ -34,7 +34,7 @@ Release artifacts are stored in `Release v1.0/` at the repository root. This fol
 - Release artifacts must never appear inside the `skills/` folder.
 
 ## Agent Loading
-Agents should select skills based on `skill.md` metadata and use the skill selection guidance in `skill-selection.md`, `skill-map.md`, and `skill-priority.md`.
+Agents should select skills based on `skill.md` metadata and use the skill selection guidance in `skills/skill-selection.md`, `skills/skill-map.md`, and `skills/skill-priority.md`.
 
 ## Folder Classification
 - Skill folders: those containing `skill.md`.

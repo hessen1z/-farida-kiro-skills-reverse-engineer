@@ -1,3 +1,11 @@
+---
+title: Input Systems Knowledge
+skill: game-engines
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, loader, driver, gui, debug]
+updated: 2026-07-05
+---
 # Input Systems Knowledge
 
 ## Overview
@@ -61,4 +69,24 @@ Game input systems typically:
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Instrument both polling and event-driven paths to capture full input flow.
+- Normalize controller inputs early and validate dead zones and sensitivity parameters.
+
+## Tools & Commands
+
+- Use input capture tools and OS APIs (`Raw Input`, `XInput`) to observe device events.
+- In a debugger, set breakpoints on platform APIs used for device enumeration to observe driver-level behavior.
+
+## Validation Checklist
+
+- Confirm input arrives at the application and is processed within the expected frame window.
+- Verify that input mapping respects localization and keybindings across platforms.
+
+## Example Workflow
+
+1. Trace input from device drivers to the engine's input mapper.
+2. Inject synthetic events to validate mapping and action bindings.
 

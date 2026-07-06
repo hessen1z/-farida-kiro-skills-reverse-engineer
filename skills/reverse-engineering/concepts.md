@@ -1,3 +1,11 @@
+---
+title: Windows Reverse Engineering - Core Concepts
+skill: reverse-engineering
+category: 
+difficulty: intermediate
+tags: [pe, windows, loader, asm, x64, malware, pdb, gui, debug, dll, elf]
+updated: 2026-07-05
+---
 # Windows Reverse Engineering - Core Concepts
 
 > Written for senior software engineers. Assumes familiarity with x86/x64 assembly, C++, and Windows internals.

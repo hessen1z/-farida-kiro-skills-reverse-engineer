@@ -1,3 +1,11 @@
+---
+title: Cryptography Audit Checklist
+skill: cryptography
+category: checklists
+difficulty: intermediate
+tags: [pe, cryptography, gui]
+updated: 2026-07-05
+---
 # Cryptography Audit Checklist
 
 - [ ] Identify all cryptographic primitives used by the system.

@@ -1,3 +1,11 @@
+---
+title: Plugin Architecture Review Prompt
+skill: system-design
+category: prompts
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Plugin Architecture Review Prompt
 
 ## Prompt

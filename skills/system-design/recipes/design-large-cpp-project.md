@@ -1,3 +1,11 @@
+---
+title: Design Large C++ Project Recipe
+skill: system-design
+category: recipes
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Design Large C++ Project Recipe
 
 ## Goal

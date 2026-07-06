@@ -1,3 +1,11 @@
+---
+title: Driver Security Playbook
+skill: game-security
+category: playbooks
+difficulty: intermediate
+tags: [pe, anti-cheat, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Driver Security Playbook
 
 ## Objective

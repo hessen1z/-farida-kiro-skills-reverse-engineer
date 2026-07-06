@@ -1,3 +1,11 @@
+---
+title: Security Mitigations Example
+skill: windows-security
+category: examples
+difficulty: intermediate
+tags: [pe, windows, gui, debug]
+updated: 2026-07-05
+---
 # Security Mitigations Example
 
 ## Scenario

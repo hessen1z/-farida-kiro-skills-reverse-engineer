@@ -1,3 +1,11 @@
+---
+title: Analyze Certificate Chain Recipe
+skill: cryptography
+category: recipes
+difficulty: intermediate
+tags: [pe, cryptography, gui]
+updated: 2026-07-05
+---
 # Analyze Certificate Chain Recipe
 
 ## Goal

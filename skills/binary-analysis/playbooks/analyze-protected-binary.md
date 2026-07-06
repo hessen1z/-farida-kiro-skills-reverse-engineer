@@ -1,3 +1,11 @@
+---
+title: Analyze Protected Binary Playbook
+skill: binary-analysis
+category: playbooks
+difficulty: intermediate
+tags: [pe, loader, gui, debug, elf]
+updated: 2026-07-05
+---
 # Analyze Protected Binary Playbook
 
 ## Goal

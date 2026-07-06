@@ -1,3 +1,11 @@
+---
+title: Analyze Crash Recipe
+skill: debugging
+category: recipes
+difficulty: intermediate
+tags: [pe, loader, pdb, kernel, debug]
+updated: 2026-07-05
+---
 # Analyze Crash Recipe
 
 ## Purpose

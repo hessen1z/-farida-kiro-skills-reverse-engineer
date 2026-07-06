@@ -1,3 +1,11 @@
+---
+title: Anti-Cheat Driver Analysis Example
+skill: anti-cheat
+category: examples
+difficulty: intermediate
+tags: [pe, anti-cheat, driver, gui, kernel]
+updated: 2026-07-05
+---
 # Anti-Cheat Driver Analysis Example
 
 ## Scenario

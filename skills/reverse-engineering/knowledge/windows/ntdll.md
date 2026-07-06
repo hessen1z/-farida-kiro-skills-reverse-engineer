@@ -1,3 +1,11 @@
+---
+title: ntdll internals
+skill: reverse-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, loader, malware, gui, kernel, dll]
+updated: 2026-07-05
+---
 # ntdll internals
 
 `ntdll.dll` is the primary user-mode interface for Native API (Nt* calls) and
@@ -42,3 +50,13 @@ Notes about ntdll exports, syscalls, and common assembly patterns.
 - Ensure the document points to the most relevant examples, recipes, or playbooks.
 - Validate that the terminology is consistent with the rest of the skill.
 - Check that the practical guidance is specific enough to be used without further interpretation.
+
+## Tools & Commands
+
+- Use `dumpbin /EXPORTS`, `r2`, or IDA/Ghidra export viewers to enumerate `ntdll` exports for the target OS.
+- Use symbol servers and OS-matching `ntdll` to map syscall numbers to named APIs.
+
+## Practical Tips
+
+- When you see short syscall stubs, correlate the immediate syscall number with the correct OS build before assuming identity.
+- Use `Rtl` family function patterns to infer memory and string handling strategies used by a binary.

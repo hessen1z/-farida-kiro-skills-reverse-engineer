@@ -1,3 +1,11 @@
+---
+title: Prompt: Identify Game Engine
+skill: reverse-engineering
+category: prompts
+difficulty: intermediate
+tags: [pe, asm, x64, unreal, unity, dll]
+updated: 2026-07-05
+---
 # Prompt: Identify Game Engine
 
 ## Objective

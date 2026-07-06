@@ -1,3 +1,11 @@
+---
+title: Analyze ELF Playbook
+skill: binary-analysis
+category: playbooks
+difficulty: intermediate
+tags: [pe, loader, debug, elf]
+updated: 2026-07-05
+---
 # Analyze ELF Playbook
 
 ## Goal

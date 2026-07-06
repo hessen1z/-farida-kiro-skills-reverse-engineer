@@ -1,3 +1,11 @@
+---
+title: Input and Rendering Playbook
+skill: game-engines
+category: playbooks
+difficulty: intermediate
+tags: [pe, loader, debug]
+updated: 2026-07-05
+---
 # Input and Rendering Playbook
 
 ## Objective

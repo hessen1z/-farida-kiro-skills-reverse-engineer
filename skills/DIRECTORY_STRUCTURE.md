@@ -1,58 +1,46 @@
+---
+title: Directory Structure
+skill: root
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Directory Structure
 
 ## Root Layout
-- `Release v1.0/` — release artifacts, package outputs, validation reports, and release metadata.
-- `skills/` — domain skills and associated knowledge modules.
-- `shared/` — shared documentation, templates, and common guidance.
-- `content-template/` — canonical content scaffolds for new skill artifacts.
-- `templates/` — reusable repository templates and script examples.
-- `patterns/` — shared pattern descriptions used across skills.
-- `playbooks/` — shared procedural workflows and operational playbooks.
-- `snippets/` — reusable code or platform snippets.
-- `tools/` — support tooling and audit prompts.
-- `meta/` — repository metadata, schemas, and agent-related utilities.
-- `writing-guidelines/` — editorial and authoring guidelines.
-- `skill-map.md` — skill dependency and workflow relationships.
-- `skill-priority.md` — skill categorization and loading priority.
-- `skill-selection.md` — skill selection guidance for agents.
-- `SYSTEM.md` — repository-wide system description and capabilities.
+- [ARCHITECTURE.md](ARCHITECTURE.md) — describes the repository architecture and content boundaries.
+- [README.md](README.md) — entry point and overview for the library.
+- [CONTRIBUTING.md](CONTRIBUTING.md) — contribution workflow and review checklist.
+- [skill-map.md](skill-map.md), [skill-priority.md](skill-priority.md), and [skill-selection.md](skill-selection.md) — helper documents for skill discovery and loading.
+- [SYSTEM.md](SYSTEM.md) — repository-wide system description and capabilities.
+- [content-template](content-template) — canonical scaffolds for new content.
+- [writing-guidelines](writing-guidelines) — editorial instructions and formatting standards.
+- Shared infrastructure folders such as [patterns](patterns), [playbooks](playbooks), [snippets](snippets), [tools](tools), and [meta](meta) — reusable repository assets.
 
-## `skills/` Folder
-Each skill folder is domain-specific and typically includes:
-- `skill.md`
-- `knowledge/`
-- `patterns/`
-- `playbooks/`
-- `recipes/`
-- `examples/`
-- `prompts/`
-- `rules/`
-- `checklists/`
-- `references/`
+## Skill Folder Structure
+Each domain skill folder typically includes:
+- skill.md — manifest and metadata.
+- knowledge/ — concept and architecture documentation.
+- patterns/ — recurring technical signatures and heuristics.
+- playbooks/ — operational workflows.
+- recipes/ — task-oriented procedures.
+- examples/ — walkthroughs and practical demonstrations.
+- prompts/ — prompt guidance and review prompts.
+- rules/ — governance and security principles.
+- checklists/ — validation and audit checklists.
+- references/ — supporting citations and resources.
 
 ## Infrastructure vs Skills
-- Skills are folders with `skill.md` and domain-specific content.
-- Shared infrastructure folders provide reusable resources and do not represent standalone domain skills.
-- The following folders are shared infrastructure, not skill folders:
-  - `shared/`
-  - `content-template/`
-  - `templates/`
-  - `patterns/`
-  - `playbooks/`
-  - `snippets/`
-  - `tools/`
-  - `meta/`
-  - `writing-guidelines/`
+- Skill folders are domain-focused and contain a skill manifest.
+- Infrastructure folders provide shared resources and should not be treated as domain skills.
+- Common infrastructure folders include [shared](shared), [content-template](content-template), [templates](templates), [patterns](patterns), [playbooks](playbooks), [snippets](snippets), [tools](tools), [meta](meta), and [writing-guidelines](writing-guidelines).
 
-## Release Artifacts
-- `Release v1.0/` is outside `skills/` and stores packaged release outputs, validation reports, and documentation for the v1.0 release.
+## Navigation Guide
+- Start with [README.md](README.md) for orientation.
+- Use [ARCHITECTURE.md](ARCHITECTURE.md) to understand responsibilities and boundaries.
+- Use the domain skill folders for topic-specific content.
+- Use the shared infrastructure folders when you need reusable templates, guidance, or support resources.
 
-## Adding New Content
-- Add new domain knowledge under `skills/` only.
-- Add new shared templates or support resources under the appropriate infrastructure folder.
-- Do not add new release artifacts inside `skills/`.
-
-## Consistency Notes
-- Keep the separation between domain knowledge and infrastructure explicit.
-- Use the root `README.md` and `ARCHITECTURE.md` documents as the single source of truth for repository organization.
-- Avoid creating new top-level skill folders for shared templates or support assets.
+## Maintenance Notes
+Keep the separation between domain knowledge and support infrastructure explicit. New top-level skill folders should only be created when they represent a real domain-specific body of knowledge.

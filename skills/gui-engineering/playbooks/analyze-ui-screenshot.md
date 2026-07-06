@@ -1,3 +1,11 @@
+---
+title: Playbook: Analyze UI Screenshot
+skill: gui-engineering
+category: playbooks
+difficulty: intermediate
+tags: [pe, imgui, gui]
+updated: 2026-07-05
+---
 # Playbook: Analyze UI Screenshot
 
 ## Purpose

@@ -1,3 +1,11 @@
+---
+title: Stack Unwind Failure Pattern
+skill: debugging
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, x64, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Stack Unwind Failure Pattern
 
 ## Pattern Name

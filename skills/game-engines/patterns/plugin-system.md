@@ -1,3 +1,11 @@
+---
+title: Plugin System Pattern
+skill: game-engines
+category: patterns
+difficulty: intermediate
+tags: [pe, loader, dll]
+updated: 2026-07-05
+---
 # Plugin System Pattern
 
 ## Pattern Name

@@ -1,3 +1,11 @@
+---
+title: Hypervisor Analysis Prompt
+skill: hypervisor
+category: prompts
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Hypervisor Analysis Prompt
 
 - Identify the virtualization extensions and hypervisor architecture in use.

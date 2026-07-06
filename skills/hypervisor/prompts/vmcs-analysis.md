@@ -1,3 +1,11 @@
+---
+title: VMCS Analysis Prompt
+skill: hypervisor
+category: prompts
+difficulty: intermediate
+tags: [pe, gui, debug]
+updated: 2026-07-05
+---
 # VMCS Analysis Prompt
 
 - Describe the VMCS fields relevant to guest and host state.

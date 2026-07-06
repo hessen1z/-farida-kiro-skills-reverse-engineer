@@ -1,3 +1,11 @@
+---
+title: Kernel Debugging Prompt
+skill: kernel
+category: prompts
+difficulty: intermediate
+tags: [pe, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Kernel Debugging Prompt
 
 - Outline the WinDbg workflow for analyzing a kernel crash dump.

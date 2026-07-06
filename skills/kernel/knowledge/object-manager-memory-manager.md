@@ -1,3 +1,11 @@
+---
+title: Object Manager and Memory Manager Knowledge
+skill: kernel
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Object Manager and Memory Manager Knowledge
 
 ## Overview
@@ -94,4 +102,18 @@ Kernel components use paged and nonpaged pool via `ExAllocatePoolWithTag`. The p
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- When investigating object lifetimes, inspect `OBJECT_HEADER` and associated `NAME_INFO` blocks to confirm naming and ownership.
+- For memory analysis, prefer walking VADs before inspecting page tables to understand allocation intent.
+
+## Tools & Commands
+
+- Use WinDbg commands `!vad`, `!pte`, and `!pfn` to explore virtual address descriptors and page frame database entries.
+
+## Validation Checklist
+
+- Confirm that MM VADs map to expected PTE states and that committed memory is present in the page frame database.
+- Verify pool allocations and tags for suspicious or misused pool entries.
 

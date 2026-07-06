@@ -1,3 +1,11 @@
+---
+title: Windows Security Checklist
+skill: windows-security
+category: checklists
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Windows Security Checklist
 
 ## Preparation

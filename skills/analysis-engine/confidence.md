@@ -1,3 +1,11 @@
+---
+title: confidence
+skill: analysis-engine
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 Confidence Scoring Guidelines
 
 Purpose: Provide a consistent interpretation of confidence levels for analysis outputs and recommended actions.

@@ -1,3 +1,11 @@
+---
+title: Code Signing Pattern
+skill: windows-security
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel]
+updated: 2026-07-05
+---
 # Code Signing Pattern
 
 ## Pattern Name

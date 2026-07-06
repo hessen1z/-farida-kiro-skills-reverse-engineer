@@ -1,3 +1,11 @@
+---
+title: Kernel Checklist
+skill: kernel
+category: checklists
+difficulty: intermediate
+tags: [pe, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Kernel Checklist
 
 ## Preparation

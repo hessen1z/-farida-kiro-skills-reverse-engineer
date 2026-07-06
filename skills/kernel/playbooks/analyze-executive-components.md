@@ -1,3 +1,11 @@
+---
+title: Analyze Executive Components Playbook
+skill: kernel
+category: playbooks
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Analyze Executive Components Playbook
 
 ## Objective

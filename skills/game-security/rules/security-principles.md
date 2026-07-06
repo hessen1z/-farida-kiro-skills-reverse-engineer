@@ -1,3 +1,11 @@
+---
+title: Game Security Rules
+skill: game-security
+category: rules
+difficulty: intermediate
+tags: [pe, anti-cheat, driver, gui, debug]
+updated: 2026-07-05
+---
 # Game Security Rules
 
 ## Rule 1: Evidence first

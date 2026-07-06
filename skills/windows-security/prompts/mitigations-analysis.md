@@ -1,3 +1,11 @@
+---
+title: Windows Mitigations Analysis Prompt
+skill: windows-security
+category: prompts
+difficulty: intermediate
+tags: [pe, windows, gui]
+updated: 2026-07-05
+---
 # Windows Mitigations Analysis Prompt
 
 - Identify the enabled compile-time and runtime mitigations in this Windows binary.

@@ -1,3 +1,11 @@
+---
+title: Detection Engineering Fundamentals
+skill: detection-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Detection Engineering Fundamentals
 
 ## Overview
@@ -55,4 +63,19 @@ A strong detection design often includes:
 
 ### Checklists
 - [validation-checklist](../checklists/validation-checklist.md)
+
+## Practical Guidance
+
+- Start with clear threat scenarios and instrument the minimal telemetry required to detect them.
+- Maintain a dataset of positive and negative samples for continuous tuning.
+
+## Tools & Automation
+
+- Use SIEM tooling and rule engines (Elastic, Splunk) for rule testing and backtesting.
+- Automate validation with synthetic telemetry and replayable traces.
+
+## Validation Checklist
+
+- Confirm telemetry fidelity and timestamp alignment across sources.
+- Verify false positive rates against representative baseline traffic.
 

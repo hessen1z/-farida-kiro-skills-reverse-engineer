@@ -1,3 +1,11 @@
+---
+title: Engine Discovery Example
+skill: game-engines
+category: examples
+difficulty: intermediate
+tags: [pe, loader, gui]
+updated: 2026-07-05
+---
 # Engine Discovery Example
 
 ## Scenario

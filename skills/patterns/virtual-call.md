@@ -1,30 +1,51 @@
+---
+title: Virtual Call Pattern
+skill: patterns
+category: 
+difficulty: intermediate
+tags: [pe, windows, asm, x64]
+updated: 2026-07-05
+---
 # Virtual Call Pattern
 
-Goal:
-Recognize object-oriented virtual calls through vtables and map them to slots.
+Virtual calls use vtables to dispatch virtual functions at runtime. Recognizing virtual call idioms allows mapping of vtable slots to method names and reconstructing class behavior.
 
-Pattern:
+## Canonical Pattern
+
+```asm
+mov rax, [rcx]           ; load vtable pointer
+call qword ptr [rax+8*slot]
 ```
-mov rax, [rcx]
-call qword ptr [rax+30]
-```
-Recognition: Virtual call
-Slot = 6 (30/8)
-Meaning: Call through vtable. Possible OO dispatch.
-Assembly examples (x86/x64):
-- x64: `mov rax, [rcx]` / `call qword ptr [rax+8*slot]`
-- x86: `mov eax, [ecx]` / `call dword ptr [eax+4*slot]`
 
-Why compiler generates this pattern:
-- Implement virtual dispatch via vtable pointers stored at object base.
+On x86 the equivalent uses `eax` and `dword ptr [eax+4*slot]`.
 
-Variations:
-- Multiple inheritance may use secondary vtables and thunks that adjust `this`.
+## Interpretation
 
-Reverse engineering tips:
-- Use RTTI and COL detection to recover class names; find `vtable[-1]` to locate COL.
-- In IDA: create a structure for the vtable and apply function names to slots.
+- `rcx` is typically `this` (object base). The first qword at object base is the vtable pointer.
+- `slot` index identifies which virtual method is being invoked — divide offset by pointer size (8 on x64, 4 on x86).
 
-Related knowledge:
-- knowledge/windows/cpp/vtables.md
+## Variations and Complexities
+
+- Multiple inheritance: object may hold multiple vtable pointers at different offsets; compiler-generated thunks adjust `this`.
+- Inlined virtual calls: optimizer may eliminate indirection in rare cases; verify with cross-references.
+
+## Analysis Workflow
+
+1. Identify repeated indirect call locations across codebase that use the same slot offset. These likely map to a vtable slot.
+2. Collect candidate functions and label them consistently in the disassembly.
+3. Locate vtable object(s) in data section and apply names to slots.
+
+## Tools and Tips
+
+- Use RTTI `_RTTICompleteObjectLocator` when present to map vtable to class names.
+- IDA/Ghidra: define vtable as an array of pointers and apply function names to slots.
+
+## Verification Checklist
+
+- [ ] Mapped vtable slots to consistent function addresses across binaries.
+- [ ] Cross-validated vtable assignments using RTTI or runtime inspection.
+
+## Related Knowledge
+
+- `knowledge/windows/cpp/vtables.md`
 

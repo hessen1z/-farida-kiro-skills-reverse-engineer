@@ -1,3 +1,11 @@
+---
+title: CPU Architecture
+skill: computer-architecture
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, asm, x64, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # CPU Architecture
 
 ## Overview

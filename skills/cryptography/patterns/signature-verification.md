@@ -1,3 +1,11 @@
+---
+title: Signature Verification Patterns
+skill: cryptography
+category: patterns
+difficulty: intermediate
+tags: [pe, cryptography, gui]
+updated: 2026-07-05
+---
 # Signature Verification Patterns
 
 ## Overview

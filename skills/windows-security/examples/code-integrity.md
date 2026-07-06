@@ -1,3 +1,11 @@
+---
+title: Code Integrity Analysis Example
+skill: windows-security
+category: examples
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel]
+updated: 2026-07-05
+---
 # Code Integrity Analysis Example
 
 ## Scenario

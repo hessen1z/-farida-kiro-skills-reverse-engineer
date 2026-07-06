@@ -1,3 +1,11 @@
+---
+title: Kernel I/O and Driver Interaction
+skill: kernel
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Kernel I/O and Driver Interaction
 
 ## Overview
@@ -78,6 +86,21 @@ An `IRP` contains an array of `IO_STACK_LOCATION` entries. Each driver in the st
 ## References
 - Windows Internals: I/O Manager chapter
 - MSDN documentation for IRP, DRIVER_OBJECT, and DEVICE_OBJECT
+
+## Practical Guidance
+
+- When tracing IRP flows, capture both the call path and IRP stack locations to determine which driver completes the request.
+- Use fast I/O callbacks as a quick check for file path resolution failures before diving into full IRP dispatch.
+
+## Tools & Commands
+
+- WinDbg: `!irp`, `!devobj`, and `!object` to inspect IRP stacks and device objects.
+- Use live tracing (`xperf`, `ETW`) to correlate I/O timings with driver behavior.
+
+## Validation Checklist
+
+- Confirm IRP completions occur at the expected stack level and that completion statuses propagate correctly.
+- Verify that fast I/O paths and cache manager interactions are exercised during testing.
 
 ## Cross-links
 - `../knowledge/kernel-architecture.md`

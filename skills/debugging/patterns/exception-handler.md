@@ -1,3 +1,11 @@
+---
+title: Exception Handler Pattern
+skill: debugging
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, asm, x64, kernel, debug]
+updated: 2026-07-05
+---
 # Exception Handler Pattern
 
 ## Pattern Name

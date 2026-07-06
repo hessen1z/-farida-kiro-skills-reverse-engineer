@@ -1,3 +1,11 @@
+---
+title: Debugging References
+skill: debugging
+category: references
+difficulty: intermediate
+tags: [pe, windows, driver, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Debugging References
 
 - Microsoft Debugging Tools for Windows

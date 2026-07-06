@@ -1,3 +1,11 @@
+---
+title: Cryptographic Initialization Patterns
+skill: cryptography
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, cryptography, gui]
+updated: 2026-07-05
+---
 # Cryptographic Initialization Patterns
 
 ## Overview

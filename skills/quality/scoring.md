@@ -1,3 +1,11 @@
+---
+title: scoring
+skill: quality
+category: 
+difficulty: intermediate
+tags: []
+updated: 2026-07-05
+---
 Scoring and Quality Metrics
 
 Purpose: Provide objective metrics for evaluating new content.

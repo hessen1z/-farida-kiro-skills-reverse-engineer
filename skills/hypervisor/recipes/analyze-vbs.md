@@ -1,3 +1,11 @@
+---
+title: Analyze VBS Recipe
+skill: hypervisor
+category: recipes
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Analyze VBS Recipe
 
 ## Purpose

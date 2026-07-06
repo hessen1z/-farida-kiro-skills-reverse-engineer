@@ -1,3 +1,11 @@
+---
+title: Anti-Debug Pattern
+skill: game-security
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, anti-cheat, driver, gui, debug, elf]
+updated: 2026-07-05
+---
 # Anti-Debug Pattern
 
 ## Pattern Name

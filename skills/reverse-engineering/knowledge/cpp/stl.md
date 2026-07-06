@@ -1,3 +1,11 @@
+---
+title: STL Containers (Layouts and Common Patterns)
+skill: reverse-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # STL Containers (Layouts and Common Patterns)
 
 Common STL containers encountered in binaries: `std::vector`, `std::string`, `std::list`, `std::map`.
@@ -37,3 +45,13 @@ Related:
 - Ensure the document points to the most relevant examples, recipes, or playbooks.
 - Validate that the terminology is consistent with the rest of the skill.
 - Check that the practical guidance is specific enough to be used without further interpretation.
+
+## Tools & Commands
+
+- Use sample builds and symbolized binaries to observe constructor/destructor patterns for common containers.
+- Use heuristic scripts to find allocation/copy loops indicative of container growth and reserve patterns.
+
+## Practical Validation
+
+- Confirm inferred container layouts by locating allocation sites and validating element access patterns at runtime.
+- When reconstructing headers for SDKs, compile a small test linking against recovered types to confirm ABI correctness.

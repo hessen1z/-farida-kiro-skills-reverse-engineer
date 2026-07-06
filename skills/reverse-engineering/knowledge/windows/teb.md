@@ -1,3 +1,11 @@
+---
+title: TEB (Thread Environment Block)
+skill: reverse-engineering
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, x64, gui]
+updated: 2026-07-05
+---
 # TEB (Thread Environment Block)
 
 The Thread Environment Block (TEB) stores thread-local information such as
@@ -47,3 +55,13 @@ Related:
 - Ensure the document points to the most relevant examples, recipes, or playbooks.
 - Validate that the terminology is consistent with the rest of the skill.
 - Check that the practical guidance is specific enough to be used without further interpretation.
+
+## Tools & Commands
+
+- Use WinDbg to inspect TEB with `dt nt!_TEB` and read TLS slots for a given thread.
+- Use thread enumerations and APIs to map thread IDs to TEB addresses when analyzing dumps.
+
+## Practical Validation
+
+- Validate that TLS pointers point to expected module data by reading slot contents and confirming expected signatures.
+- Confirm stack bounds before scanning to avoid reading beyond valid stack ranges.

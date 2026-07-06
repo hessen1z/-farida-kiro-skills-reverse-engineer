@@ -1,44 +1,58 @@
+---
+title: Pure Virtual / __purecall Pattern
+skill: patterns
+category: 
+difficulty: intermediate
+tags: [pe, windows, asm, gui]
+updated: 2026-07-05
+---
 # Pure Virtual / __purecall Pattern
 
-Goal:
-Detect pure-virtual call sites and the `__purecall` handler indicating abstract methods.
+## Overview
+This pattern appears when a class hierarchy uses a pure virtual function and the compiler emits a stub that will crash or terminate if invoked unexpectedly. In practice, analysts use it as a strong signal that a class is abstract and that an invalid call path exists.
 
-Recognition signs:
-- Calls to `__purecall` (MSVC) or references to pure virtual stubs in vtables.
-- Vtable entries pointing to `__purecall` address.
+## Recognition Signs
+- A call target named `__purecall` on MSVC builds.
+- A vtable slot that resolves to the compiler-generated pure virtual stub.
+- A decompiled or source-level declaration such as `virtual void Foo() = 0;`.
+- A call chain that reaches a stub after a vtable dispatch.
 
-Assembly examples:
-- x64 vtable slot pointing to `__purecall`:
-```
+## Typical Assembly Form
+A common MSVC form looks like this:
+```asm
 mov rax, [rcx]
-call qword ptr [rax+0x10]  ; if points to __purecall
+call qword ptr [rax+0x10] ; vtable slot resolves to __purecall
 ```
 
-Decompiled equivalent:
-```
-virtual void Foo() = 0; // pure virtual
-```
+## Why the Compiler Generates It
+Abstract base classes require a stub implementation so that a broken call path can fail deterministically. The stub is not a normal runtime entry point; it is a guardrail for invalid usage.
 
-Why compiler generates this pattern:
-- Abstract base classes need a placeholder to crash at runtime if pure virtual is invoked.
+## Variations Across Compilers
+- MSVC: `__purecall`
+- GCC/Clang: `__cxa_pure_virtual`
 
-Variations across compilers:
-- MSVC uses `__purecall`; GCC/Clang use `__cxa_pure_virtual`.
+## Practical Guidance
+- Treat the call as a design or logic failure unless you have evidence that the code intentionally dispatches through the stub for a controlled path.
+- Rename the vtable slot or function to something like `pure_virtual_stub` during reconstruction to preserve the architectural meaning.
+- Search for the compiler-generated symbol name in imports, strings, or the binary image to find additional abstract methods.
 
-Common mistakes:
-- Treating `__purecall` hits as legitimate API calls; they indicate a design/logic error in the program.
+## Reverse Engineering Notes
+- Inspect the owning class hierarchy and identify which abstract method is being invoked.
+- Correlate the stub with RTTI and vtable layout to reconstruct the class hierarchy accurately.
+- Use this pattern to validate that a class should be treated as abstract rather than as a concrete implementation.
 
-Reverse engineering tips:
-- Rename vtable slots that point to `__purecall` as `pure_virtual_stub` and mark class as abstract.
-- Search for `__purecall` symbol in imports or within the binary to locate abstract methods.
+## Common Mistakes
+- Treating a pure-call stub as a legitimate API or helper routine.
+- Missing that the issue may be caused by an object being used through the wrong interface or after construction failure.
 
-Detection heuristics:
-- vtable entries equal to address of known pure-call stubs.
+## Validation Checklist
+- Confirm that the target is a pure-virtual implementation stub rather than a normal function.
+- Verify that the vtable slot or call target matches the expected abstract method.
+- Record the finding as an architectural signal, not as ordinary program logic.
 
-Related patterns:
-- `virtual-call.md`
-- `vtables.md` (knowledge)
+## Related Patterns
+- [virtual-call](virtual-call.md)
 
-Related knowledge pages:
-- knowledge/windows/cpp/vtables.md
-- knowledge/windows/cpp/rtti.md
+## Related Knowledge
+- [vtables](../reverse-engineering/knowledge/windows/cpp/vtables.md)
+- [rtti](../reverse-engineering/knowledge/windows/cpp/rtti.md)

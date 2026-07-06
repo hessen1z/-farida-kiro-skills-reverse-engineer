@@ -1,27 +1,37 @@
+---
+title: Unity / Il2Cpp Notes
+skill: reverse-engineering
+category: knowledge
+difficulty: advanced
+tags: [pe, unity, gui]
+updated: 2026-07-05
+---
 # Unity / Il2Cpp Notes
 
-Dump metadata, recover types, methods, and generate SDKs.
+Practical guide for working with Unity games that use IL2CPP. Focuses on metadata extraction, type reconstruction, and generating usable SDKs for analysis and tooling.
+
+## Workflow Summary
+
+1. Locate `global-metadata.dat` in the game package or memory.
+2. Use `Il2CppDumper`/`Il2CppInspector` to extract type tables and function pointers.
+3. Generate headers or an SDK and validate against runtime function pointers.
+
+## Tools
+
+- Il2CppDumper — automated extraction and symbol mapping.
+- Il2CppInspector — advanced reconstruction with type analysis.
+- IDA/Ghidra scripts to apply recovered symbols to the disassembly.
+
+## Common Problems
+
+- Version mismatch between tools and IL2CPP runtime; check Unity version and tool compatibility.
+- Obfuscation or stripped metadata requires additional heuristics and manual validation.
+
+## Verification Checklist
+
+- [ ] Metadata extracted successfully and matches runtime image.
+- [ ] Generated SDK compiles or is usable by dynamic instrumentation.
 
 ## Related Material
 
-### Knowledge
-- [common-instructions](../../assembly/common-instructions.md)
-- [compiler-patterns](../../assembly/compiler-patterns.md)
-- [exceptions](../../cpp/exceptions.md)
-
-### Prompts
-- [analyze_binary](../../../prompts/analyze_binary.md)
-- [analyze_crash](../../../prompts/analyze_crash.md)
-- [analyze_memory](../../../prompts/analyze_memory.md)
-## Practical Guidance
-
-- Start from the core objective and define the expected outcome before applying the workflow.
-- Use the related examples, recipes, and playbooks as the first implementation reference.
-- Keep the advice grounded in the surrounding skill context and verify the result against the available evidence.
-- Favor practical, maintainable steps over abstract theory when this document is used in real work.
-## Verification Checklist
-
-- Confirm that the main objective is clear and the workflow is actionable.
-- Ensure the document points to the most relevant examples, recipes, or playbooks.
-- Validate that the terminology is consistent with the rest of the skill.
-- Check that the practical guidance is specific enough to be used without further interpretation.
+- Knowledge: [il2cpp](../game/il2cpp.md)

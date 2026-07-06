@@ -28,7 +28,7 @@ Each skill folder typically includes:
 - `references/` — supporting references and citations
 
 ## How Agents Load Skills
-Agents should load skills by selecting folders with `skill.md` metadata and use `skill-selection.md`, `skill-priority.md`, and `skill-map.md` as guidance.
+Agents should load skills by selecting folders with `skill.md` metadata and use `skills/skill-selection.md`, `skills/skill-priority.md`, and `skills/skill-map.md` as guidance.
 
 ## Folder Structure
 Refer to `DIRECTORY_STRUCTURE.md` for the complete repository layout.

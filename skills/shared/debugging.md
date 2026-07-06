@@ -1,3 +1,11 @@
+---
+title: Debugging
+skill: shared
+category: 
+difficulty: intermediate
+tags: [pe, gui, debug]
+updated: 2026-07-05
+---
 # Debugging
 
 Shared debugging techniques and tips.

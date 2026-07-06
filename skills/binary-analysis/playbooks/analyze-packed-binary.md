@@ -1,3 +1,11 @@
+---
+title: Analyze Packed Binary Playbook
+skill: binary-analysis
+category: playbooks
+difficulty: intermediate
+tags: [pe, loader, gui, debug, elf]
+updated: 2026-07-05
+---
 # Analyze Packed Binary Playbook
 
 ## Goal

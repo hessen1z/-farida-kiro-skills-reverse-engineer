@@ -1,3 +1,11 @@
+---
+title: Architecture
+skill: shared
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # Architecture
 
 Shared architecture notes and conventions.

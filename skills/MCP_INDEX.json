@@ -1,0 +1,6610 @@
+{
+  "generated": "2026-07-05",
+  "skills": [
+    "analysis-engine",
+    "anti-cheat",
+    "assembly",
+    "binary-analysis",
+    "computer-architecture",
+    "content-template",
+    "cpp",
+    "cryptography",
+    "debugging",
+    "detection-engineering",
+    "drivers",
+    "game-engines",
+    "game-security",
+    "gui-engineering",
+    "hypervisor",
+    "kernel",
+    "malware-analysis",
+    "networking",
+    "reverse-engineering",
+    "shared",
+    "system-design",
+    "windows-internals",
+    "windows-security",
+    "writing-guidelines"
+  ],
+  "documents": [
+    {
+      "path": "ARCHITECTURE.md",
+      "skill": "root",
+      "title": "Repository Architecture",
+      "category": "",
+      "tags": [
+        "gui",
+        "kernel",
+        "loader",
+        "malware",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "COMPLETION_REPORT.md",
+      "skill": "root",
+      "title": "Completion Report",
+      "category": "",
+      "tags": [
+        "anti-cheat",
+        "cryptography",
+        "debug",
+        "dll",
+        "driver",
+        "gui",
+        "imgui",
+        "kernel",
+        "loader",
+        "mach-o",
+        "malware",
+        "networking",
+        "pdb",
+        "pe",
+        "unity",
+        "unreal",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "skill": "root",
+      "title": "Contributing to AI Security Library",
+      "category": "",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "DIRECTORY_STRUCTURE.md",
+      "skill": "root",
+      "title": "Directory Structure",
+      "category": "",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "FINAL_COMPLETION_REPORT.md",
+      "skill": "root",
+      "title": "Final Completion Report",
+      "category": "",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "FINAL_POLISH_REPORT.md",
+      "skill": "root",
+      "title": "Final Polish Report",
+      "category": "",
+      "tags": [
+        "dll",
+        "driver",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "METADATA_REPORT.md",
+      "skill": "root",
+      "title": "",
+      "category": "",
+      "tags": [],
+      "difficulty": ""
+    },
+    {
+      "path": "README.md",
+      "skill": "root",
+      "title": "AI Security Library",
+      "category": "",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "RELEASE_APPROVAL.md",
+      "skill": "root",
+      "title": "RELEASE_APPROVAL",
+      "category": "",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "RETRIEVAL_REPORT.md",
+      "skill": "root",
+      "title": "",
+      "category": "",
+      "tags": [],
+      "difficulty": ""
+    },
+    {
+      "path": "SEARCH_INDEX_REPORT.md",
+      "skill": "root",
+      "title": "",
+      "category": "",
+      "tags": [],
+      "difficulty": ""
+    },
+    {
+      "path": "SKILL_STRUCTURE_REPORT.md",
+      "skill": "root",
+      "title": "Skill Structure Report",
+      "category": "",
+      "tags": [
+        "driver",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "SYSTEM.md",
+      "skill": "root",
+      "title": "System Overview",
+      "category": "",
+      "tags": [
+        "gui",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "agent/loader.md",
+      "skill": "root",
+      "title": "Agent Loader",
+      "category": "agent",
+      "tags": [
+        "gui",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "agent/memory.md",
+      "skill": "root",
+      "title": "Memory Guidance",
+      "category": "agent",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "agent/planner.md",
+      "skill": "root",
+      "title": "Planner",
+      "category": "agent",
+      "tags": [
+        "gui",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "agent/reviewer.md",
+      "skill": "root",
+      "title": "Reviewer",
+      "category": "agent",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "agent/router.md",
+      "skill": "root",
+      "title": "Router",
+      "category": "agent",
+      "tags": [
+        "gui",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "agent/validator.md",
+      "skill": "root",
+      "title": "Validator",
+      "category": "agent",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "analysis-engine/checklists.md",
+      "skill": "analysis-engine",
+      "title": "checklists",
+      "category": "analysis-engine",
+      "tags": [
+        "elf",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "analysis-engine/common-failures.md",
+      "skill": "analysis-engine",
+      "title": "common-failures",
+      "category": "analysis-engine",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "analysis-engine/confidence.md",
+      "skill": "analysis-engine",
+      "title": "confidence",
+      "category": "analysis-engine",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "analysis-engine/decision-tree.md",
+      "skill": "analysis-engine",
+      "title": "decision-tree",
+      "category": "analysis-engine",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "analysis-engine/documentation.md",
+      "skill": "analysis-engine",
+      "title": "documentation",
+      "category": "analysis-engine",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "analysis-engine/error-analysis.md",
+      "skill": "analysis-engine",
+      "title": "error-analysis",
+      "category": "analysis-engine",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "analysis-engine/evidence.md",
+      "skill": "analysis-engine",
+      "title": "evidence",
+      "category": "analysis-engine",
+      "tags": [
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "analysis-engine/hypothesis.md",
+      "skill": "analysis-engine",
+      "title": "hypothesis",
+      "category": "analysis-engine",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "analysis-engine/quality-control.md",
+      "skill": "analysis-engine",
+      "title": "quality-control",
+      "category": "analysis-engine",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "analysis-engine/reasoning.md",
+      "skill": "analysis-engine",
+      "title": "reasoning",
+      "category": "analysis-engine",
+      "tags": [
+        "debug",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "analysis-engine/renaming.md",
+      "skill": "analysis-engine",
+      "title": "renaming",
+      "category": "analysis-engine",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "analysis-engine/skill.md",
+      "skill": "analysis-engine",
+      "title": "Analysis Engine",
+      "category": "analysis-engine",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "analysis-engine/verification.md",
+      "skill": "analysis-engine",
+      "title": "verification",
+      "category": "analysis-engine",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "analysis-engine/workflow.md",
+      "skill": "analysis-engine",
+      "title": "workflow",
+      "category": "analysis-engine",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "anti-cheat/checklists/checklist.md",
+      "skill": "anti-cheat",
+      "title": "Anti-Cheat Checklist",
+      "category": "checklists",
+      "tags": [
+        "anti-cheat",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "anti-cheat/examples/driver-analysis.md",
+      "skill": "anti-cheat",
+      "title": "Anti-Cheat Driver Analysis Example",
+      "category": "examples",
+      "tags": [
+        "anti-cheat",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "anti-cheat/examples/user-mode-analysis.md",
+      "skill": "anti-cheat",
+      "title": "Anti-Cheat User-Mode Analysis Example",
+      "category": "examples",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "dll",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "anti-cheat/knowledge/architecture.md",
+      "skill": "anti-cheat",
+      "title": "Anti-Cheat Architecture",
+      "category": "knowledge",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "dll",
+        "driver",
+        "gui",
+        "kernel",
+        "loader",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "anti-cheat/patterns/driver-enforcement.md",
+      "skill": "anti-cheat",
+      "title": "Driver Enforcement Pattern",
+      "category": "patterns",
+      "tags": [
+        "anti-cheat",
+        "driver",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "anti-cheat/patterns/hook-detection.md",
+      "skill": "anti-cheat",
+      "title": "Hook Detection Pattern",
+      "category": "patterns",
+      "tags": [
+        "anti-cheat",
+        "driver",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "anti-cheat/patterns/memory-scan.md",
+      "skill": "anti-cheat",
+      "title": "Memory Scan Pattern",
+      "category": "patterns",
+      "tags": [
+        "anti-cheat",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "anti-cheat/playbooks/DetectionAndEnforcement.md",
+      "skill": "anti-cheat",
+      "title": "Detection and Enforcement Playbook",
+      "category": "playbooks",
+      "tags": [
+        "anti-cheat",
+        "driver",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "anti-cheat/prompts/anti-cheat-analysis.md",
+      "skill": "anti-cheat",
+      "title": "Anti-Cheat Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "anti-cheat",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "anti-cheat/recipes/analyze-driver.md",
+      "skill": "anti-cheat",
+      "title": "Analyze Anti-Cheat Driver Recipe",
+      "category": "recipes",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "anti-cheat/recipes/analyze-user-mode.md",
+      "skill": "anti-cheat",
+      "title": "Analyze User-Mode Anti-Cheat Recipe",
+      "category": "recipes",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "anti-cheat/references/references.md",
+      "skill": "anti-cheat",
+      "title": "Anti-Cheat References",
+      "category": "references",
+      "tags": [
+        "anti-cheat",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "anti-cheat/rules/anti-cheat-principles.md",
+      "skill": "anti-cheat",
+      "title": "Anti-Cheat Rules",
+      "category": "rules",
+      "tags": [
+        "anti-cheat",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "anti-cheat/skill.md",
+      "skill": "anti-cheat",
+      "title": "Anti-Cheat Skill",
+      "category": "anti-cheat",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "elf",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "assembly/skill.md",
+      "skill": "assembly",
+      "title": "Assembly Skill",
+      "category": "assembly",
+      "tags": [
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "benchmarks/README.md",
+      "skill": "root",
+      "title": "Benchmarks",
+      "category": "benchmarks",
+      "tags": [
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/checklists/checklist.md",
+      "skill": "binary-analysis",
+      "title": "Binary Analysis Checklist",
+      "category": "checklists",
+      "tags": [
+        "debug",
+        "dll",
+        "elf",
+        "loader",
+        "mach-o",
+        "pdb",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/knowledge/decompilers.md",
+      "skill": "binary-analysis",
+      "title": "Decompilers",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "pdb",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/knowledge/demangling.md",
+      "skill": "binary-analysis",
+      "title": "Demangling",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "pdb",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/knowledge/disassemblers.md",
+      "skill": "binary-analysis",
+      "title": "Disassemblers",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "binary-analysis/knowledge/dwarf.md",
+      "skill": "binary-analysis",
+      "title": "DWARF",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/knowledge/elf.md",
+      "skill": "binary-analysis",
+      "title": "Executable and Linkable Format (ELF)",
+      "category": "knowledge",
+      "tags": [
+        "asm",
+        "debug",
+        "elf",
+        "gui",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/knowledge/exceptions.md",
+      "skill": "binary-analysis",
+      "title": "Exception Handling Metadata",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "loader",
+        "malware",
+        "pdb",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/knowledge/exports.md",
+      "skill": "binary-analysis",
+      "title": "Exports",
+      "category": "knowledge",
+      "tags": [
+        "anti-cheat",
+        "asm",
+        "dll",
+        "driver",
+        "elf",
+        "gui",
+        "kernel",
+        "loader",
+        "malware",
+        "pdb",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/knowledge/imports.md",
+      "skill": "binary-analysis",
+      "title": "Imports",
+      "category": "knowledge",
+      "tags": [
+        "anti-cheat",
+        "asm",
+        "cryptography",
+        "debug",
+        "dll",
+        "driver",
+        "elf",
+        "gui",
+        "kernel",
+        "loader",
+        "mach-o",
+        "networking",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/knowledge/mach-o.md",
+      "skill": "binary-analysis",
+      "title": "Mach-O",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "loader",
+        "mach-o",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/knowledge/obfuscation.md",
+      "skill": "binary-analysis",
+      "title": "Obfuscation",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "loader",
+        "malware",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/knowledge/packers.md",
+      "skill": "binary-analysis",
+      "title": "Packers",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "loader",
+        "malware",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/knowledge/pdb.md",
+      "skill": "binary-analysis",
+      "title": "Program Database (PDB)",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "dll",
+        "elf",
+        "gui",
+        "loader",
+        "pdb",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "binary-analysis/knowledge/pe.md",
+      "skill": "binary-analysis",
+      "title": "Portable Executable (PE)",
+      "category": "knowledge",
+      "tags": [
+        "anti-cheat",
+        "asm",
+        "debug",
+        "dll",
+        "driver",
+        "elf",
+        "gui",
+        "kernel",
+        "loader",
+        "malware",
+        "pdb",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/knowledge/protectors.md",
+      "skill": "binary-analysis",
+      "title": "Protectors",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "malware",
+        "pe"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "binary-analysis/knowledge/relocations.md",
+      "skill": "binary-analysis",
+      "title": "Relocations",
+      "category": "knowledge",
+      "tags": [
+        "anti-cheat",
+        "asm",
+        "debug",
+        "dll",
+        "driver",
+        "elf",
+        "gui",
+        "kernel",
+        "loader",
+        "malware",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/knowledge/resources.md",
+      "skill": "binary-analysis",
+      "title": "Resource Sections",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "dll",
+        "driver",
+        "elf",
+        "gui",
+        "loader",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/knowledge/symbols.md",
+      "skill": "binary-analysis",
+      "title": "Symbols",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "dll",
+        "elf",
+        "mach-o",
+        "pdb",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/knowledge/tls.md",
+      "skill": "binary-analysis",
+      "title": "Thread Local Storage (TLS)",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "dll",
+        "driver",
+        "elf",
+        "kernel",
+        "loader",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/patterns/encrypted-string.md",
+      "skill": "binary-analysis",
+      "title": "Encrypted String Pattern",
+      "category": "patterns",
+      "tags": [
+        "elf",
+        "malware",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/patterns/export-table.md",
+      "skill": "binary-analysis",
+      "title": "Export Table Pattern",
+      "category": "patterns",
+      "tags": [
+        "dll",
+        "elf",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/patterns/import-table.md",
+      "skill": "binary-analysis",
+      "title": "Import Table Pattern",
+      "category": "patterns",
+      "tags": [
+        "dll",
+        "elf",
+        "kernel",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/patterns/obfuscated-jump.md",
+      "skill": "binary-analysis",
+      "title": "Obfuscated Jump Pattern",
+      "category": "patterns",
+      "tags": [
+        "elf",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/patterns/packer.md",
+      "skill": "binary-analysis",
+      "title": "Packer Pattern",
+      "category": "patterns",
+      "tags": [
+        "elf",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/patterns/switch-table.md",
+      "skill": "binary-analysis",
+      "title": "Switch Table Pattern",
+      "category": "patterns",
+      "tags": [
+        "elf",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/patterns/themida.md",
+      "skill": "binary-analysis",
+      "title": "Themida Pattern",
+      "category": "patterns",
+      "tags": [
+        "debug",
+        "elf",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/patterns/tls-callback.md",
+      "skill": "binary-analysis",
+      "title": "TLS Callback Pattern",
+      "category": "patterns",
+      "tags": [
+        "debug",
+        "elf",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/patterns/upx.md",
+      "skill": "binary-analysis",
+      "title": "UPX Pattern",
+      "category": "patterns",
+      "tags": [
+        "elf",
+        "loader",
+        "malware",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/patterns/vmprotect.md",
+      "skill": "binary-analysis",
+      "title": "VMProtect Pattern",
+      "category": "patterns",
+      "tags": [
+        "debug",
+        "elf",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/playbooks/analyze-elf.md",
+      "skill": "binary-analysis",
+      "title": "Analyze ELF Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "elf",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/playbooks/analyze-packed-binary.md",
+      "skill": "binary-analysis",
+      "title": "Analyze Packed Binary Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/playbooks/analyze-pe.md",
+      "skill": "binary-analysis",
+      "title": "Analyze PE Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "dll",
+        "elf",
+        "loader",
+        "pdb",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/playbooks/analyze-protected-binary.md",
+      "skill": "binary-analysis",
+      "title": "Analyze Protected Binary Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/prompts/analyze-binary.md",
+      "skill": "binary-analysis",
+      "title": "Analyze Binary Prompt",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "loader",
+        "mach-o",
+        "pe"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "binary-analysis/recipes/analyze-binary.md",
+      "skill": "binary-analysis",
+      "title": "Analyze Binary Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "elf",
+        "loader",
+        "mach-o",
+        "pdb",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/recipes/recover-exports.md",
+      "skill": "binary-analysis",
+      "title": "Recover Exports Recipe",
+      "category": "recipes",
+      "tags": [
+        "dll",
+        "elf",
+        "loader",
+        "pdb",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/recipes/recover-imports.md",
+      "skill": "binary-analysis",
+      "title": "Recover Imports Recipe",
+      "category": "recipes",
+      "tags": [
+        "dll",
+        "elf",
+        "gui",
+        "pdb",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/recipes/recover-pdb.md",
+      "skill": "binary-analysis",
+      "title": "Recover PDB Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "pdb",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/recipes/recover-symbols.md",
+      "skill": "binary-analysis",
+      "title": "Recover Symbols Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "elf",
+        "pdb",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/recipes/unpack-binary.md",
+      "skill": "binary-analysis",
+      "title": "Unpack Binary Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "elf",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/references/elf.md",
+      "skill": "binary-analysis",
+      "title": "ELF References",
+      "category": "references",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/references/intel.md",
+      "skill": "binary-analysis",
+      "title": "Intel References",
+      "category": "references",
+      "tags": [
+        "elf",
+        "gui",
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/references/microsoft.md",
+      "skill": "binary-analysis",
+      "title": "Microsoft References",
+      "category": "references",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "kernel",
+        "loader",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/references/pe.md",
+      "skill": "binary-analysis",
+      "title": "PE References",
+      "category": "references",
+      "tags": [
+        "elf",
+        "gui",
+        "loader",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/rules/rule.md",
+      "skill": "binary-analysis",
+      "title": "Binary Analysis Rules",
+      "category": "rules",
+      "tags": [
+        "elf",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "binary-analysis/skill.md",
+      "skill": "binary-analysis",
+      "title": "Binary Analysis Skill",
+      "category": "binary-analysis",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "loader",
+        "mach-o",
+        "malware",
+        "pdb",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "checklists/binary.md",
+      "skill": "root",
+      "title": "Binary Checklist",
+      "category": "checklists",
+      "tags": [
+        "dll",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "checklists/dll.md",
+      "skill": "root",
+      "title": "DLL Checklist",
+      "category": "checklists",
+      "tags": [
+        "dll",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "checklists/driver.md",
+      "skill": "root",
+      "title": "Driver Checklist",
+      "category": "checklists",
+      "tags": [
+        "dll",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "checklists/game.md",
+      "skill": "root",
+      "title": "Game Analysis Checklist",
+      "category": "checklists",
+      "tags": [
+        "dll",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "computer-architecture/knowledge/cpu.md",
+      "skill": "computer-architecture",
+      "title": "CPU Architecture",
+      "category": "knowledge",
+      "tags": [
+        "asm",
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "computer-architecture/skill.md",
+      "skill": "computer-architecture",
+      "title": "Computer Architecture Skill",
+      "category": "computer-architecture",
+      "tags": [
+        "debug",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "content-template/README.md",
+      "skill": "content-template",
+      "title": "Content Template Skill",
+      "category": "content-template",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "content-template/checklists/checklist-template.md",
+      "skill": "content-template",
+      "title": "Checklist Template",
+      "category": "checklists",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "content-template/examples/example-template.md",
+      "skill": "content-template",
+      "title": "Example Template",
+      "category": "examples",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "content-template/knowledge/knowledge-template.md",
+      "skill": "content-template",
+      "title": "Knowledge Article Template",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "content-template/patterns/pattern-template.md",
+      "skill": "content-template",
+      "title": "Pattern Template",
+      "category": "patterns",
+      "tags": [
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "content-template/playbooks/playbook-template.md",
+      "skill": "content-template",
+      "title": "Playbook Template",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "content-template/prompts/prompt-template.md",
+      "skill": "content-template",
+      "title": "Prompt Template",
+      "category": "prompts",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "content-template/recipes/recipe-template.md",
+      "skill": "content-template",
+      "title": "Recipe Template",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "content-template/references/reference-template.md",
+      "skill": "content-template",
+      "title": "Reference Template",
+      "category": "references",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "content-template/rules/rule-template.md",
+      "skill": "content-template",
+      "title": "Rule Template",
+      "category": "rules",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "content-template/skill-template.md",
+      "skill": "content-template",
+      "title": "Skill Template",
+      "category": "content-template",
+      "tags": [
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "content-template/skill.md",
+      "skill": "content-template",
+      "title": "Content Template Skill",
+      "category": "content-template",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cpp/skill.md",
+      "skill": "cpp",
+      "title": "Modern C++ Master",
+      "category": "cpp",
+      "tags": [
+        "pe",
+        "windows"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "cryptography/checklists/cryptography-audit-checklist.md",
+      "skill": "cryptography",
+      "title": "Cryptography Audit Checklist",
+      "category": "checklists",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/examples/cng-aes-encrypt.md",
+      "skill": "cryptography",
+      "title": "CNG AES Encryption Example",
+      "category": "examples",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/examples/cryptoapi-hash-sign.md",
+      "skill": "cryptography",
+      "title": "CryptoAPI Hash and Sign Example",
+      "category": "examples",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/knowledge/asymmetric-cryptography.md",
+      "skill": "cryptography",
+      "title": "Asymmetric Cryptography Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "cryptography",
+        "elf",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/knowledge/certificate-pki.md",
+      "skill": "cryptography",
+      "title": "Certificates and PKI Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "cryptography",
+        "elf",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/knowledge/cryptography-fundamentals.md",
+      "skill": "cryptography",
+      "title": "Cryptography Fundamentals",
+      "category": "knowledge",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/knowledge/hashing-integrity.md",
+      "skill": "cryptography",
+      "title": "Hashing and Integrity Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/knowledge/symmetric-encryption.md",
+      "skill": "cryptography",
+      "title": "Symmetric Encryption Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "cryptography/patterns/certificate-validation.md",
+      "skill": "cryptography",
+      "title": "Certificate Validation Patterns",
+      "category": "patterns",
+      "tags": [
+        "cryptography",
+        "elf",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/patterns/crypto-initialization.md",
+      "skill": "cryptography",
+      "title": "Cryptographic Initialization Patterns",
+      "category": "patterns",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/patterns/crypto-patterns.md",
+      "skill": "cryptography",
+      "title": "Cryptography Patterns",
+      "category": "patterns",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/patterns/key-management.md",
+      "skill": "cryptography",
+      "title": "Key Management Patterns",
+      "category": "patterns",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/patterns/signature-verification.md",
+      "skill": "cryptography",
+      "title": "Signature Verification Patterns",
+      "category": "patterns",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/playbooks/analyze-secure-protocol.md",
+      "skill": "cryptography",
+      "title": "Analyze Secure Protocol Playbook",
+      "category": "playbooks",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/playbooks/crypto-system-review.md",
+      "skill": "cryptography",
+      "title": "Cryptographic System Review Playbook",
+      "category": "playbooks",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/playbooks/developer-crypto-audit.md",
+      "skill": "cryptography",
+      "title": "Developer Crypto Audit Playbook",
+      "category": "playbooks",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/playbooks/secure-transport-playbook.md",
+      "skill": "cryptography",
+      "title": "Secure Transport Playbook",
+      "category": "playbooks",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/prompts/crypto-analysis.md",
+      "skill": "cryptography",
+      "title": "Cryptography Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "cryptography/prompts/secure-implementation-checklist.md",
+      "skill": "cryptography",
+      "title": "Cryptography Implementation Prompt",
+      "category": "prompts",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/recipes/analyze-certificate-chain.md",
+      "skill": "cryptography",
+      "title": "Analyze Certificate Chain Recipe",
+      "category": "recipes",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/recipes/analyze-encryption.md",
+      "skill": "cryptography",
+      "title": "Analyze Encryption Recipe",
+      "category": "recipes",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/recipes/analyze-hash.md",
+      "skill": "cryptography",
+      "title": "Analyze Hash Recipe",
+      "category": "recipes",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/recipes/analyze-key-management.md",
+      "skill": "cryptography",
+      "title": "Analyze Key Management Recipe",
+      "category": "recipes",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/recipes/analyze-signature.md",
+      "skill": "cryptography",
+      "title": "Analyze Signature Recipe",
+      "category": "recipes",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/references/references.md",
+      "skill": "cryptography",
+      "title": "Cryptography References",
+      "category": "references",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/rules/cryptography-guidelines.md",
+      "skill": "cryptography",
+      "title": "Cryptography Guidelines",
+      "category": "rules",
+      "tags": [
+        "cryptography",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "cryptography/skill.md",
+      "skill": "cryptography",
+      "title": "Cryptography Skill",
+      "category": "cryptography",
+      "tags": [
+        "cryptography",
+        "gui",
+        "networking",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/checklists/checklist.md",
+      "skill": "debugging",
+      "title": "Debugging Checklist",
+      "category": "checklists",
+      "tags": [
+        "debug",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/examples/kernel-debugging.md",
+      "skill": "debugging",
+      "title": "Kernel Debugging Example",
+      "category": "examples",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/examples/stack-unwind.md",
+      "skill": "debugging",
+      "title": "Stack Unwind Example",
+      "category": "examples",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/examples/winDbg-crash-analysis.md",
+      "skill": "debugging",
+      "title": "WinDbg Crash Analysis Example",
+      "category": "examples",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/knowledge/anti-debugging.md",
+      "skill": "debugging",
+      "title": "Anti-Debugging Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/knowledge/debugging.md",
+      "skill": "debugging",
+      "title": "Debugging Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "asm",
+        "debug",
+        "driver",
+        "elf",
+        "gui",
+        "kernel",
+        "pdb",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/knowledge/kernel-debugging.md",
+      "skill": "debugging",
+      "title": "Kernel Debugging Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/patterns/breakpoint.md",
+      "skill": "debugging",
+      "title": "Breakpoint Pattern",
+      "category": "patterns",
+      "tags": [
+        "asm",
+        "debug",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/patterns/exception-handler.md",
+      "skill": "debugging",
+      "title": "Exception Handler Pattern",
+      "category": "patterns",
+      "tags": [
+        "asm",
+        "debug",
+        "kernel",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/patterns/stack-unwind-failure.md",
+      "skill": "debugging",
+      "title": "Stack Unwind Failure Pattern",
+      "category": "patterns",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/playbooks/Crash.md",
+      "skill": "debugging",
+      "title": "Crash Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/playbooks/Hang.md",
+      "skill": "debugging",
+      "title": "Hang Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/playbooks/Performance.md",
+      "skill": "debugging",
+      "title": "Performance Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/playbooks/Security.md",
+      "skill": "debugging",
+      "title": "Security Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/prompts/debug-process.md",
+      "skill": "debugging",
+      "title": "Debug Process Prompt",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "debugging/prompts/exception-analysis.md",
+      "skill": "debugging",
+      "title": "Exception Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "debugging/prompts/hang-analysis.md",
+      "skill": "debugging",
+      "title": "Hang Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "debugging/recipes/analyze-crash.md",
+      "skill": "debugging",
+      "title": "Analyze Crash Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "kernel",
+        "loader",
+        "pdb",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/recipes/analyze-exception.md",
+      "skill": "debugging",
+      "title": "Analyze Exception Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/recipes/analyze-hang.md",
+      "skill": "debugging",
+      "title": "Analyze Hang Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/recipes/capture-dump.md",
+      "skill": "debugging",
+      "title": "Capture Dump Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/recipes/debug-driver.md",
+      "skill": "debugging",
+      "title": "Debug Driver Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "driver",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/recipes/debug-game.md",
+      "skill": "debugging",
+      "title": "Debug Game Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/recipes/recover-call-stack.md",
+      "skill": "debugging",
+      "title": "Recover Call Stack Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "kernel",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/references/references.md",
+      "skill": "debugging",
+      "title": "Debugging References",
+      "category": "references",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/rules/debugging-principles.md",
+      "skill": "debugging",
+      "title": "Debugging Rules",
+      "category": "rules",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "debugging/skill.md",
+      "skill": "debugging",
+      "title": "Debugging Skill",
+      "category": "debugging",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "loader",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "detection-engineering/checklists/validation-checklist.md",
+      "skill": "detection-engineering",
+      "title": "Detection Validation Checklist",
+      "category": "checklists",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "detection-engineering/knowledge/detection-engineering-fundamentals.md",
+      "skill": "detection-engineering",
+      "title": "Detection Engineering Fundamentals",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "detection-engineering/knowledge/telemetry-and-pipelines.md",
+      "skill": "detection-engineering",
+      "title": "Telemetry and Detection Pipelines",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "detection-engineering/patterns/monitoring-loop.md",
+      "skill": "detection-engineering",
+      "title": "Monitoring Loop",
+      "category": "patterns",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "detection-engineering/playbooks/analyze-detection-pipeline.md",
+      "skill": "detection-engineering",
+      "title": "Analyze Detection Pipeline",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "detection-engineering/prompts/design-prompt.md",
+      "skill": "detection-engineering",
+      "title": "design-prompt",
+      "category": "prompts",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "detection-engineering/recipes/design-detection-pipeline.md",
+      "skill": "detection-engineering",
+      "title": "Design Detection Pipeline",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "detection-engineering/references/references.md",
+      "skill": "detection-engineering",
+      "title": "References",
+      "category": "references",
+      "tags": [
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "detection-engineering/rules/style.md",
+      "skill": "detection-engineering",
+      "title": "Detection Engineering Style Rules",
+      "category": "rules",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "detection-engineering/skill.md",
+      "skill": "detection-engineering",
+      "title": "Detection Engineering Skill",
+      "category": "detection-engineering",
+      "tags": [
+        "anti-cheat",
+        "cryptography",
+        "gui",
+        "malware",
+        "networking",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "drivers/checklists/checklist.md",
+      "skill": "drivers",
+      "title": "Drivers Checklist",
+      "category": "checklists",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "drivers/examples/driver-entry.md",
+      "skill": "drivers",
+      "title": "Driver Entry Example",
+      "category": "examples",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "drivers/examples/irp-completion.md",
+      "skill": "drivers",
+      "title": "IRP Completion Example",
+      "category": "examples",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "drivers/knowledge/driver-model.md",
+      "skill": "drivers",
+      "title": "Windows Driver Model",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "drivers/patterns/irp-flow.md",
+      "skill": "drivers",
+      "title": "IRP Flow Pattern",
+      "category": "patterns",
+      "tags": [
+        "debug",
+        "driver",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "drivers/playbooks/DriverCrash.md",
+      "skill": "drivers",
+      "title": "Driver Crash Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "driver",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "drivers/playbooks/DriverLifecycle.md",
+      "skill": "drivers",
+      "title": "Driver Lifecycle Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "drivers/prompts/driver-analysis.md",
+      "skill": "drivers",
+      "title": "Driver Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "drivers/recipes/analyze-irp.md",
+      "skill": "drivers",
+      "title": "Analyze IRP Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "driver",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "drivers/recipes/debug-driver.md",
+      "skill": "drivers",
+      "title": "Debug Driver Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "driver",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "drivers/references/references.md",
+      "skill": "drivers",
+      "title": "Drivers References",
+      "category": "references",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "drivers/skill.md",
+      "skill": "drivers",
+      "title": "Drivers Skill",
+      "category": "drivers",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/checklists/checklist.md",
+      "skill": "game-engines",
+      "title": "Game Engines Checklist",
+      "category": "checklists",
+      "tags": [
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/examples/engine-discovery.md",
+      "skill": "game-engines",
+      "title": "Engine Discovery Example",
+      "category": "examples",
+      "tags": [
+        "gui",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/examples/plugin-discovery.md",
+      "skill": "game-engines",
+      "title": "Plugin Discovery Example",
+      "category": "examples",
+      "tags": [
+        "dll",
+        "gui",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/knowledge/asset-pipelines.md",
+      "skill": "game-engines",
+      "title": "Asset Pipelines Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/knowledge/engine-architecture.md",
+      "skill": "game-engines",
+      "title": "Game Engine Architecture",
+      "category": "knowledge",
+      "tags": [
+        "anti-cheat",
+        "dll",
+        "gui",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/knowledge/input-systems.md",
+      "skill": "game-engines",
+      "title": "Input Systems Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "loader",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/patterns/asset-loader.md",
+      "skill": "game-engines",
+      "title": "Asset Loader Pattern",
+      "category": "patterns",
+      "tags": [
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/patterns/game-loop.md",
+      "skill": "game-engines",
+      "title": "Game Loop Pattern",
+      "category": "patterns",
+      "tags": [
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/patterns/plugin-system.md",
+      "skill": "game-engines",
+      "title": "Plugin System Pattern",
+      "category": "patterns",
+      "tags": [
+        "dll",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/patterns/rendering-loop.md",
+      "skill": "game-engines",
+      "title": "Rendering Loop Pattern",
+      "category": "patterns",
+      "tags": [
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/playbooks/AssetLoading.md",
+      "skill": "game-engines",
+      "title": "Asset Loading Playbook",
+      "category": "playbooks",
+      "tags": [
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/playbooks/InputAndRendering.md",
+      "skill": "game-engines",
+      "title": "Input and Rendering Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/prompts/engine-analysis.md",
+      "skill": "game-engines",
+      "title": "Engine Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "gui",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "game-engines/recipes/analyze-startup.md",
+      "skill": "game-engines",
+      "title": "Analyze Startup Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/recipes/identify-engine.md",
+      "skill": "game-engines",
+      "title": "Identify Engine Recipe",
+      "category": "recipes",
+      "tags": [
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/recipes/trace-input.md",
+      "skill": "game-engines",
+      "title": "Trace Input Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/references/references.md",
+      "skill": "game-engines",
+      "title": "Game Engines References",
+      "category": "references",
+      "tags": [
+        "gui",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-engines/skill.md",
+      "skill": "game-engines",
+      "title": "Game Engines Skill",
+      "category": "game-engines",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "loader",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-security/checklists/checklist.md",
+      "skill": "game-security",
+      "title": "Game Security Checklist",
+      "category": "checklists",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-security/examples/anti-debug-analysis.md",
+      "skill": "game-security",
+      "title": "Anti-Debug Analysis Example",
+      "category": "examples",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-security/knowledge/anti-cheat.md",
+      "skill": "game-security",
+      "title": "Anti-Cheat Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "dll",
+        "driver",
+        "gui",
+        "kernel",
+        "networking",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-security/patterns/anti-debug.md",
+      "skill": "game-security",
+      "title": "Anti-Debug Pattern",
+      "category": "patterns",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "elf",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-security/patterns/tamper-check.md",
+      "skill": "game-security",
+      "title": "Tamper Check Pattern",
+      "category": "patterns",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-security/playbooks/ClientSecurity.md",
+      "skill": "game-security",
+      "title": "Client Security Playbook",
+      "category": "playbooks",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-security/playbooks/DriverSecurity.md",
+      "skill": "game-security",
+      "title": "Driver Security Playbook",
+      "category": "playbooks",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-security/prompts/security-analysis.md",
+      "skill": "game-security",
+      "title": "Security Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "game-security/recipes/analyze-tamper.md",
+      "skill": "game-security",
+      "title": "Analyze Tamper Recipe",
+      "category": "recipes",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-security/recipes/trace-anti-debug.md",
+      "skill": "game-security",
+      "title": "Trace Anti-Debug Recipe",
+      "category": "recipes",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-security/references/references.md",
+      "skill": "game-security",
+      "title": "Game Security References",
+      "category": "references",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-security/rules/security-principles.md",
+      "skill": "game-security",
+      "title": "Game Security Rules",
+      "category": "rules",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "game-security/skill.md",
+      "skill": "game-security",
+      "title": "Game Security Skill",
+      "category": "game-security",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/checklists/ui-quality-checklist.md",
+      "skill": "gui-engineering",
+      "title": "UI Quality Checklist",
+      "category": "checklists",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/examples/imgui-dashboard-example.md",
+      "skill": "gui-engineering",
+      "title": "Example: Dear ImGui Dashboard",
+      "category": "examples",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/knowledge/dpi-and-theming.md",
+      "skill": "gui-engineering",
+      "title": "DPI, Scaling, and Theming",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/knowledge/drawlist.md",
+      "skill": "gui-engineering",
+      "title": "DrawList",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/knowledge/imgui-architecture.md",
+      "skill": "gui-engineering",
+      "title": "Dear ImGui Architecture",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/patterns/widget-library-pattern.md",
+      "skill": "gui-engineering",
+      "title": "Widget Library Pattern",
+      "category": "patterns",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/playbooks/analyze-desktop-application.md",
+      "skill": "gui-engineering",
+      "title": "Playbook: Analyze Desktop Application",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/playbooks/analyze-figma-design.md",
+      "skill": "gui-engineering",
+      "title": "Playbook: Analyze Figma Design",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/playbooks/analyze-ui-screenshot.md",
+      "skill": "gui-engineering",
+      "title": "Playbook: Analyze UI Screenshot",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/playbooks/analyze-ui-video.md",
+      "skill": "gui-engineering",
+      "title": "Playbook: Analyze UI Video",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/playbooks/build-widget-library.md",
+      "skill": "gui-engineering",
+      "title": "Playbook: Build Widget Library",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/playbooks/convert-screenshot-to-dear-imgui.md",
+      "skill": "gui-engineering",
+      "title": "Playbook: Convert Screenshot to Dear ImGui",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "gui-engineering/playbooks/optimize-dear-imgui-rendering.md",
+      "skill": "gui-engineering",
+      "title": "Playbook: Optimize Dear ImGui Rendering",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/playbooks/review-ui-quality.md",
+      "skill": "gui-engineering",
+      "title": "Playbook: Review UI Quality",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/prompts/ui-reconstruction-prompt.md",
+      "skill": "gui-engineering",
+      "title": "ui-reconstruction-prompt",
+      "category": "prompts",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/recipes/clone-professional-ui.md",
+      "skill": "gui-engineering",
+      "title": "Recipe: Clone Professional UI",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/recipes/convert-figma-to-dear-imgui.md",
+      "skill": "gui-engineering",
+      "title": "Recipe: Convert Figma to Dear ImGui",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/recipes/dear-imgui-ui-reconstruction.md",
+      "skill": "gui-engineering",
+      "title": "Dear ImGui UI Reconstruction Recipe",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/recipes/recreate-aaa-desktop-tool.md",
+      "skill": "gui-engineering",
+      "title": "Recipe: Recreate AAA Desktop Tool",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/references/dear-imgui-resources.md",
+      "skill": "gui-engineering",
+      "title": "Dear ImGui References",
+      "category": "references",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/rules/ui-quality-rules.md",
+      "skill": "gui-engineering",
+      "title": "GUI Quality Rules",
+      "category": "rules",
+      "tags": [
+        "gui",
+        "imgui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "gui-engineering/skill.md",
+      "skill": "gui-engineering",
+      "title": "GUI Engineering Skill",
+      "category": "gui-engineering",
+      "tags": [
+        "anti-cheat",
+        "gui",
+        "imgui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/checklists/checklist.md",
+      "skill": "hypervisor",
+      "title": "Hypervisor Checklist",
+      "category": "checklists",
+      "tags": [
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/examples/ept-layout.md",
+      "skill": "hypervisor",
+      "title": "EPT Layout Example",
+      "category": "examples",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/examples/vm-entry-exit.md",
+      "skill": "hypervisor",
+      "title": "VM Entry/Exit Example",
+      "category": "examples",
+      "tags": [
+        "asm",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/knowledge/hyper-v-vbs.md",
+      "skill": "hypervisor",
+      "title": "Hyper-V and VBS Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/knowledge/hypervisor-architecture.md",
+      "skill": "hypervisor",
+      "title": "Hypervisor Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/knowledge/virtualization-fundamentals.md",
+      "skill": "hypervisor",
+      "title": "Virtualization Fundamentals",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/knowledge/vmcs-ept.md",
+      "skill": "hypervisor",
+      "title": "VMCS and EPT Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/patterns/ept-management.md",
+      "skill": "hypervisor",
+      "title": "EPT Management Pattern",
+      "category": "patterns",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/patterns/hypervisor-patterns.md",
+      "skill": "hypervisor",
+      "title": "Hypervisor Patterns",
+      "category": "patterns",
+      "tags": [
+        "debug",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/playbooks/analyze-hyper-v.md",
+      "skill": "hypervisor",
+      "title": "Analyze Hyper-V Playbook",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/playbooks/analyze-hypervisor.md",
+      "skill": "hypervisor",
+      "title": "Analyze Hypervisor Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/playbooks/analyze-vbs.md",
+      "skill": "hypervisor",
+      "title": "Analyze VBS Playbook",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/prompts/hypervisor-analysis.md",
+      "skill": "hypervisor",
+      "title": "Hypervisor Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/prompts/vbs-analysis.md",
+      "skill": "hypervisor",
+      "title": "VBS Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/prompts/vmcs-analysis.md",
+      "skill": "hypervisor",
+      "title": "VMCS Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/recipes/analyze-ept.md",
+      "skill": "hypervisor",
+      "title": "Analyze EPT Recipe",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/recipes/analyze-hypervisor.md",
+      "skill": "hypervisor",
+      "title": "Analyze Hypervisor Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/recipes/analyze-vbs.md",
+      "skill": "hypervisor",
+      "title": "Analyze VBS Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/recipes/analyze-vm-exit.md",
+      "skill": "hypervisor",
+      "title": "Analyze VM Exit Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/recipes/analyze-vmcs.md",
+      "skill": "hypervisor",
+      "title": "Analyze VMCS Recipe",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/references/references.md",
+      "skill": "hypervisor",
+      "title": "Hypervisor References",
+      "category": "references",
+      "tags": [
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/rules/hypervisor-guidelines.md",
+      "skill": "hypervisor",
+      "title": "Hypervisor Rules",
+      "category": "rules",
+      "tags": [
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "hypervisor/skill.md",
+      "skill": "hypervisor",
+      "title": "Hypervisor Skill",
+      "category": "hypervisor",
+      "tags": [
+        "cryptography",
+        "debug",
+        "gui",
+        "kernel",
+        "networking",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/checklists/checklist.md",
+      "skill": "kernel",
+      "title": "Kernel Checklist",
+      "category": "checklists",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/examples/kernel-apc-dpc-example.md",
+      "skill": "kernel",
+      "title": "Kernel APC and DPC Example",
+      "category": "examples",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/examples/kernel-debugging.md",
+      "skill": "kernel",
+      "title": "Kernel Debugging Example",
+      "category": "examples",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/examples/kernel-handle-table-example.md",
+      "skill": "kernel",
+      "title": "Kernel Handle Table Example",
+      "category": "examples",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/examples/kernel-memory-inspection.md",
+      "skill": "kernel",
+      "title": "Kernel Memory Inspection Example",
+      "category": "examples",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/knowledge/handle-tables.md",
+      "skill": "kernel",
+      "title": "Handle Tables Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/knowledge/interrupts-system-calls.md",
+      "skill": "kernel",
+      "title": "Interrupts and System Calls Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/knowledge/irql-apc-dpc.md",
+      "skill": "kernel",
+      "title": "IRQL, APC, and DPC Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/knowledge/kernel-architecture.md",
+      "skill": "kernel",
+      "title": "Windows Kernel Architecture",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/knowledge/kernel-io-stack.md",
+      "skill": "kernel",
+      "title": "Kernel I/O and Driver Interaction",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/knowledge/object-manager-memory-manager.md",
+      "skill": "kernel",
+      "title": "Object Manager and Memory Manager Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/knowledge/process-thread-manager.md",
+      "skill": "kernel",
+      "title": "Process and Thread Manager Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "loader",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/knowledge/scheduler-dispatcher.md",
+      "skill": "kernel",
+      "title": "Scheduler and Dispatcher Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/knowledge/synchronization.md",
+      "skill": "kernel",
+      "title": "Synchronization Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/patterns/dispatcher-routines.md",
+      "skill": "kernel",
+      "title": "Dispatcher Routines Pattern",
+      "category": "patterns",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/patterns/kernel-objects.md",
+      "skill": "kernel",
+      "title": "Kernel Objects Pattern",
+      "category": "patterns",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/patterns/pool-allocations.md",
+      "skill": "kernel",
+      "title": "Pool Allocations Pattern",
+      "category": "patterns",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/patterns/ssdt-usage.md",
+      "skill": "kernel",
+      "title": "SSDT Usage Pattern",
+      "category": "patterns",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/patterns/synchronization-primitives.md",
+      "skill": "kernel",
+      "title": "Synchronization Primitives Pattern",
+      "category": "patterns",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/playbooks/analyze-executive-components.md",
+      "skill": "kernel",
+      "title": "Analyze Executive Components Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/playbooks/analyze-kernel-crash.md",
+      "skill": "kernel",
+      "title": "Analyze Kernel Crash Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/playbooks/analyze-kernel-memory.md",
+      "skill": "kernel",
+      "title": "Analyze Kernel Memory Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/playbooks/analyze-windows-kernel.md",
+      "skill": "kernel",
+      "title": "Analyze Windows Kernel Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/prompts/kernel-analysis.md",
+      "skill": "kernel",
+      "title": "Kernel Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/prompts/kernel-debugging-prompt.md",
+      "skill": "kernel",
+      "title": "Kernel Debugging Prompt",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/prompts/kernel-memory-analysis.md",
+      "skill": "kernel",
+      "title": "Kernel Memory Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/recipes/analyze-kernel-component.md",
+      "skill": "kernel",
+      "title": "Analyze Kernel Component Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/recipes/analyze-kernel-object.md",
+      "skill": "kernel",
+      "title": "Analyze Kernel Object Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/recipes/analyze-memory-manager.md",
+      "skill": "kernel",
+      "title": "Analyze Memory Manager Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/recipes/analyze-scheduler.md",
+      "skill": "kernel",
+      "title": "Analyze Scheduler Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/recipes/analyze-ssdt.md",
+      "skill": "kernel",
+      "title": "Analyze SSDT Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/references/references.md",
+      "skill": "kernel",
+      "title": "Kernel References",
+      "category": "references",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/rules/kernel-guidelines.md",
+      "skill": "kernel",
+      "title": "Kernel Rules",
+      "category": "rules",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "kernel/skill.md",
+      "skill": "kernel",
+      "title": "Kernel Skill",
+      "category": "kernel",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "malware-analysis/checklists/analysis-checklist.md",
+      "skill": "malware-analysis",
+      "title": "Malware Analysis Checklist",
+      "category": "checklists",
+      "tags": [
+        "gui",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "malware-analysis/knowledge/behavioral-analysis.md",
+      "skill": "malware-analysis",
+      "title": "Behavioral Analysis",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "kernel",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "malware-analysis/knowledge/dynamic-analysis.md",
+      "skill": "malware-analysis",
+      "title": "Dynamic Analysis",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "loader",
+        "malware",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "malware-analysis/knowledge/malware-analysis-fundamentals.md",
+      "skill": "malware-analysis",
+      "title": "Malware Analysis Fundamentals",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "loader",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "malware-analysis/knowledge/static-analysis.md",
+      "skill": "malware-analysis",
+      "title": "Static Analysis",
+      "category": "knowledge",
+      "tags": [
+        "elf",
+        "gui",
+        "mach-o",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "malware-analysis/patterns/anti-analysis-indicators.md",
+      "skill": "malware-analysis",
+      "title": "Anti-Analysis Indicators",
+      "category": "patterns",
+      "tags": [
+        "debug",
+        "gui",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "malware-analysis/patterns/packed-binary-indicators.md",
+      "skill": "malware-analysis",
+      "title": "Packed Binary Indicators",
+      "category": "patterns",
+      "tags": [
+        "gui",
+        "loader",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "malware-analysis/playbooks/analyze-packed-binary.md",
+      "skill": "malware-analysis",
+      "title": "Analyze Packed Binary",
+      "category": "playbooks",
+      "tags": [
+        "elf",
+        "gui",
+        "loader",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "malware-analysis/playbooks/analyze-windows-executable.md",
+      "skill": "malware-analysis",
+      "title": "Analyze Windows Executable",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "malware-analysis/prompts/analysis-prompt.md",
+      "skill": "malware-analysis",
+      "title": "analysis-prompt",
+      "category": "prompts",
+      "tags": [
+        "gui",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "malware-analysis/recipes/analyze-packed-executable.md",
+      "skill": "malware-analysis",
+      "title": "Analyze Packed Executable",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "loader",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "malware-analysis/recipes/analyze-suspicious-binary.md",
+      "skill": "malware-analysis",
+      "title": "Analyze Suspicious Binary",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "malware-analysis/references/references.md",
+      "skill": "malware-analysis",
+      "title": "References",
+      "category": "references",
+      "tags": [
+        "gui",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "malware-analysis/rules/style.md",
+      "skill": "malware-analysis",
+      "title": "Malware Analysis Style Rules",
+      "category": "rules",
+      "tags": [
+        "gui",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "malware-analysis/skill.md",
+      "skill": "malware-analysis",
+      "title": "Malware Analysis Skill",
+      "category": "malware-analysis",
+      "tags": [
+        "anti-cheat",
+        "dll",
+        "gui",
+        "loader",
+        "malware",
+        "pdb",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/checklists/networking-analysis-checklist.md",
+      "skill": "networking",
+      "title": "Networking Analysis Checklist",
+      "category": "checklists",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/examples/http-tls-analysis.md",
+      "skill": "networking",
+      "title": "HTTP/TLS Analysis Example",
+      "category": "examples",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/examples/packet-parser.md",
+      "skill": "networking",
+      "title": "Packet Parser Example",
+      "category": "examples",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/examples/winsock-server-client.md",
+      "skill": "networking",
+      "title": "Winsock Server/Client Example",
+      "category": "examples",
+      "tags": [
+        "gui",
+        "networking",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/knowledge/application-protocols.md",
+      "skill": "networking",
+      "title": "Application Protocols Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/knowledge/ipv4-ipv6.md",
+      "skill": "networking",
+      "title": "IPv4 and IPv6 Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/knowledge/multiplayer-networking.md",
+      "skill": "networking",
+      "title": "Multiplayer Networking Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/knowledge/networking-overview.md",
+      "skill": "networking",
+      "title": "Networking Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "driver",
+        "gui",
+        "kernel",
+        "networking",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/knowledge/tcp-ip-model.md",
+      "skill": "networking",
+      "title": "TCP/IP Model Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "driver",
+        "gui",
+        "kernel",
+        "networking",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/knowledge/transport-protocols.md",
+      "skill": "networking",
+      "title": "Transport Protocols Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "networking",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/patterns/packet-parsing.md",
+      "skill": "networking",
+      "title": "Packet Parsing Pattern",
+      "category": "patterns",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/patterns/replication-patterns.md",
+      "skill": "networking",
+      "title": "Replication Patterns",
+      "category": "patterns",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/patterns/socket-initialization.md",
+      "skill": "networking",
+      "title": "Socket Initialization Pattern",
+      "category": "patterns",
+      "tags": [
+        "gui",
+        "networking",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/playbooks/analyze-network-stack.md",
+      "skill": "networking",
+      "title": "Analyze Network Stack Playbook",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/playbooks/multiplayer-network-playbook.md",
+      "skill": "networking",
+      "title": "Multiplayer Network Playbook",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/playbooks/network-performance.md",
+      "skill": "networking",
+      "title": "Network Performance Playbook",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/playbooks/secure-protocol-review.md",
+      "skill": "networking",
+      "title": "Secure Protocol Review Playbook",
+      "category": "playbooks",
+      "tags": [
+        "elf",
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/prompts/multiplayer-networking-review.md",
+      "skill": "networking",
+      "title": "Multiplayer Networking Review Prompt",
+      "category": "prompts",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/prompts/network-protocol-analysis.md",
+      "skill": "networking",
+      "title": "Network Protocol Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "driver",
+        "gui",
+        "networking",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "networking/prompts/secure-transport-review.md",
+      "skill": "networking",
+      "title": "Secure Transport Review Prompt",
+      "category": "prompts",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/recipes/analyze-multiplayer-game.md",
+      "skill": "networking",
+      "title": "Analyze Multiplayer Game Recipe",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/recipes/analyze-packets.md",
+      "skill": "networking",
+      "title": "Analyze Packets Recipe",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/recipes/analyze-tcp-session.md",
+      "skill": "networking",
+      "title": "Analyze TCP Session Recipe",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/recipes/analyze-udp-protocol.md",
+      "skill": "networking",
+      "title": "Analyze UDP Protocol Recipe",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/references/references.md",
+      "skill": "networking",
+      "title": "Networking References",
+      "category": "references",
+      "tags": [
+        "driver",
+        "gui",
+        "networking",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/rules/networking-guidelines.md",
+      "skill": "networking",
+      "title": "Networking Guidelines",
+      "category": "rules",
+      "tags": [
+        "gui",
+        "networking",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "networking/skill.md",
+      "skill": "networking",
+      "title": "Networking Skill",
+      "category": "networking",
+      "tags": [
+        "gui",
+        "kernel",
+        "networking",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/allocator.md",
+      "skill": "root",
+      "title": "Allocator Pattern",
+      "category": "patterns",
+      "tags": [
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/constructor.md",
+      "skill": "root",
+      "title": "Constructor Patterns",
+      "category": "patterns",
+      "tags": [
+        "asm",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/destructor.md",
+      "skill": "root",
+      "title": "Destructor Pattern",
+      "category": "patterns",
+      "tags": [
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/exception.md",
+      "skill": "root",
+      "title": "Exception Pattern",
+      "category": "patterns",
+      "tags": [
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/factory.md",
+      "skill": "root",
+      "title": "Factory Patterns",
+      "category": "patterns",
+      "tags": [
+        "asm",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/inline-function.md",
+      "skill": "root",
+      "title": "Inline Function Pattern",
+      "category": "patterns",
+      "tags": [
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/jump-table.md",
+      "skill": "root",
+      "title": "Jump Table (explicit) Pattern",
+      "category": "patterns",
+      "tags": [
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/loop.md",
+      "skill": "root",
+      "title": "Loop Pattern",
+      "category": "patterns",
+      "tags": [
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/pointer-chain.md",
+      "skill": "root",
+      "title": "Pointer Chain Patterns",
+      "category": "patterns",
+      "tags": [
+        "asm",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/pure-virtual.md",
+      "skill": "root",
+      "title": "Pure Virtual / __purecall Pattern",
+      "category": "patterns",
+      "tags": [
+        "asm",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/singleton.md",
+      "skill": "root",
+      "title": "Singleton Patterns",
+      "category": "patterns",
+      "tags": [
+        "asm",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/stl-string.md",
+      "skill": "root",
+      "title": "STL std::string Patterns",
+      "category": "patterns",
+      "tags": [
+        "asm",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/stl-vector.md",
+      "skill": "root",
+      "title": "STL std::vector Patterns",
+      "category": "patterns",
+      "tags": [
+        "asm",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/string.md",
+      "skill": "root",
+      "title": "String Pattern",
+      "category": "patterns",
+      "tags": [
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/switch.md",
+      "skill": "root",
+      "title": "Switch / Jump Table Patterns",
+      "category": "patterns",
+      "tags": [
+        "loader",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/tail-call.md",
+      "skill": "root",
+      "title": "Tail Call Pattern",
+      "category": "patterns",
+      "tags": [
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/thunk.md",
+      "skill": "root",
+      "title": "Thunk Pattern",
+      "category": "patterns",
+      "tags": [
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "patterns/virtual-call.md",
+      "skill": "root",
+      "title": "Virtual Call Pattern",
+      "category": "patterns",
+      "tags": [
+        "asm",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "playbooks/Crash.md",
+      "skill": "root",
+      "title": "Playbook: Crash Analysis",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "pdb",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "playbooks/GameHacking.md",
+      "skill": "root",
+      "title": "Playbook: Game Hacking",
+      "category": "playbooks",
+      "tags": [
+        "pe",
+        "unity"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "playbooks/Malware.md",
+      "skill": "root",
+      "title": "Playbook: Malware Analysis",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "malware",
+        "networking",
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "playbooks/Unity.md",
+      "skill": "root",
+      "title": "Playbook: Unity (IL2CPP) Analysis",
+      "category": "playbooks",
+      "tags": [
+        "pe",
+        "unity"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "playbooks/Unreal.md",
+      "skill": "root",
+      "title": "Playbook: Unreal Engine Analysis",
+      "category": "playbooks",
+      "tags": [
+        "pe",
+        "unreal"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "prompts/library-audit-prompt.md",
+      "skill": "root",
+      "title": "Full Library Audit Prompt",
+      "category": "prompts",
+      "tags": [
+        "malware",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "prompts/skill-audit-prompt.md",
+      "skill": "root",
+      "title": "Skill Audit Prompt",
+      "category": "prompts",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "quality/acceptance.md",
+      "skill": "root",
+      "title": "acceptance",
+      "category": "quality",
+      "tags": [
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "quality/lint.md",
+      "skill": "root",
+      "title": "lint",
+      "category": "quality",
+      "tags": [
+        "gui"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "quality/review.md",
+      "skill": "root",
+      "title": "review",
+      "category": "quality",
+      "tags": [
+        "gui"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "quality/scoring.md",
+      "skill": "root",
+      "title": "scoring",
+      "category": "quality",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "recipes/Build_SDK.md",
+      "skill": "root",
+      "title": "Build SDK",
+      "category": "recipes",
+      "tags": [
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "recipes/Find_Offsets.md",
+      "skill": "root",
+      "title": "Find Offsets",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "elf",
+        "mach-o",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "recipes/Recover_Classes.md",
+      "skill": "root",
+      "title": "Recover Classes",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "pdb",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "references/blogs.md",
+      "skill": "root",
+      "title": "Blogs",
+      "category": "references",
+      "tags": [
+        "debug",
+        "gui",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "references/books.md",
+      "skill": "root",
+      "title": "Books",
+      "category": "references",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "references/github.md",
+      "skill": "root",
+      "title": "GitHub Resources",
+      "category": "references",
+      "tags": [
+        "debug",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "references/papers.md",
+      "skill": "root",
+      "title": "Papers",
+      "category": "references",
+      "tags": [
+        "debug",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "references/talks.md",
+      "skill": "root",
+      "title": "Talks",
+      "category": "references",
+      "tags": [
+        "gui",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/best-practices.md",
+      "skill": "reverse-engineering",
+      "title": "Reverse Engineering Best Practices",
+      "category": "reverse-engineering",
+      "tags": [
+        "anti-cheat",
+        "asm",
+        "debug",
+        "dll",
+        "elf",
+        "kernel",
+        "malware",
+        "pdb",
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/cheatsheet.md",
+      "skill": "reverse-engineering",
+      "title": "Reverse Engineering Cheatsheet",
+      "category": "reverse-engineering",
+      "tags": [
+        "asm",
+        "debug",
+        "dll",
+        "driver",
+        "elf",
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/common-mistakes.md",
+      "skill": "reverse-engineering",
+      "title": "Common Reverse Engineering Mistakes",
+      "category": "reverse-engineering",
+      "tags": [
+        "asm",
+        "debug",
+        "dll",
+        "kernel",
+        "loader",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/concepts.md",
+      "skill": "reverse-engineering",
+      "title": "Windows Reverse Engineering - Core Concepts",
+      "category": "reverse-engineering",
+      "tags": [
+        "asm",
+        "debug",
+        "dll",
+        "elf",
+        "gui",
+        "loader",
+        "malware",
+        "pdb",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/examples.md",
+      "skill": "reverse-engineering",
+      "title": "Reverse Engineering Code Examples",
+      "category": "reverse-engineering",
+      "tags": [
+        "dll",
+        "kernel",
+        "pdb",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/assembly/common-instructions.md",
+      "skill": "reverse-engineering",
+      "title": "Common Instruction Idioms (x86/x64)",
+      "category": "knowledge",
+      "tags": [
+        "pdb",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/assembly/compiler-patterns.md",
+      "skill": "reverse-engineering",
+      "title": "Compiler and Optimization Patterns",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "pdb",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/cpp/exceptions.md",
+      "skill": "reverse-engineering",
+      "title": "C++ Exceptions and SEH",
+      "category": "knowledge",
+      "tags": [
+        "dll",
+        "gui",
+        "pdb",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/cpp/pdb.md",
+      "skill": "reverse-engineering",
+      "title": "PDB (Program Database)",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "pdb",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/cpp/stl.md",
+      "skill": "reverse-engineering",
+      "title": "STL Containers (Layouts and Common Patterns)",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/game/il2cpp.md",
+      "skill": "reverse-engineering",
+      "title": "Il2Cpp / Unity Notes",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "pe",
+        "unity"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "reverse-engineering/knowledge/game/source-engine.md",
+      "skill": "reverse-engineering",
+      "title": "Source Engine Notes",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/windows/assembly/calling-conventions.md",
+      "skill": "reverse-engineering",
+      "title": "Calling Conventions (Windows x86/x64)",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/windows/assembly/registers.md",
+      "skill": "reverse-engineering",
+      "title": "Registers",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/windows/cpp/abi.md",
+      "skill": "reverse-engineering",
+      "title": "C++ ABI (MSVC)",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "pdb",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/windows/cpp/rtti.md",
+      "skill": "reverse-engineering",
+      "title": "C++ RTTI in MSVC (Run-Time Type Information)",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "elf",
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/windows/cpp/vtables.md",
+      "skill": "reverse-engineering",
+      "title": "C++ Virtual Function Tables (vtables)",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/windows/game/unity.md",
+      "skill": "reverse-engineering",
+      "title": "Unity / Il2Cpp Notes",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "pe",
+        "unity"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "reverse-engineering/knowledge/windows/game/unreal.md",
+      "skill": "reverse-engineering",
+      "title": "Unreal Engine Notes",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "pe",
+        "unreal"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/windows/loader.md",
+      "skill": "reverse-engineering",
+      "title": "Windows Loader",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "dll",
+        "gui",
+        "loader",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/windows/memory-manager.md",
+      "skill": "reverse-engineering",
+      "title": "Memory Manager and Virtual Memory",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "dll",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/windows/ntdll.md",
+      "skill": "reverse-engineering",
+      "title": "ntdll internals",
+      "category": "knowledge",
+      "tags": [
+        "dll",
+        "gui",
+        "kernel",
+        "loader",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/windows/object-manager.md",
+      "skill": "reverse-engineering",
+      "title": "Object Manager (Handles and Kernel Objects)",
+      "category": "knowledge",
+      "tags": [
+        "dll",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/windows/peb.md",
+      "skill": "reverse-engineering",
+      "title": "PEB (Process Environment Block)",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "dll",
+        "gui",
+        "loader",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/windows/syscalls.md",
+      "skill": "reverse-engineering",
+      "title": "Syscalls and Native API",
+      "category": "knowledge",
+      "tags": [
+        "asm",
+        "dll",
+        "gui",
+        "kernel",
+        "pe",
+        "unity",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/knowledge/windows/teb.md",
+      "skill": "reverse-engineering",
+      "title": "TEB (Thread Environment Block)",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/prompts/analyze_binary.md",
+      "skill": "reverse-engineering",
+      "title": "Prompt: Analyze Binary",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "dll",
+        "driver",
+        "elf",
+        "gui",
+        "kernel",
+        "pdb",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/prompts/analyze_crash.md",
+      "skill": "reverse-engineering",
+      "title": "Prompt: Analyze Crash",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/prompts/analyze_memory.md",
+      "skill": "reverse-engineering",
+      "title": "Prompt: Analyze Memory",
+      "category": "prompts",
+      "tags": [
+        "dll",
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/prompts/build_reclass.md",
+      "skill": "reverse-engineering",
+      "title": "Prompt: Build ReClass.NET Layout",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "gui",
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/prompts/identify_game_engine.md",
+      "skill": "reverse-engineering",
+      "title": "Prompt: Identify Game Engine",
+      "category": "prompts",
+      "tags": [
+        "asm",
+        "dll",
+        "pe",
+        "unity",
+        "unreal",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/prompts/pattern_scan.md",
+      "skill": "reverse-engineering",
+      "title": "Prompt: Pattern Scan",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "elf",
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/prompts/recover_class.md",
+      "skill": "reverse-engineering",
+      "title": "Prompt: Recover C++ Class Layout",
+      "category": "prompts",
+      "tags": [
+        "asm",
+        "debug",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/prompts/recover_offsets.md",
+      "skill": "reverse-engineering",
+      "title": "Prompt: Recover Offsets",
+      "category": "prompts",
+      "tags": [
+        "asm",
+        "debug",
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/prompts/recover_rtti.md",
+      "skill": "reverse-engineering",
+      "title": "Prompt: Recover RTTI Structures",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "elf",
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/prompts/recover_vtable.md",
+      "skill": "reverse-engineering",
+      "title": "Prompt: Recover Vtable",
+      "category": "prompts",
+      "tags": [
+        "asm",
+        "debug",
+        "elf",
+        "gui",
+        "pe",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/prompts/rename_classes.md",
+      "skill": "reverse-engineering",
+      "title": "Prompt: Rename Classes",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "dll",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/prompts/rename_functions.md",
+      "skill": "reverse-engineering",
+      "title": "Prompt: Rename Functions",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "dll",
+        "elf",
+        "pdb",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "reverse-engineering/references.md",
+      "skill": "reverse-engineering",
+      "title": "References",
+      "category": "reverse-engineering",
+      "tags": [
+        "cryptography",
+        "debug",
+        "dll",
+        "driver",
+        "gui",
+        "kernel",
+        "malware",
+        "pdb",
+        "pe",
+        "unity",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "reverse-engineering/rules.md",
+      "skill": "reverse-engineering",
+      "title": "Reverse Engineering — Operating Rules",
+      "category": "reverse-engineering",
+      "tags": [
+        "debug",
+        "dll",
+        "driver",
+        "elf",
+        "gui",
+        "pdb",
+        "pe",
+        "x64"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "reverse-engineering/skill.md",
+      "skill": "reverse-engineering",
+      "title": "Reverse Engineering Expert Skill",
+      "category": "reverse-engineering",
+      "tags": [
+        "debug",
+        "dll",
+        "driver",
+        "gui",
+        "kernel",
+        "loader",
+        "pdb",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "reverse-engineering/workflow.md",
+      "skill": "reverse-engineering",
+      "title": "Reverse Engineering Workflow",
+      "category": "reverse-engineering",
+      "tags": [
+        "debug",
+        "dll",
+        "driver",
+        "elf",
+        "gui",
+        "malware",
+        "networking",
+        "pdb",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "rules/analysis.md",
+      "skill": "root",
+      "title": "Analysis Rules",
+      "category": "rules",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "rules/documentation.md",
+      "skill": "root",
+      "title": "Documentation Rules",
+      "category": "rules",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "rules/naming.md",
+      "skill": "root",
+      "title": "Naming Rules",
+      "category": "rules",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "rules/style.md",
+      "skill": "root",
+      "title": "Style Rules",
+      "category": "rules",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "sdk/cpp/README.md",
+      "skill": "root",
+      "title": "C++ SDK Loader",
+      "category": "cpp",
+      "tags": [
+        "elf",
+        "gui",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "sdk/typescript/README.md",
+      "skill": "root",
+      "title": "TypeScript SDK Loader",
+      "category": "typescript",
+      "tags": [
+        "gui",
+        "loader",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "shared/architecture.md",
+      "skill": "shared",
+      "title": "Architecture",
+      "category": "shared",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "shared/coding-style.md",
+      "skill": "shared",
+      "title": "Coding Style",
+      "category": "shared",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "shared/debugging.md",
+      "skill": "shared",
+      "title": "Debugging",
+      "category": "shared",
+      "tags": [
+        "debug",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "shared/documentation.md",
+      "skill": "shared",
+      "title": "Documentation",
+      "category": "shared",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "shared/performance.md",
+      "skill": "shared",
+      "title": "Performance",
+      "category": "shared",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "shared/reasoning.md",
+      "skill": "shared",
+      "title": "Reasoning",
+      "category": "shared",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "shared/skill.md",
+      "skill": "shared",
+      "title": "Shared Skill",
+      "category": "shared",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "skill-map.md",
+      "skill": "root",
+      "title": "Skill Map",
+      "category": "",
+      "tags": [
+        "anti-cheat",
+        "gui",
+        "kernel",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "skill-priority.md",
+      "skill": "root",
+      "title": "Skill Priority",
+      "category": "",
+      "tags": [
+        "anti-cheat",
+        "driver",
+        "gui",
+        "kernel",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "skill-selection.md",
+      "skill": "root",
+      "title": "Skill Selection",
+      "category": "",
+      "tags": [
+        "gui",
+        "imgui",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "snippets/FindPattern.md",
+      "skill": "root",
+      "title": "FindPattern",
+      "category": "snippets",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "snippets/GetModule.md",
+      "skill": "root",
+      "title": "GetModule",
+      "category": "snippets",
+      "tags": [
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "snippets/GetPEB.md",
+      "skill": "root",
+      "title": "GetPEB",
+      "category": "snippets",
+      "tags": [
+        "gui",
+        "pe",
+        "windows",
+        "x64"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "snippets/ReadMemory.md",
+      "skill": "root",
+      "title": "ReadMemory",
+      "category": "snippets",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "snippets/WriteMemory.md",
+      "skill": "root",
+      "title": "WriteMemory",
+      "category": "snippets",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/checklists/system-design-checklist.md",
+      "skill": "system-design",
+      "title": "System Design Checklist",
+      "category": "checklists",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/examples/di-example.md",
+      "skill": "system-design",
+      "title": "Dependency Injection Example",
+      "category": "examples",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/examples/event-dispatcher-example.md",
+      "skill": "system-design",
+      "title": "Event Dispatcher Example",
+      "category": "examples",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/examples/memory-manager-example.md",
+      "skill": "system-design",
+      "title": "Memory Manager Example",
+      "category": "examples",
+      "tags": [
+        "debug",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/examples/service-graph-example.md",
+      "skill": "system-design",
+      "title": "Service Graph Example",
+      "category": "examples",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/knowledge/concurrency-and-performance.md",
+      "skill": "system-design",
+      "title": "Concurrency and Performance Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/knowledge/modular-design.md",
+      "skill": "system-design",
+      "title": "Modular Design Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/knowledge/system-design-overview.md",
+      "skill": "system-design",
+      "title": "System Design Overview",
+      "category": "knowledge",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/patterns/architecture-patterns.md",
+      "skill": "system-design",
+      "title": "Architecture Patterns",
+      "category": "patterns",
+      "tags": [
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/patterns/architecture-styles.md",
+      "skill": "system-design",
+      "title": "Architecture Styles Patterns",
+      "category": "patterns",
+      "tags": [
+        "gui",
+        "kernel",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/patterns/dependency-injection.md",
+      "skill": "system-design",
+      "title": "Dependency Injection Patterns",
+      "category": "patterns",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/patterns/event-dispatcher.md",
+      "skill": "system-design",
+      "title": "Event Dispatcher Patterns",
+      "category": "patterns",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/patterns/service-graph.md",
+      "skill": "system-design",
+      "title": "Service Graph Patterns",
+      "category": "patterns",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/playbooks/architecture-review.md",
+      "skill": "system-design",
+      "title": "Architecture Review Playbook",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/playbooks/design-large-application.md",
+      "skill": "system-design",
+      "title": "Design Large Application Playbook",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/playbooks/plugin-architecture-review.md",
+      "skill": "system-design",
+      "title": "Plugin Architecture Review Playbook",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/playbooks/scalability-review.md",
+      "skill": "system-design",
+      "title": "Scalability Review Playbook",
+      "category": "playbooks",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/prompts/architecture-review.md",
+      "skill": "system-design",
+      "title": "Architecture Review Prompt",
+      "category": "prompts",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "system-design/prompts/plugin-architecture-review.md",
+      "skill": "system-design",
+      "title": "Plugin Architecture Review Prompt",
+      "category": "prompts",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/prompts/scalability-review.md",
+      "skill": "system-design",
+      "title": "Scalability Review Prompt",
+      "category": "prompts",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/recipes/design-cpp-system.md",
+      "skill": "system-design",
+      "title": "Design C++ System Recipe",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/recipes/design-event-system.md",
+      "skill": "system-design",
+      "title": "Design Event System Recipe",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/recipes/design-large-cpp-project.md",
+      "skill": "system-design",
+      "title": "Design Large C++ Project Recipe",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/recipes/design-memory-manager.md",
+      "skill": "system-design",
+      "title": "Design Memory Manager Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/recipes/design-plugin-architecture.md",
+      "skill": "system-design",
+      "title": "Design Plugin Architecture Recipe",
+      "category": "recipes",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/references/references.md",
+      "skill": "system-design",
+      "title": "System Design References",
+      "category": "references",
+      "tags": [
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/rules/system-design-guidelines.md",
+      "skill": "system-design",
+      "title": "System Design Guidelines",
+      "category": "rules",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "system-design/skill.md",
+      "skill": "system-design",
+      "title": "System Design Skill",
+      "category": "system-design",
+      "tags": [
+        "debug",
+        "gui",
+        "networking",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "templates/CPP_DLL_Template.md",
+      "skill": "root",
+      "title": "C++ DLL Template",
+      "category": "templates",
+      "tags": [
+        "dll"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "templates/DLL_Main_Template.md",
+      "skill": "root",
+      "title": "DLL Main Template",
+      "category": "templates",
+      "tags": [
+        "dll"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "templates/Driver_Template.md",
+      "skill": "root",
+      "title": "Driver Template",
+      "category": "templates",
+      "tags": [
+        "driver",
+        "kernel"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "templates/Ghidra_Script_Template.md",
+      "skill": "root",
+      "title": "Ghidra Script Template",
+      "category": "templates",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "templates/IDA_Script_Template.md",
+      "skill": "root",
+      "title": "IDA Script Template",
+      "category": "templates",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "templates/Pattern_Scanner_Template.md",
+      "skill": "root",
+      "title": "Pattern Scanner Template",
+      "category": "templates",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "tools/audit_prompt.md",
+      "skill": "root",
+      "title": "audit_prompt",
+      "category": "tools",
+      "tags": [
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-internals/skill.md",
+      "skill": "windows-internals",
+      "title": "Role",
+      "category": "windows-internals",
+      "tags": [
+        "dll",
+        "gui",
+        "kernel",
+        "loader",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "path": "windows-security/checklists/checklist.md",
+      "skill": "windows-security",
+      "title": "Windows Security Checklist",
+      "category": "checklists",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/examples/code-integrity.md",
+      "skill": "windows-security",
+      "title": "Code Integrity Analysis Example",
+      "category": "examples",
+      "tags": [
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/examples/mitigations.md",
+      "skill": "windows-security",
+      "title": "Security Mitigations Example",
+      "category": "examples",
+      "tags": [
+        "debug",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/examples/protected-process.md",
+      "skill": "windows-security",
+      "title": "Protected Process Analysis Example",
+      "category": "examples",
+      "tags": [
+        "debug",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/knowledge/code-integrity.md",
+      "skill": "windows-security",
+      "title": "Code Integrity Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/knowledge/mitigations.md",
+      "skill": "windows-security",
+      "title": "Windows Security Mitigations",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/knowledge/protected-process.md",
+      "skill": "windows-security",
+      "title": "Protected Process Knowledge",
+      "category": "knowledge",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/patterns/aslr.md",
+      "skill": "windows-security",
+      "title": "ASLR Pattern",
+      "category": "patterns",
+      "tags": [
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/patterns/cfg.md",
+      "skill": "windows-security",
+      "title": "Control Flow Guard Pattern",
+      "category": "patterns",
+      "tags": [
+        "debug",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/patterns/code-signing.md",
+      "skill": "windows-security",
+      "title": "Code Signing Pattern",
+      "category": "patterns",
+      "tags": [
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/patterns/process-protection.md",
+      "skill": "windows-security",
+      "title": "Process Protection Pattern",
+      "category": "patterns",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/patterns/protected-process.md",
+      "skill": "windows-security",
+      "title": "Protected Process Pattern",
+      "category": "patterns",
+      "tags": [
+        "debug",
+        "elf",
+        "gui",
+        "kernel",
+        "malware",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/playbooks/ExploitMitigations.md",
+      "skill": "windows-security",
+      "title": "Exploit Mitigations Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/playbooks/Mitigations.md",
+      "skill": "windows-security",
+      "title": "Windows Security Mitigations Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/playbooks/ProcessProtection.md",
+      "skill": "windows-security",
+      "title": "Process Protection Playbook",
+      "category": "playbooks",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/prompts/code-integrity-analysis.md",
+      "skill": "windows-security",
+      "title": "Code Integrity Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "driver",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/prompts/mitigations-analysis.md",
+      "skill": "windows-security",
+      "title": "Windows Mitigations Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/prompts/protected-process-analysis.md",
+      "skill": "windows-security",
+      "title": "Protected Process Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/prompts/security-analysis.md",
+      "skill": "windows-security",
+      "title": "Windows Security Analysis Prompt",
+      "category": "prompts",
+      "tags": [
+        "debug",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/recipes/analyze-code-integrity.md",
+      "skill": "windows-security",
+      "title": "Analyze Code Integrity Recipe",
+      "category": "recipes",
+      "tags": [
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/recipes/analyze-protected-process.md",
+      "skill": "windows-security",
+      "title": "Analyze Protected Process Recipe",
+      "category": "recipes",
+      "tags": [
+        "debug",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/recipes/analyze-security-policy.md",
+      "skill": "windows-security",
+      "title": "Analyze Windows Security Policy Recipe",
+      "category": "recipes",
+      "tags": [
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/references/references.md",
+      "skill": "windows-security",
+      "title": "Windows Security References",
+      "category": "references",
+      "tags": [
+        "driver",
+        "gui",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/rules/mitigation-guidelines.md",
+      "skill": "windows-security",
+      "title": "Windows Security Rules",
+      "category": "rules",
+      "tags": [
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "windows-security/skill.md",
+      "skill": "windows-security",
+      "title": "Windows Security Skill",
+      "category": "windows-security",
+      "tags": [
+        "anti-cheat",
+        "debug",
+        "driver",
+        "gui",
+        "kernel",
+        "pe",
+        "windows"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "writing-guidelines/README.md",
+      "skill": "writing-guidelines",
+      "title": "Writing Guidelines Skill",
+      "category": "writing-guidelines",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "path": "writing-guidelines/skill.md",
+      "skill": "writing-guidelines",
+      "title": "Writing Guidelines Skill",
+      "category": "writing-guidelines",
+      "tags": [
+        "gui",
+        "pe"
+      ],
+      "difficulty": "intermediate"
+    }
+  ]
+}

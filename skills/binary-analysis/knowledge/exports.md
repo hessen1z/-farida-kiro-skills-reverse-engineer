@@ -1,3 +1,11 @@
+---
+title: Exports
+skill: binary-analysis
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, loader, asm, anti-cheat, driver, malware, pdb, gui, kernel, dll, elf]
+updated: 2026-07-05
+---
 # Exports
 
 ## Overview
@@ -302,6 +310,21 @@ Exports in anti-cheat modules are often minimal, focusing on controlled interact
 - verify forwarded exports before assuming implementation location
 - track ordinal-only exports by implementation signature and neighboring data
 - combine export analysis with import and relocation analysis for a complete API picture
+
+## Practical Guidance
+
+- Enumerate exports programmatically and validate forwarded exports by resolving their target modules.
+- Use exports to seed symbol names in disassembly and prioritize functions for dynamic tracing.
+
+## Tools & Commands
+
+- `dumpbin /exports`, `objdump`, `rizin`, and `radare2` to list exports and follow forwarded entries.
+- Use a runtime loader (e.g., `LoadLibrary` + `GetProcAddress`) in a controlled process to validate export behavior.
+
+## Validation Checklist
+
+- Confirm export RVAs map to valid code or data sections and that forwarded strings parse to valid module/symbol names.
+- Verify ordinal-only exports by matching function behavior across versions and ensuring ordinal bases are applied correctly.
 
 ## References
 

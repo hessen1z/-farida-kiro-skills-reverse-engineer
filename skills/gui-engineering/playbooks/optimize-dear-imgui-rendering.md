@@ -1,3 +1,11 @@
+---
+title: Playbook: Optimize Dear ImGui Rendering
+skill: gui-engineering
+category: playbooks
+difficulty: intermediate
+tags: [pe, imgui, gui]
+updated: 2026-07-05
+---
 # Playbook: Optimize Dear ImGui Rendering
 
 ## Purpose

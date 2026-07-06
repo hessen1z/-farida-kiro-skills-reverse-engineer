@@ -1,3 +1,11 @@
+---
+title: Replication Patterns
+skill: networking
+category: patterns
+difficulty: intermediate
+tags: [pe, networking, gui]
+updated: 2026-07-05
+---
 # Replication Patterns
 
 ## Pattern Name

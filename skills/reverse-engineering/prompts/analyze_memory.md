@@ -1,3 +1,11 @@
+---
+title: Prompt: Analyze Memory
+skill: reverse-engineering
+category: prompts
+difficulty: intermediate
+tags: [pe, x64, dll]
+updated: 2026-07-05
+---
 # Prompt: Analyze Memory
 
 ## Objective

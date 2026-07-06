@@ -1,3 +1,11 @@
+---
+title: Cryptography Fundamentals
+skill: cryptography
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, cryptography, gui]
+updated: 2026-07-05
+---
 # Cryptography Fundamentals
 
 ## Overview
@@ -169,4 +177,19 @@ Secure communication requires correct handshake validation, protocol version neg
 
 ### Checklists
 - [cryptography-audit-checklist](../checklists/cryptography-audit-checklist.md)
+
+## Practical Guidance
+
+- Use well-vetted libraries and avoid implementing primitives. Prefer AEAD ciphers and modern key derivation functions.
+- Record and enforce key lifecycles, including rotation and revocation policies.
+
+## Tools & Commands
+
+- OpenSSL and libsodium for testing algorithms and verifying interoperability.
+- Use `openssl` test vectors and NIST resources for algorithm validation.
+
+## Validation Checklist
+
+- Confirm deprecated algorithms are not used in security-sensitive flows.
+- Verify key storage practices and entropy sources meet platform standards.
 

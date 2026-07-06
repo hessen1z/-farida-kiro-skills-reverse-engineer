@@ -1,3 +1,11 @@
+---
+title: UI Quality Checklist
+skill: gui-engineering
+category: checklists
+difficulty: intermediate
+tags: [pe, imgui, gui]
+updated: 2026-07-05
+---
 # UI Quality Checklist
 
 ## Structure

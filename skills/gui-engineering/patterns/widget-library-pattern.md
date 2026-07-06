@@ -1,3 +1,11 @@
+---
+title: Widget Library Pattern
+skill: gui-engineering
+category: patterns
+difficulty: intermediate
+tags: [pe, windows, imgui, gui]
+updated: 2026-07-05
+---
 # Widget Library Pattern
 
 ## Intent

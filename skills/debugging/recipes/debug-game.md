@@ -1,3 +1,11 @@
+---
+title: Debug Game Recipe
+skill: debugging
+category: recipes
+difficulty: intermediate
+tags: [pe, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Debug Game Recipe
 
 ## Purpose

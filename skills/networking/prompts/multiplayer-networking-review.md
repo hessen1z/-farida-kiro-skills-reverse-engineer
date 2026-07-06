@@ -1,3 +1,11 @@
+---
+title: Multiplayer Networking Review Prompt
+skill: networking
+category: prompts
+difficulty: intermediate
+tags: [pe, networking, gui]
+updated: 2026-07-05
+---
 # Multiplayer Networking Review Prompt
 
 ## Prompt

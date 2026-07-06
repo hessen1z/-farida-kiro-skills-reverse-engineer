@@ -1,3 +1,11 @@
+---
+title: Asymmetric Cryptography Knowledge
+skill: cryptography
+category: knowledge
+difficulty: intermediate
+tags: [pe, cryptography, gui, elf]
+updated: 2026-07-05
+---
 # Asymmetric Cryptography Knowledge
 
 ## Overview
@@ -72,4 +80,29 @@ Asymmetric cryptography uses key pairs: a public key for verification or encrypt
 
 ### Checklists
 - [cryptography-audit-checklist](../checklists/cryptography-audit-checklist.md)
+
+## Practical Guidance
+
+- Prefer established libraries and avoid implementing crypto primitives yourself.
+- Use strong curves (e.g., Curve25519, P-256) and recommend key sizes per current guidelines.
+
+## Tools & Validation
+
+- Use OpenSSL or OS crypto APIs for interoperability and testing.
+- Validate keys and signatures with test vectors and known-good implementations.
+
+## Validation Checklist
+
+- Ensure private keys are stored and accessed securely (HSM or OS-protected stores).
+- Verify signature algorithms and key sizes meet current security requirements.
+
+## Tools & Commands
+
+- OpenSSL: `openssl genpkey`, `openssl pkey`, `openssl dgst -sign` for key and signature operations.
+- Use `ssh-keygen` or platform key tooling to generate and inspect public/private key pairs.
+
+## Validation Checklist (Detailed)
+
+- Confirm keys validate against standard test vectors and interoperate with OpenSSL/OS APIs.
+- Ensure key lifecycle policies (rotation, revocation) are documented and followed.
 

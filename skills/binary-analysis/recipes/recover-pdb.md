@@ -1,3 +1,11 @@
+---
+title: Recover PDB Recipe
+skill: binary-analysis
+category: recipes
+difficulty: intermediate
+tags: [pe, windows, pdb, gui, debug, elf]
+updated: 2026-07-05
+---
 # Recover PDB Recipe
 
 ## Goal

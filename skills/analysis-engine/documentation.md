@@ -1,3 +1,11 @@
+---
+title: documentation
+skill: analysis-engine
+category: 
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 Documentation Standards for Analysis
 
 Purpose: Ensure findings are reproducible, auditable, and actionable.

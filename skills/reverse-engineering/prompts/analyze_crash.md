@@ -1,3 +1,11 @@
+---
+title: Prompt: Analyze Crash
+skill: reverse-engineering
+category: prompts
+difficulty: intermediate
+tags: [pe, windows, x64, gui, debug, elf]
+updated: 2026-07-05
+---
 # Prompt: Analyze Crash
 
 ## Objective

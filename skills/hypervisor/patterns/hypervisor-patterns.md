@@ -1,3 +1,11 @@
+---
+title: Hypervisor Patterns
+skill: hypervisor
+category: patterns
+difficulty: intermediate
+tags: [pe, gui, debug]
+updated: 2026-07-05
+---
 # Hypervisor Patterns
 
 ## Pattern Name

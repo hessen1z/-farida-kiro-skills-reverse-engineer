@@ -1,3 +1,11 @@
+---
+title: ASLR Pattern
+skill: windows-security
+category: patterns
+difficulty: intermediate
+tags: [pe, gui]
+updated: 2026-07-05
+---
 # ASLR Pattern
 
 ## Pattern Name

@@ -1,3 +1,11 @@
+---
+title: Protected Process Knowledge
+skill: windows-security
+category: knowledge
+difficulty: intermediate
+tags: [pe, windows, gui, kernel, debug]
+updated: 2026-07-05
+---
 # Protected Process Knowledge
 
 ## Overview
@@ -61,4 +69,19 @@ Protected Process Light (PPL) and Protected Process (PP) mechanisms restrict acc
 
 ### Checklists
 - [checklist](../checklists/checklist.md)
+
+## Practical Guidance
+
+- Use offline artifacts (minidumps, memory snapshots captured by an elevated agent) when live attachment is denied.
+- Correlate protected-process interactions using IPC endpoints, registry settings, and service manifests.
+
+## Tools & Commands
+
+- `procdump` with elevated permissions to collect crash dumps, `sigcheck` to inspect signing attributes.
+- WinDbg remote or kernel-mode debugging when platform policies allow.
+
+## Validation Checklist
+
+- Confirm protection class and signing requirements from process object fields.
+- Verify that alternative artifact collection methods reproduce the observed behavior without violating policies.
 
